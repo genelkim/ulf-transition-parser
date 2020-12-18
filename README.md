@@ -1,4 +1,4 @@
-# TULF
+# Transition-based ULF Parser
 
 This is a Transition-based Unscoped Episodic Logical Formula parser.
 
