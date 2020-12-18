@@ -1,0 +1,1331 @@
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((TURNER
+  ((PRES PERF)
+   (COMPLAIN.V
+    (THAT
+     ((NP+PREDS (THE.D PROGRAM.N)
+       (WHICH.REL
+        ((((PRES SEND.V)
+           (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+          (THROUGH.P-ARG
+           (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+         (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+      ((PRES PERF)
+       (DO.V
+        ((LITTLE.ADV-A MORE-THAN)
+         (KA
+          (FURTHER.ADV-A
+           (CLOG.V
+            (((THE.D CITY.N) 'S)
+             ((ALREADY.ADV-A OVERCROWDED.A)
+              ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N)))))))))))))))
+ (HOWEVER.ADV-S))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PRES PERF)
+   (COMPLAIN.V
+    (THAT
+     ((NP+PREDS (THE.D PROGRAM.N)
+       (WHICH.REL
+        ((((PRES SEND.V)
+           (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+          (THROUGH.P-ARG
+           (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+         (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+      ((PRES PERF)
+       (DO.V
+        ((LITTLE.ADV-A MORE-THAN)
+         (KA
+          (FURTHER.ADV-A
+           (CLOG.V
+            (((THE.D CITY.N) 'S)
+             ((ALREADY.ADV-A OVERCROWDED.A)
+              ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PRES PERF))
+  ((UNKNOWN) --
+   (COMPLAIN.V
+    (THAT
+     ((NP+PREDS (THE.D PROGRAM.N)
+       (WHICH.REL
+        ((((PRES SEND.V)
+           (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+          (THROUGH.P-ARG
+           (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+         (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+      ((PRES PERF)
+       (DO.V
+        ((LITTLE.ADV-A MORE-THAN)
+         (KA
+          (FURTHER.ADV-A
+           (CLOG.V
+            (((THE.D CITY.N) 'S)
+             ((ALREADY.ADV-A OVERCROWDED.A)
+              ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))))))
+Possibly failed conditions:
+  "that/tht/*.ps take a single tensed sentence argument."
+Ann segment:
+  (THAT
+   ((NP+PREDS (THE.D PROGRAM.N)
+     (WHICH.REL
+      ((((PRES SEND.V)
+         (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+        (THROUGH.P-ARG
+         (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+       (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+    ((PRES PERF)
+     (DO.V
+      ((LITTLE.ADV-A MORE-THAN)
+       (KA
+        (FURTHER.ADV-A
+         (CLOG.V
+          (((THE.D CITY.N) 'S)
+           ((ALREADY.ADV-A OVERCROWDED.A)
+            ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-SENT-REIFIER) -- THAT)
+  ((UNKNOWN) --
+   ((NP+PREDS (THE.D PROGRAM.N)
+     (WHICH.REL
+      ((((PRES SEND.V)
+         (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+        (THROUGH.P-ARG
+         (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+       (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+    ((PRES PERF)
+     (DO.V
+      ((LITTLE.ADV-A MORE-THAN)
+       (KA
+        (FURTHER.ADV-A
+         (CLOG.V
+          (((THE.D CITY.N) 'S)
+           ((ALREADY.ADV-A OVERCROWDED.A)
+            ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))))
+Possibly failed conditions:
+  "np+preds takes at least 2 arguments where the first is a term and the rest are predicates."
+Ann segment:
+  (NP+PREDS (THE.D PROGRAM.N)
+   (WHICH.REL
+    ((((PRES SEND.V)
+       (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+      (THROUGH.P-ARG (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+     (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- NP+PREDS)
+  ((TERM) -- (THE.D PROGRAM.N))
+  ((UNKNOWN) --
+   (WHICH.REL
+    ((((PRES SEND.V)
+       (K (N+PREDS (PLUR SWARM.N) (OF.P (K (PLUR OFFICER.N))))))
+      (THROUGH.P-ARG (K ((DRUG.N INFESTED.A) (PLUR NEIGHBORHOOD.N)))))
+     (ADV-A (FOR.P (TO (MAKE.V (K (PLUR ARREST.N)))))))))
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PRES PERF)
+   (DO.V
+    ((LITTLE.ADV-A MORE-THAN)
+     (KA
+      (FURTHER.ADV-A
+       (CLOG.V
+        (((THE.D CITY.N) 'S)
+         ((ALREADY.ADV-A OVERCROWDED.A)
+          ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PRES PERF))
+  ((UNKNOWN) --
+   (DO.V
+    ((LITTLE.ADV-A MORE-THAN)
+     (KA
+      (FURTHER.ADV-A
+       (CLOG.V
+        (((THE.D CITY.N) 'S)
+         ((ALREADY.ADV-A OVERCROWDED.A)
+          ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))))))))
+Possibly failed conditions:
+  "ka/to take a single untensed verb argument."
+Ann segment:
+  (KA
+   (FURTHER.ADV-A
+    (CLOG.V
+     (((THE.D CITY.N) 'S)
+      ((ALREADY.ADV-A OVERCROWDED.A)
+       ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N)))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((VERB-REIFIER) -- KA)
+  ((UNKNOWN) --
+   (FURTHER.ADV-A
+    (CLOG.V
+     (((THE.D CITY.N) 'S)
+      ((ALREADY.ADV-A OVERCROWDED.A)
+       ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N)))))))
+Possibly failed conditions:
+  "The 's operator takes a term (post-fixed), followed by a noun (prefixed), and curried."
+Ann segment:
+  (((THE.D CITY.N) 'S)
+   ((ALREADY.ADV-A OVERCROWDED.A)
+    ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- ((THE.D CITY.N) 'S))
+  ((UNKNOWN) --
+   ((ALREADY.ADV-A OVERCROWDED.A)
+    ((JAIL.N AND.CC COURT.N) (PLUR SYSTEM.N))))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (TURNER
+   ((TYPES UNKNOWN)
+    (((TYPES TENSED-AUX) (PRES PERF))
+     ((TYPES UNKNOWN)
+      (COMPLAIN.V
+       ((TYPES UNKNOWN)
+        (THAT
+         ((TYPES UNKNOWN)
+          (((TYPES UNKNOWN)
+            (NP+PREDS ((TYPES TERM) (THE.D PROGRAM.N))
+             ((TYPES UNKNOWN)
+              (WHICH.REL
+               ((TYPES UNKNOWN)
+                (((TYPES UNKNOWN)
+                  (((TYPES PRED TENSED-VERB)
+                    (((TYPES PRED TENSED-VERB) (PRES SEND.V))
+                     ((TYPES TERM)
+                      (K
+                       ((TYPES NOUN PRED)
+                        (N+PREDS ((TYPES NOUN PRED) (PLUR SWARM.N))
+                         ((TYPES PP PRED)
+                          (OF.P
+                           ((TYPES TERM)
+                            (K
+                             ((TYPES NOUN PRED)
+                              (PLUR OFFICER.N))))))))))))
+                   ((TYPES UNKNOWN)
+                    (THROUGH.P-ARG
+                     ((TYPES UNKNOWN)
+                      (K
+                       ((TYPES UNKNOWN)
+                        (((TYPES UNKNOWN) (DRUG.N INFESTED.A))
+                         ((TYPES NOUN PRED)
+                          (PLUR NEIGHBORHOOD.N))))))))))
+                 ((TYPES ADV-A)
+                  (ADV-A
+                   ((TYPES PP PRED)
+                    (FOR.P
+                     ((TYPES TERM)
+                      (TO
+                       ((TYPES VERB PRED)
+                        (MAKE.V
+                         ((TYPES TERM)
+                          (K
+                           ((TYPES NOUN PRED)
+                            (PLUR ARREST.N))))))))))))))))))
+           ((TYPES UNKNOWN)
+            (((TYPES TENSED-AUX) (PRES PERF))
+             ((TYPES UNKNOWN)
+              (DO.V
+               ((TYPES UNKNOWN)
+                (((TYPES UNKNOWN) (LITTLE.ADV-A MORE-THAN))
+                 ((TYPES UNKNOWN)
+                  (KA
+                   ((TYPES UNKNOWN)
+                    (FURTHER.ADV-A
+                     ((TYPES UNKNOWN)
+                      (CLOG.V
+                       ((TYPES UNKNOWN)
+                        (((TYPES UNKNOWN)
+                          (((TYPES TERM) (THE.D CITY.N))
+                           ((TYPES UNKNOWN) 'S)))
+                         ((TYPES UNKNOWN)
+                          (((TYPES ADJ PRED)
+                            (ALREADY.ADV-A OVERCROWDED.A))
+                           ((TYPES UNKNOWN)
+                            (((TYPES UNKNOWN) (JAIL.N AND.CC COURT.N))
+                             ((TYPES NOUN PRED)
+                              (PLUR
+                               SYSTEM.N))))))))))))))))))))))))))))))
+ ((TYPES UNKNOWN) (HOWEVER.ADV-S)))
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+(((SUB HOW.PQ
+   ((PRES BE.V) (((EASTER SUNDAY) 'S) DATE.N) DETERMINED.A *H))
+  ?)
+ NIL)
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  ((SUB HOW.PQ
+    ((PRES BE.V) (((EASTER SUNDAY) 'S) DATE.N) DETERMINED.A *H))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   (SUB HOW.PQ
+    ((PRES BE.V) (((EASTER SUNDAY) 'S) DATE.N) DETERMINED.A *H)))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "be.v takes a single predicate argument (unless used after an it-cleft -- ignore this if that's the case)."
+Ann segment:
+  ((PRES BE.V) (((EASTER SUNDAY) 'S) DATE.N) DETERMINED.A *H)
+Predicted constituent types ((list of types) -- constituent)
+  ((PRED TENSED-VERB) -- (PRES BE.V))
+  ((UNKNOWN) -- (((EASTER SUNDAY) 'S) DATE.N))
+  ((ADJ PRED) -- DETERMINED.A)
+  ((UNKNOWN) -- *H)
+Possibly failed conditions:
+  "The 's operator takes a term (post-fixed), followed by a noun (prefixed), and curried."
+Ann segment:
+  (((EASTER SUNDAY) 'S) DATE.N)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- ((EASTER SUNDAY) 'S))
+  ((NOUN PRED) -- DATE.N)
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (SUB HOW.PQ
+     ((TYPES UNKNOWN)
+      (((TYPES PRED TENSED-VERB) (PRES BE.V))
+       ((TYPES UNKNOWN)
+        (((TYPES UNKNOWN)
+          (((TYPES UNKNOWN) (EASTER SUNDAY)) ((TYPES UNKNOWN) 'S)))
+         DATE.N))
+       DETERMINED.A *H))))
+   ?))
+ NIL)
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((WE.PRO
+  ((PAST EAT.V)
+   (ADV-E
+    (AT.P
+     (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON))))))))
+ NIL)
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Adverb formers (adv-a, adv-e,..) take a single predicate argument and cannot be used as an argument."
+Ann segment:
+  (ADV-E
+   (AT.P (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((ADVFORMER) -- ADV-E)
+  ((UNKNOWN) --
+   (AT.P (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON))))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (AT.P (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON)))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- AT.P)
+  ((UNKNOWN) --
+   (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON)))))
+Possibly failed conditions:
+  "Determiners take 1 nominal (noun) argument."
+Ann segment:
+  (A.D (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON))))
+Predicted constituent types ((list of types) -- constituent)
+  ((DET) -- A.D)
+  ((UNKNOWN) -- (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON))))
+Possibly failed conditions:
+  "n+preds takes at least 2 arguments where the first is a noun and the rest are predicates."
+Ann segment:
+  (N+PREDS RESTAURANT.N (JUST.ADV-A (OUTSIDE.P BOSTON)))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- N+PREDS)
+  ((NOUN PRED) -- RESTAURANT.N)
+  ((UNKNOWN) -- (JUST.ADV-A (OUTSIDE.P BOSTON)))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (OUTSIDE.P BOSTON)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- OUTSIDE.P)
+  ((UNKNOWN) -- BOSTON)
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (WE.PRO
+   ((TYPES UNKNOWN)
+    (((TYPES PRED TENSED-VERB) (PAST EAT.V))
+     ((TYPES UNKNOWN)
+      (ADV-E
+       ((TYPES UNKNOWN)
+        (AT.P
+         ((TYPES UNKNOWN)
+          (A.D
+           ((TYPES UNKNOWN)
+            (N+PREDS RESTAURANT.N
+             ((TYPES UNKNOWN)
+              (JUST.ADV-A
+               ((TYPES UNKNOWN) (OUTSIDE.P BOSTON))))))))))))))))
+ NIL)
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((TOM
+  ((PAST DO.AUX-S)
+   (KNOW.V
+    (WHETHER
+     (IT-EXTRA.PRO
+      (((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+       (KA (APPLY.V (FOR.P-ARG (THE.D JOB.N))))))))))
+ (NOT))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PAST DO.AUX-S)
+   (KNOW.V
+    (WHETHER
+     (IT-EXTRA.PRO
+      (((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+       (KA (APPLY.V (FOR.P-ARG (THE.D JOB.N)))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PAST DO.AUX-S))
+  ((UNKNOWN) --
+   (KNOW.V
+    (WHETHER
+     (IT-EXTRA.PRO
+      (((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+       (KA (APPLY.V (FOR.P-ARG (THE.D JOB.N)))))))))
+Possibly failed conditions:
+  "that/tht/*.ps take a single tensed sentence argument."
+Ann segment:
+  (WHETHER
+   (IT-EXTRA.PRO
+    (((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+     (KA (APPLY.V (FOR.P-ARG (THE.D JOB.N)))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-SENT-REIFIER) -- WHETHER)
+  ((UNKNOWN) --
+   (IT-EXTRA.PRO
+    (((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+     (KA (APPLY.V (FOR.P-ARG (THE.D JOB.N)))))))
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PAST WILL.AUX-S) (BE.V (WORTH.A (HIS.D WHILE.N))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PAST WILL.AUX-S))
+  ((UNKNOWN) -- (BE.V (WORTH.A (HIS.D WHILE.N))))
+Possibly failed conditions:
+  "be.v takes a single predicate argument (unless used after an it-cleft -- ignore this if that's the case)."
+Ann segment:
+  (BE.V (WORTH.A (HIS.D WHILE.N)))
+Predicted constituent types ((list of types) -- constituent)
+  ((VERB PRED) -- BE.V)
+  ((UNKNOWN) -- (WORTH.A (HIS.D WHILE.N)))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (TOM
+   ((TYPES UNKNOWN)
+    (((TYPES TENSED-AUX) (PAST DO.AUX-S))
+     ((TYPES UNKNOWN)
+      (KNOW.V
+       ((TYPES UNKNOWN)
+        (WHETHER
+         ((TYPES UNKNOWN)
+          (IT-EXTRA.PRO
+           ((TYPES UNKNOWN)
+            (((TYPES UNKNOWN)
+              (((TYPES TENSED-AUX) (PAST WILL.AUX-S))
+               ((TYPES UNKNOWN)
+                (BE.V
+                 ((TYPES UNKNOWN)
+                  (WORTH.A ((TYPES TERM) (HIS.D WHILE.N))))))))
+             ((TYPES TERM)
+              (KA
+               ((TYPES VERB PRED)
+                (APPLY.V
+                 ((TYPES TERM)
+                  (FOR.P-ARG
+                   ((TYPES TERM) (THE.D JOB.N))))))))))))))))))))
+ ((TYPES UNKNOWN) (NOT)))
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+(((SUB (WHAT.D PART.N)
+   ((PAST DO.AUX-S) (K (U.S. (PLUR WARNING.N)))
+    ((PLAY.V *H)
+     (IN.P-ARG
+      (((THE.D MAJOR.N) 'S)
+       (UNWILLINGNESS.A
+        (TO
+         ((PULL.V (THE.D TRIGGER.N))
+          (ADV-E
+           (SUB (AT-TIME.P WHICH.REL)
+            (HE.PRO
+             (((((PAST HAVE.V) GENERAL NORIEGA)
+                (IN.P-ARG (K CUSTODY.N)))
+               BUT.CC
+               ((PAST BE.V)
+                (UNDER.P
+                 (K
+                  (ATTACK.N
+                   (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+              (ADV-E *H)))))))))))))
+  ?)
+ NIL)
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  ((SUB (WHAT.D PART.N)
+    ((PAST DO.AUX-S) (K (U.S. (PLUR WARNING.N)))
+     ((PLAY.V *H)
+      (IN.P-ARG
+       (((THE.D MAJOR.N) 'S)
+        (UNWILLINGNESS.A
+         (TO
+          ((PULL.V (THE.D TRIGGER.N))
+           (ADV-E
+            (SUB (AT-TIME.P WHICH.REL)
+             (HE.PRO
+              (((((PAST HAVE.V) GENERAL NORIEGA)
+                 (IN.P-ARG (K CUSTODY.N)))
+                BUT.CC
+                ((PAST BE.V)
+                 (UNDER.P
+                  (K
+                   (ATTACK.N
+                    (BY.P-ARG
+                     (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+               (ADV-E *H)))))))))))))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   (SUB (WHAT.D PART.N)
+    ((PAST DO.AUX-S) (K (U.S. (PLUR WARNING.N)))
+     ((PLAY.V *H)
+      (IN.P-ARG
+       (((THE.D MAJOR.N) 'S)
+        (UNWILLINGNESS.A
+         (TO
+          ((PULL.V (THE.D TRIGGER.N))
+           (ADV-E
+            (SUB (AT-TIME.P WHICH.REL)
+             (HE.PRO
+              (((((PAST HAVE.V) GENERAL NORIEGA)
+                 (IN.P-ARG (K CUSTODY.N)))
+                BUT.CC
+                ((PAST BE.V)
+                 (UNDER.P
+                  (K
+                   (ATTACK.N
+                    (BY.P-ARG
+                     (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+               (ADV-E *H))))))))))))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PAST DO.AUX-S) (K (U.S. (PLUR WARNING.N)))
+   ((PLAY.V *H)
+    (IN.P-ARG
+     (((THE.D MAJOR.N) 'S)
+      (UNWILLINGNESS.A
+       (TO
+        ((PULL.V (THE.D TRIGGER.N))
+         (ADV-E
+          (SUB (AT-TIME.P WHICH.REL)
+           (HE.PRO
+            (((((PAST HAVE.V) GENERAL NORIEGA)
+               (IN.P-ARG (K CUSTODY.N)))
+              BUT.CC
+              ((PAST BE.V)
+               (UNDER.P
+                (K
+                 (ATTACK.N
+                  (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+             (ADV-E *H))))))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PAST DO.AUX-S))
+  ((UNKNOWN) -- (K (U.S. (PLUR WARNING.N))))
+  ((UNKNOWN) --
+   ((PLAY.V *H)
+    (IN.P-ARG
+     (((THE.D MAJOR.N) 'S)
+      (UNWILLINGNESS.A
+       (TO
+        ((PULL.V (THE.D TRIGGER.N))
+         (ADV-E
+          (SUB (AT-TIME.P WHICH.REL)
+           (HE.PRO
+            (((((PAST HAVE.V) GENERAL NORIEGA)
+               (IN.P-ARG (K CUSTODY.N)))
+              BUT.CC
+              ((PAST BE.V)
+               (UNDER.P
+                (K
+                 (ATTACK.N
+                  (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+             (ADV-E *H))))))))))))
+Possibly failed conditions:
+  "The 's operator takes a term (post-fixed), followed by a noun (prefixed), and curried."
+Ann segment:
+  (((THE.D MAJOR.N) 'S)
+   (UNWILLINGNESS.A
+    (TO
+     ((PULL.V (THE.D TRIGGER.N))
+      (ADV-E
+       (SUB (AT-TIME.P WHICH.REL)
+        (HE.PRO
+         (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+           BUT.CC
+           ((PAST BE.V)
+            (UNDER.P
+             (K
+              (ATTACK.N
+               (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+          (ADV-E *H)))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- ((THE.D MAJOR.N) 'S))
+  ((UNKNOWN) --
+   (UNWILLINGNESS.A
+    (TO
+     ((PULL.V (THE.D TRIGGER.N))
+      (ADV-E
+       (SUB (AT-TIME.P WHICH.REL)
+        (HE.PRO
+         (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+           BUT.CC
+           ((PAST BE.V)
+            (UNDER.P
+             (K
+              (ATTACK.N
+               (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+          (ADV-E *H)))))))))
+Possibly failed conditions:
+  "ka/to take a single untensed verb argument."
+Ann segment:
+  (TO
+   ((PULL.V (THE.D TRIGGER.N))
+    (ADV-E
+     (SUB (AT-TIME.P WHICH.REL)
+      (HE.PRO
+       (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+         BUT.CC
+         ((PAST BE.V)
+          (UNDER.P
+           (K
+            (ATTACK.N
+             (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+        (ADV-E *H)))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((VERB-REIFIER) -- TO)
+  ((UNKNOWN) --
+   ((PULL.V (THE.D TRIGGER.N))
+    (ADV-E
+     (SUB (AT-TIME.P WHICH.REL)
+      (HE.PRO
+       (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+         BUT.CC
+         ((PAST BE.V)
+          (UNDER.P
+           (K
+            (ATTACK.N
+             (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+        (ADV-E *H)))))))
+Possibly failed conditions:
+  "Adverb formers (adv-a, adv-e,..) take a single predicate argument and cannot be used as an argument."
+Ann segment:
+  (ADV-E
+   (SUB (AT-TIME.P WHICH.REL)
+    (HE.PRO
+     (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+       BUT.CC
+       ((PAST BE.V)
+        (UNDER.P
+         (K
+          (ATTACK.N
+           (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+      (ADV-E *H)))))
+Predicted constituent types ((list of types) -- constituent)
+  ((ADVFORMER) -- ADV-E)
+  ((UNKNOWN) --
+   (SUB (AT-TIME.P WHICH.REL)
+    (HE.PRO
+     (((((PAST HAVE.V) GENERAL NORIEGA) (IN.P-ARG (K CUSTODY.N)))
+       BUT.CC
+       ((PAST BE.V)
+        (UNDER.P
+         (K
+          (ATTACK.N
+           (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))))
+      (ADV-E *H)))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (AT-TIME.P WHICH.REL)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- AT-TIME.P)
+  ((UNKNOWN) -- WHICH.REL)
+Possibly failed conditions:
+  "be.v takes a single predicate argument (unless used after an it-cleft -- ignore this if that's the case)."
+Ann segment:
+  ((PAST BE.V)
+   (UNDER.P
+    (K (ATTACK.N (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((PRED TENSED-VERB) -- (PAST BE.V))
+  ((UNKNOWN) --
+   (UNDER.P
+    (K (ATTACK.N (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N))))))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (UNDER.P
+   (K (ATTACK.N (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- UNDER.P)
+  ((UNKNOWN) --
+   (K (ATTACK.N (BY.P-ARG (K ((PRO.P NORIEGA) (PLUR TROOP.N)))))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (PRO.P NORIEGA)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- PRO.P)
+  ((UNKNOWN) -- NORIEGA)
+Possibly failed conditions:
+  "Adverb formers (adv-a, adv-e,..) take a single predicate argument and cannot be used as an argument."
+Ann segment:
+  (ADV-E *H)
+Predicted constituent types ((list of types) -- constituent)
+  ((ADVFORMER) -- ADV-E)
+  ((UNKNOWN) -- *H)
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (SUB ((TYPES TERM) (WHAT.D PART.N))
+     ((TYPES UNKNOWN)
+      (((TYPES TENSED-AUX) (PAST DO.AUX-S))
+       ((TYPES UNKNOWN)
+        (K
+         ((TYPES UNKNOWN)
+          (U.S. ((TYPES NOUN PRED) (PLUR WARNING.N))))))
+       ((TYPES UNKNOWN)
+        (((TYPES UNKNOWN) (PLAY.V *H))
+         ((TYPES UNKNOWN)
+          (IN.P-ARG
+           ((TYPES UNKNOWN)
+            (((TYPES UNKNOWN)
+              (((TYPES TERM) (THE.D MAJOR.N)) ((TYPES UNKNOWN) 'S)))
+             ((TYPES UNKNOWN)
+              (UNWILLINGNESS.A
+               ((TYPES UNKNOWN)
+                (TO
+                 ((TYPES UNKNOWN)
+                  (((TYPES VERB PRED)
+                    (PULL.V ((TYPES TERM) (THE.D TRIGGER.N))))
+                   ((TYPES UNKNOWN)
+                    (ADV-E
+                     ((TYPES UNKNOWN)
+                      (SUB ((TYPES UNKNOWN) (AT-TIME.P WHICH.REL))
+                       ((TYPES UNKNOWN)
+                        (HE.PRO
+                         ((TYPES UNKNOWN)
+                          (((TYPES UNKNOWN)
+                            (((TYPES UNKNOWN)
+                              (((TYPES UNKNOWN)
+                                (((TYPES PRED TENSED-VERB)
+                                  (PAST HAVE.V))
+                                 GENERAL
+                                 NORIEGA))
+                               ((TYPES TERM)
+                                (IN.P-ARG
+                                 ((TYPES TERM) (K CUSTODY.N))))))
+                             BUT.CC
+                             ((TYPES UNKNOWN)
+                              (((TYPES PRED TENSED-VERB) (PAST BE.V))
+                               ((TYPES UNKNOWN)
+                                (UNDER.P
+                                 ((TYPES UNKNOWN)
+                                  (K
+                                   ((TYPES UNKNOWN)
+                                    (ATTACK.N
+                                     ((TYPES UNKNOWN)
+                                      (BY.P-ARG
+                                       ((TYPES UNKNOWN)
+                                        (K
+                                         ((TYPES UNKNOWN)
+                                          (((TYPES UNKNOWN)
+                                            (PRO.P NORIEGA))
+                                           ((TYPES NOUN PRED)
+                                            (PLUR
+                                             TROOP.N))))))))))))))))))
+                           ((TYPES UNKNOWN)
+                            (ADV-E *H))))))))))))))))))))))))))
+   ?))
+ NIL)
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((((WHAT.D (U.S. VICE-PRESIDENT.N))
+   ((PAST DECLARE.V)
+    (|"|
+     ((IF.PS (YOU.PRO ((PRES PERF) (SEE.V (ONE.D SLUM.N)))))
+      (YOU.PRO ((PRES PERF) (SEE.V (THEM.D (ALL.A REF.N))))))
+     |"|)))
+  ?)
+ (ONCE.ADV-E))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  (((WHAT.D (U.S. VICE-PRESIDENT.N))
+    ((PAST DECLARE.V)
+     (|"|
+      ((IF.PS (YOU.PRO ((PRES PERF) (SEE.V (ONE.D SLUM.N)))))
+       (YOU.PRO ((PRES PERF) (SEE.V (THEM.D (ALL.A REF.N))))))
+      |"|)))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   ((WHAT.D (U.S. VICE-PRESIDENT.N))
+    ((PAST DECLARE.V)
+     (|"|
+      ((IF.PS (YOU.PRO ((PRES PERF) (SEE.V (ONE.D SLUM.N)))))
+       (YOU.PRO ((PRES PERF) (SEE.V (THEM.D (ALL.A REF.N))))))
+      |"|))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "Determiners take 1 nominal (noun) argument."
+Ann segment:
+  (WHAT.D (U.S. VICE-PRESIDENT.N))
+Predicted constituent types ((list of types) -- constituent)
+  ((DET) -- WHAT.D)
+  ((UNKNOWN) -- (U.S. VICE-PRESIDENT.N))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (((TYPES UNKNOWN)
+      (WHAT.D ((TYPES UNKNOWN) (U.S. VICE-PRESIDENT.N))))
+     ((TYPES PRED TENSED-VERB)
+      (((TYPES PRED TENSED-VERB) (PAST DECLARE.V))
+       ((TYPES TERM)
+        (|"|
+         ((TYPES TENSED-SENT)
+          (((TYPES UNKNOWN)
+            (IF.PS
+             ((TYPES TENSED-SENT)
+              (YOU.PRO
+               ((TYPES PRED TENSED-VERB)
+                (((TYPES TENSED-AUX) (PRES PERF))
+                 ((TYPES VERB PRED)
+                  (SEE.V ((TYPES TERM) (ONE.D SLUM.N))))))))))
+           ((TYPES TENSED-SENT)
+            (YOU.PRO
+             ((TYPES PRED TENSED-VERB)
+              (((TYPES TENSED-AUX) (PRES PERF))
+               ((TYPES VERB PRED)
+                (SEE.V
+                 ((TYPES TERM)
+                  (THEM.D ((TYPES NOUN PRED) (ALL.A REF.N))))))))))))
+         |"|))))))
+   ?))
+ ((TYPES UNKNOWN) (ONCE.ADV-E)))
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+(((SUB WHAT.PRO
+   ((PRES DO.AUX-S) (DS MATH-EXPRESSION "7847+5943") (EQUAL.V *H)))
+  ?)
+ NIL)
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  ((SUB WHAT.PRO
+    ((PRES DO.AUX-S) (DS MATH-EXPRESSION "7847+5943") (EQUAL.V *H)))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   (SUB WHAT.PRO
+    ((PRES DO.AUX-S) (DS MATH-EXPRESSION "7847+5943") (EQUAL.V *H))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PRES DO.AUX-S) (DS MATH-EXPRESSION "7847+5943") (EQUAL.V *H))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PRES DO.AUX-S))
+  ((TERM) -- (DS MATH-EXPRESSION "7847+5943"))
+  ((UNKNOWN) -- (EQUAL.V *H))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (SUB WHAT.PRO
+     ((TYPES UNKNOWN)
+      (((TYPES TENSED-AUX) (PRES DO.AUX-S))
+       ((TYPES TERM) (DS MATH-EXPRESSION "7847+5943"))
+       ((TYPES UNKNOWN) (EQUAL.V *H))))))
+   ?))
+ NIL)
+
+NIL
+
+####################################
+
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+(((SUB WHAT.PRO
+   ((PAST DO.AUX-S) (THE.D CIA.N)
+    ((TELL.V
+      (SET-OF MAJOR GIROLDI
+       (HIS.D (FELLOW.A (COUP.N (PLUR PLOTTER.N))))))
+     (NP+PREDS *H
+      (ABOUT.P
+       (SET-OF (K (U.S. (PLUR LAW.N)))
+        (K
+         (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+          (ON.P (K (PLUR ASSASSINATION.N)))))))))))
+  ?)
+ ((ADV-S (FOR.P (K EXAMPLE.N))) EXACTLY.ADV-S))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  ((SUB WHAT.PRO
+    ((PAST DO.AUX-S) (THE.D CIA.N)
+     ((TELL.V
+       (SET-OF MAJOR GIROLDI
+        (HIS.D (FELLOW.A (COUP.N (PLUR PLOTTER.N))))))
+      (NP+PREDS *H
+       (ABOUT.P
+        (SET-OF (K (U.S. (PLUR LAW.N)))
+         (K
+          (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+           (ON.P (K (PLUR ASSASSINATION.N)))))))))))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   (SUB WHAT.PRO
+    ((PAST DO.AUX-S) (THE.D CIA.N)
+     ((TELL.V
+       (SET-OF MAJOR GIROLDI
+        (HIS.D (FELLOW.A (COUP.N (PLUR PLOTTER.N))))))
+      (NP+PREDS *H
+       (ABOUT.P
+        (SET-OF (K (U.S. (PLUR LAW.N)))
+         (K
+          (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+           (ON.P (K (PLUR ASSASSINATION.N))))))))))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PAST DO.AUX-S) (THE.D CIA.N)
+   ((TELL.V
+     (SET-OF MAJOR GIROLDI
+      (HIS.D (FELLOW.A (COUP.N (PLUR PLOTTER.N))))))
+    (NP+PREDS *H
+     (ABOUT.P
+      (SET-OF (K (U.S. (PLUR LAW.N)))
+       (K
+        (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+         (ON.P (K (PLUR ASSASSINATION.N))))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PAST DO.AUX-S))
+  ((TERM) -- (THE.D CIA.N))
+  ((UNKNOWN) --
+   ((TELL.V
+     (SET-OF MAJOR GIROLDI
+      (HIS.D (FELLOW.A (COUP.N (PLUR PLOTTER.N))))))
+    (NP+PREDS *H
+     (ABOUT.P
+      (SET-OF (K (U.S. (PLUR LAW.N)))
+       (K
+        (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+         (ON.P (K (PLUR ASSASSINATION.N))))))))))
+Possibly failed conditions:
+  "np+preds takes at least 2 arguments where the first is a term and the rest are predicates."
+Ann segment:
+  (NP+PREDS *H
+   (ABOUT.P
+    (SET-OF (K (U.S. (PLUR LAW.N)))
+     (K
+      (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+       (ON.P (K (PLUR ASSASSINATION.N))))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- NP+PREDS)
+  ((UNKNOWN) -- *H)
+  ((UNKNOWN) --
+   (ABOUT.P
+    (SET-OF (K (U.S. (PLUR LAW.N)))
+     (K
+      (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+       (ON.P (K (PLUR ASSASSINATION.N))))))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (ABOUT.P
+   (SET-OF (K (U.S. (PLUR LAW.N)))
+    (K
+     (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+      (ON.P (K (PLUR ASSASSINATION.N)))))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- ABOUT.P)
+  ((UNKNOWN) --
+   (SET-OF (K (U.S. (PLUR LAW.N)))
+    (K
+     (N+PREDS (EXECUTIVE.A (PLUR ORDER.N))
+      (ON.P (K (PLUR ASSASSINATION.N)))))))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (SUB WHAT.PRO
+     ((TYPES UNKNOWN)
+      (((TYPES TENSED-AUX) (PAST DO.AUX-S))
+       ((TYPES TERM) (THE.D CIA.N))
+       ((TYPES UNKNOWN)
+        (((TYPES UNKNOWN)
+          (TELL.V
+           ((TYPES UNKNOWN)
+            (SET-OF MAJOR GIROLDI
+             ((TYPES TERM)
+              (HIS.D
+               ((TYPES NOUN PRED)
+                (FELLOW.A
+                 ((TYPES NOUN PRED)
+                  (COUP.N
+                   ((TYPES NOUN PRED) (PLUR PLOTTER.N))))))))))))
+         ((TYPES UNKNOWN)
+          (NP+PREDS *H
+           ((TYPES UNKNOWN)
+            (ABOUT.P
+             ((TYPES UNKNOWN)
+              (SET-OF
+               ((TYPES UNKNOWN)
+                (K
+                 ((TYPES UNKNOWN)
+                  (U.S. ((TYPES NOUN PRED) (PLUR LAW.N))))))
+               ((TYPES TERM)
+                (K
+                 ((TYPES NOUN PRED)
+                  (N+PREDS
+                   ((TYPES NOUN PRED)
+                    (EXECUTIVE.A ((TYPES NOUN PRED) (PLUR ORDER.N))))
+                   ((TYPES PP PRED)
+                    (ON.P
+                     ((TYPES TERM)
+                      (K
+                       ((TYPES NOUN PRED)
+                        (PLUR ASSASSINATION.N))))))))))))))))))))))
+   ?))
+ ((TYPES UNKNOWN)
+  (((TYPES ADV-S)
+    (ADV-S ((TYPES PP PRED) (FOR.P ((TYPES TERM) (K EXAMPLE.N))))))
+   EXACTLY.ADV-S)))
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+(((WHEN.PS
+   ((THE.D (PLUR GUERRILLA.N)) ((PRES KILL.V) (PLUR CIVILIAN.N))))
+  (THEY.PRO
+   (((PRES ANNOUNCE.V) IT.PRO)
+    (ADV-E (ON.P (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N)))))))
+ (USUALLY.ADV-F))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Adverb formers (adv-a, adv-e,..) take a single predicate argument and cannot be used as an argument."
+Ann segment:
+  (ADV-E (ON.P (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N))))
+Predicted constituent types ((list of types) -- constituent)
+  ((ADVFORMER) -- ADV-E)
+  ((UNKNOWN) -- (ON.P (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (ON.P (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N)))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- ON.P)
+  ((UNKNOWN) -- (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N)))
+Possibly failed conditions:
+  "Determiners take 1 nominal (noun) argument."
+Ann segment:
+  (THEIR.D (CLANDESTINE.A RADIO VENCEREMOS.N))
+Predicted constituent types ((list of types) -- constituent)
+  ((DET) -- THEIR.D)
+  ((UNKNOWN) -- (CLANDESTINE.A RADIO VENCEREMOS.N))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (WHEN.PS
+     ((TYPES TENSED-SENT)
+      (((TYPES TERM) (THE.D ((TYPES NOUN PRED) (PLUR GUERRILLA.N))))
+       ((TYPES PRED TENSED-VERB)
+        (((TYPES PRED TENSED-VERB) (PRES KILL.V))
+         ((TYPES NOUN PRED) (PLUR CIVILIAN.N))))))))
+   ((TYPES UNKNOWN)
+    (THEY.PRO
+     ((TYPES UNKNOWN)
+      (((TYPES PRED TENSED-VERB)
+        (((TYPES PRED TENSED-VERB) (PRES ANNOUNCE.V)) IT.PRO))
+       ((TYPES UNKNOWN)
+        (ADV-E
+         ((TYPES UNKNOWN)
+          (ON.P
+           ((TYPES UNKNOWN)
+            (THEIR.D
+             ((TYPES UNKNOWN)
+              (CLANDESTINE.A RADIO VENCEREMOS.N))))))))))))))
+ ((TYPES UNKNOWN) (USUALLY.ADV-F)))
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((((WHAT.D (EUROPEAN.A COUNTRY.N))
+   (((PRES BE.V) (= (K HOME.N)))
+    (ADV-E
+     (TO.P
+      (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))))))
+  ?)
+ NIL)
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  (((WHAT.D (EUROPEAN.A COUNTRY.N))
+    (((PRES BE.V) (= (K HOME.N)))
+     (ADV-E
+      (TO.P
+       (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))))))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   ((WHAT.D (EUROPEAN.A COUNTRY.N))
+    (((PRES BE.V) (= (K HOME.N)))
+     (ADV-E
+      (TO.P
+       (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS))))))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "be.v takes a single predicate argument (unless used after an it-cleft -- ignore this if that's the case)."
+Ann segment:
+  ((PRES BE.V) (= (K HOME.N)))
+Predicted constituent types ((list of types) -- constituent)
+  ((PRED TENSED-VERB) -- (PRES BE.V))
+  ((UNKNOWN) -- (= (K HOME.N)))
+Possibly failed conditions:
+  "Adverb formers (adv-a, adv-e,..) take a single predicate argument and cannot be used as an argument."
+Ann segment:
+  (ADV-E
+   (TO.P (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))))
+Predicted constituent types ((list of types) -- constituent)
+  ((ADVFORMER) -- ADV-E)
+  ((UNKNOWN) --
+   (TO.P (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (TO.P (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS))))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- TO.P)
+  ((UNKNOWN) --
+   (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS))))
+Possibly failed conditions:
+  "Determiners take 1 nominal (noun) argument."
+Ann segment:
+  (THE.D (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))
+Predicted constituent types ((list of types) -- constituent)
+  ((DET) -- THE.D)
+  ((UNKNOWN) -- (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS)))
+Possibly failed conditions:
+  "n+preds takes at least 2 arguments where the first is a noun and the rest are predicates."
+Ann segment:
+  (N+PREDS (BEER-PRODUCING.A CITY.N) (OF.P BUDWEIS))
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- N+PREDS)
+  ((NOUN PRED) -- (BEER-PRODUCING.A CITY.N))
+  ((UNKNOWN) -- (OF.P BUDWEIS))
+Possibly failed conditions:
+  "Simple prepositions (*.p) take terms as arguments and take 1 argument."
+Ann segment:
+  (OF.P BUDWEIS)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) -- OF.P)
+  ((UNKNOWN) -- BUDWEIS)
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (((TYPES TERM) (WHAT.D ((TYPES NOUN PRED) (EUROPEAN.A COUNTRY.N))))
+     ((TYPES UNKNOWN)
+      (((TYPES UNKNOWN)
+        (((TYPES PRED TENSED-VERB) (PRES BE.V))
+         ((TYPES UNKNOWN) (= ((TYPES TERM) (K HOME.N))))))
+       ((TYPES UNKNOWN)
+        (ADV-E
+         ((TYPES UNKNOWN)
+          (TO.P
+           ((TYPES UNKNOWN)
+            (THE.D
+             ((TYPES UNKNOWN)
+              (N+PREDS ((TYPES NOUN PRED) (BEER-PRODUCING.A CITY.N))
+               ((TYPES UNKNOWN) (OF.P BUDWEIS))))))))))))))
+   ?))
+ NIL)
+
+NIL
+
+####################################
+
+************************************
+Sanity checking formula (after preprocessing).
+************************************
+((((PRES CAN.AUX-V)
+   (YOU.PRO ((PICTURE.V ED) (IN.P (((K WOMAN.N) 'S) DISGUISE.N)))))
+  ?)
+ (NOT JUST.ADV-S))
+
+************************************
+Possible errors
+************************************
+Possibly failed conditions:
+  "Sentence punctuation take a single tensed sentence argument and is post-fixed."
+Ann segment:
+  (((PRES CAN.AUX-V)
+    (YOU.PRO ((PICTURE.V ED) (IN.P (((K WOMAN.N) 'S) DISGUISE.N)))))
+   ?)
+Predicted constituent types ((list of types) -- constituent)
+  ((UNKNOWN) --
+   ((PRES CAN.AUX-V)
+    (YOU.PRO ((PICTURE.V ED) (IN.P (((K WOMAN.N) 'S) DISGUISE.N))))))
+  ((SENT-PUNCT) -- ?)
+Possibly failed conditions:
+  "auxiliaries take a single untensed verb argument."
+Ann segment:
+  ((PRES CAN.AUX-V)
+   (YOU.PRO ((PICTURE.V ED) (IN.P (((K WOMAN.N) 'S) DISGUISE.N)))))
+Predicted constituent types ((list of types) -- constituent)
+  ((TENSED-AUX) -- (PRES CAN.AUX-V))
+  ((UNKNOWN) --
+   (YOU.PRO ((PICTURE.V ED) (IN.P (((K WOMAN.N) 'S) DISGUISE.N)))))
+
+************************************
+Formula with predicted types (for debugging).
+************************************
+(((TYPES UNKNOWN)
+  (((TYPES UNKNOWN)
+    (((TYPES TENSED-AUX) (PRES CAN.AUX-V))
+     ((TYPES UNKNOWN)
+      (YOU.PRO
+       ((TYPES UNKNOWN)
+        (((TYPES UNKNOWN) (PICTURE.V ED))
+         ((TYPES PP PRED)
+          (IN.P
+           ((TYPES TERM)
+            (((TYPES UNKNOWN)
+              (((TYPES TERM) (K WOMAN.N)) ((TYPES UNKNOWN) 'S)))
+             DISGUISE.N))))))))))
+   ?))
+ ((TYPES UNKNOWN) (NOT JUST.ADV-S)))
+
+NIL
+
+####################################
+
+

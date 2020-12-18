@@ -1,0 +1,28 @@
+; sid: 227278
+; sentence: Let's try something.
+({you}.pro let.v us.pro (try.v something.pro))
+
+; sid: 228189
+; sentence: Who painted this painting?
+((Who.pro ((past paint.v) (this.d painting.n)))?)
+
+; sid: 228278
+; sentence: That's the snag.
+(That.pro ((pres be.v) (= (the.d snag.n))))
+
+; sid: 228279
+; sentence: We are what we pretend to be, so we must be careful what we pretend to be.
+((We.pro ((pres be.v)          (= (ans-to               (sub what.pro                   (we.pro ((pres pretend.v)                             (to (be.v (= *h))))))))))  (so.ps   (we.pro    ((pres must.aux-v)     (be.v (careful.a            (ans-to (sub what.pro                     (we.pro ((pres pretend.v)                                  (to (be.v (= *h)))))))))))))
+
+; sid: 1413661
+; sentence: Margaret , what comment can I make on the untimely extinction of this glorious spirit ?
+(((voc |Margaret|)   (sub (what.d comment.n)    ((pres can.aux-s) I.pro     (make.v     (np+preds *h      (on.p (the.d (n+preds (untimely.a extinction.n)                  (of.p (this.d (glorious.a spirit.n))))))))))) ?)
+
+; sid: 1414100
+; sentence: What on earth do you mean ?
+((sub (What.d (n+preds {ref}.n                   (on.p (k earth.n))))       ((pres do.aux-s) you.pro (mean.v *h))) ?)
+
+; sid: 1429962
+; sentence: " Where could you wait for me ? " asked Miss Pross .
+(sub (\\" ((sub where.adv-e  ((pres could.aux-v) you.pro (wait.v (adv-a (for.p me.pro))) *h)) ?) \\") (|Miss Pross| ((past ask.v) *h)))
+

@@ -1,0 +1,3620 @@
+; sid: 227278
+; sentence: Let's try something.
+({you}.pro let.v us.pro (try.v something.pro))
+
+; sid: 228189
+; sentence: Who painted this painting?
+((Who.pro ((past paint.v) (this.d painting.n)))?)
+
+; sid: 228278
+; sentence: That's the snag.
+(That.pro ((pres be.v) (= (the.d snag.n))))
+
+; sid: 228279
+; sentence: We are what we pretend to be, so we must be careful what we pretend to be.
+((We.pro ((pres be.v)          (= (ans-to               (sub what.pro                   (we.pro ((pres pretend.v)                             (to (be.v (= *h))))))))))  (so.ps   (we.pro    ((pres must.aux-v)     (be.v (careful.a            (ans-to (sub what.pro                     (we.pro ((pres pretend.v)                                  (to (be.v (= *h)))))))))))))
+
+; sid: 228280
+; sentence: I don't know him.
+(I.pro ((pres do.aux-s) not (know.v him.pro)))
+
+; sid: 228281
+; sentence: I liked this film.
+(I.pro ((past like.v) (this.d film.n)))
+
+; sid: 228282
+; sentence: She's rolling in money.
+(She.pro ((pres prog)           (roll.v (adv-a (in.p (k money.n))))))
+
+; sid: 228283
+; sentence: It's not important.
+(It.pro ((pres be.v) not important.a))
+
+; sid: 228284
+; sentence: I don't care.
+(I.pro ((pres do.aux-s) not care.v))
+
+; sid: 228285
+; sentence: I was about to go out when the phone rang.
+((I.pro ((past be.v) (about.p (to (go.v out.adv-a)))))   (when.ps ((the.d phone.n) (past ring.v))))
+
+; sid: 228286
+; sentence: Look carefully. I'm going to show you how it's done.
+(({you}.pro ((pres Look.v) carefully.adv-a)) !) (I.pro ((pres be.v)         (going_to.v (show.v you.pro (ans-to (sub how.pq (it.pro ((pres (pasv do.v)) *h))))))))
+
+; sid: 228287
+; sentence: People should understand that the world is changing.
+((k (plur person.n))  ((pres should.aux-v)   (understand.v (that ((the.d world.n) ((pres prog) change.v))))))
+
+; sid: 228288
+; sentence: Speech is silver, but silence is golden.
+(((k Speech.n) ((pres be.v) silver.a))  but.cc  ((k silence.n) ((pres be.v) golden.a)))
+
+; sid: 228290
+; sentence: I don't like these remarks.
+(I.pro ((pres do.aux-s) not (like.v (these.d (plur remark.n)))))
+
+; sid: 228292
+; sentence: Why do you want to leave today?
+((sub Why.adv-s     ((pres do.aux-s) you.pro        (want.v (to (leave.v today.adv-e)) *h))) ?)
+
+; sid: 228293
+; sentence: I'm going to take my car.
+(I.pro ((pres be.v) (going_to.v (take.v (my.d car.n)))))
+
+; sid: 228295
+; sentence: You cannot achieve the impossible without attempting the absurd.
+(You.pro ((pres can.aux-v) not           ((achieve.v (the.d (impossible.a {ref}.n)))            (adv-a (without.p (ka (attempt.v (the.d (absurd.a {ref}.n)))))))))
+
+; sid: 228297
+; sentence: To be quiet in class is to respect other people's sleep.
+((To ((be.v quiet.a) (adv-e (in.p (k class.n)))))  ((pres be.v)   (= (to (respect.v (((other.d (plur person.n)) 's) sleep.n))))))
+
+; sid: 228298
+; sentence: Logic is a systematic method of coming to the wrong conclusion with confidence.
+((k Logic.n)  ((pres be.v)   (= (a.d (systematic.a            (method-of.n (ka (come.v (to.p-arg (the.d (wrong.a conclusion.n)))                                     (adv-a (with.p (k confidence.n)))))))))))
+
+; sid: 228299
+; sentence: Cole's Axiom: The sum of the intelligence on the planet is a constant; the population is growing.
+(np+preds ((|Cole| 's) |Axiom|.n)  (= (tht (((The.d (sum-of.n (the.d (n+preds intelligence.n                             (on.p (the.d planet.n))))))    ((pres be.v) (= (a.d constant.n))))  ((the.d (population-of.n *ref)) ((pres prog) grow.v))))))
+
+; sid: 228301
+; sentence: If you see a man approaching you with the obvious intention of doing you good, you should run for your life.
+((If.ps (you.pro ((pres see.v)                   (a.d (n+preds man.n                                 (approach.v you.pro                                              (adv-a (with.p (the.d (obvious.a                                                       (intention.n (of.p-arg (ka (do.v you.pro good.adv-a)))))))))))))) (you.pro ((pres should.aux-v) (run.v (adv-a (for.p (your.d life.n)))))))
+
+; sid: 228302
+; sentence: We learn from experience that men never learn anything from experience.
+(We.pro ((pres learn.v)          (adv-a (from.p (k experience.n)))          (that ((k (plur man.n)) never.adv-f ((pres learn.v) anything.pro                                                 (adv-a (from.p (k experience.n))))))))
+
+; sid: 228305
+; sentence: The early bird catches the worm.
+((The-gen.d (early.a bird.n)) ((pres catch.v) (the-gen.d worm.n)))
+
+; sid: 228306
+; sentence: In life there are ups and downs.
+((adv-e (In.p (k life.n)))  (there.pro ((pres be.v) ((plur up.n) and.cc (plur down.n)))))
+
+; sid: 228307
+; sentence: All cats are grey in the dark.
+((All.d (plur cat.n)) ((pres be.v) grey.a (adv-e (in.p (the.d dark.n)))))
+
+; sid: 228308
+; sentence: Teach me how you do it.
+(({you}.pro ((pres Teach.v) me.pro                (ans-to (sub how.pq                                     (you.pro ((pres do.v) it.pro *h)))))) !)
+
+; sid: 228309
+; sentence: No news is good news.
+((No.d news.n) ((pres be.v) (good.a news.n)))
+
+; sid: 228310
+; sentence: Wealth comes to those who make things happen, not to those who let things happen.
+(((k Wealth.n) ((pres come.v)                 (adv-a (to.p (np+preds those.pro                                  (who.rel ((pres make.v) (k (plur thing.n)) happen.v))))))) {and}.cc ((k {wealth}.n) ((pres {come}.v) not (adv-a (to.p (np+preds those.pro                   (who.rel ((pres let.v) (k (plur thing.n)) happen.v))))))))
+
+; sid: 228311
+; sentence: If you think education is expensive, wait till you see what ignorance costs you.
+((If.ps (you.pro ((pres think.v) (tht ((k education.n) ((pres be.v) expensive.a)))))) (({you}.pro ((pres wait.v)               (till.ps (you.pro ((pres see.v)                                  (ans-to (sub what.pro ((k ignorance.n)                                                         ((pres cost.v) you.pro *h))))))))) !))
+
+; sid: 228312
+; sentence: I was expecting it!
+(I.pro ((past prog) (expect.v it.pro)))
+
+; sid: 228313
+; sentence: The world is divided into people who get things done, and people who get the credit.
+((The.d world.n) ((pres be.v)                   (divide.a                   (into.p-arg (set-of (k (n+preds (plur person.n)                                               (who.rel ((pres get.v) (k (plur thing.n)) done.a))))   (k (n+preds (plur person.n)                                           (who.rel ((pres get.v) (the.d credit.n))))))))))
+
+; sid: 228314
+; sentence: I don't expect anything from you.
+(I.pro ((pres do.aux-s) not         (expect.v anything.pro            (from.p-arg you.pro))))
+
+; sid: 228317
+; sentence: People who will lie for you, will lie to you.
+((k (n+preds (plur Person.n)       (who.rel ((pres will.aux-s) (lie.v (adv-a (for.p you.pro)))))))  ((pres will.aux-s) (lie.v (adv-a (to.p you.pro)))))
+
+; sid: 228318
+; sentence: There's no doubt.
+(There.pro ((pres be.v) (= (no.d doubt.n))))
+
+; sid: 228319
+; sentence: There isn't any solution.
+(There.pro ((pres be.v) not (= (any.d solution.n))))
+
+; sid: 228321
+; sentence: I didn't know he drank so much.
+(I.pro ((past do.aux-s) not         (know.v (tht (he.pro ((past drink.v) (adv-a (so.adv-a much.a))))))))
+
+; sid: 228323
+; sentence: It's well done.
+(It.pro ((pres be.v) (well.adv-a done.a)))
+
+; sid: 228324
+; sentence: Do you want fruit juice?
+(((pres Do.aux-s) you.pro (want.v ({some}.d (fruit.n juice.n)))) ?)
+
+; sid: 228325
+; sentence: He's a good person.
+(He.pro ((pres be.v) (= (a.d (good.a person.n)))))
+
+; sid: 228327
+; sentence: Enjoy your meal!
+(({you}.pro ((pres Enjoy.v) (your.d meal.n))) !)
+
+; sid: 228328
+; sentence: There's no love without jealousy.
+(There.pro ((pres be.v) (= (no.d (n+preds love.n                                     (without.p (k jealousy.n)))))))
+
+; sid: 228330
+; sentence: There was not a bloody soul.
+(There.pro ((past be.v) not (= (a.d (bloody.a soul.n)))))
+
+; sid: 228331
+; sentence: We are cut from the same cloth.
+(We.pro ((pres be.v) (cut.v (from.p-arg (the.d (same.a cloth.n))))))
+
+; sid: 228332
+; sentence: The walls have ears.
+((The.d (plur wall.n)) ((pres have.v) (k (plur ear.n))))
+
+; sid: 228333
+; sentence: I've got a frog in my throat.
+(I.pro ((pres perf) (get.v (a.d frog.n) (in.p (my.d throat.n)))))
+
+; sid: 228334
+; sentence: Make yourself at home.
+(({you}.pro ((pres Make.v) yourself.pro (at.p (k home.n)))) !)
+
+; sid: 228335
+; sentence: Nothing great has been achieved by playing it safe.
+((np+preds Nothing.pro great.a)  ((pres perf) ((pasv achieve.v) (by.p-arg (ka ((play.v it.pro) (adv-a safe.a)))))))
+
+; sid: 228336
+; sentence: In general, little is known about nonlinear second order differential equations.
+(In_general.adv-s (little.pro ((pres (pasv know.v))               (about.p-arg (nonlinear.a ((second.a order.n) (differential.a (plur equation.n))))))))
+
+; sid: 228338
+; sentence: At this stage there is still not a clear energy policy for bringing decentralised power to rural areas.
+((adv-e (At.p (this.d stage.n)))  (there.pro ((pres be.v) still.adv-s not              (= (a.d (n+preds (clear.a (energy.n policy.n))     (for.p (ka (bring.v (decentralised.a power.n)                                           (adv-a (to.p (k (rural.a (plur area.n))))))))))))))
+
+; sid: 228339
+; sentence: Why aren't you coming with us?
+((sub Why.adv-s ((pres prog) not you.pro (come.v (adv-a (with.p us.pro)) *h))) ?)
+
+; sid: 228340
+; sentence: I can't say the opposite.
+(I.pro ((pres can.aux-v) not (say.v (the.d opposite.n))))
+
+; sid: 228342
+; sentence: Don't listen to him, he's talking nonsense.
+((({you}.pro ((pres Do.aux-s) not               (listen.v (to.p-arg him.pro)))) !)  (he.pro ((pres prog) (talk.v (k nonsense.n)))))
+
+; sid: 228343
+; sentence: You can't get lost in big cities; there are maps everywhere!
+((You.pro ((pres can.aux-v) not            (get.v lost.a               (adv-e (in.p (k (big.a (plur city.n)))))))) (there.pro (((pres be.v) (plur map.n))              everywhere.adv-e)))
+
+; sid: 228344
+; sentence: We are sorry, the person you are trying to contact is not available.
+((We.pro ((pres be.v) sorry.a)) ((the.d (n+preds person.n                 (sub tht.rel (you.pro ((pres prog) (try.v (to (contact.v *h))))))))   ((pres be.v) not available.a)))
+
+; sid: 228345
+; sentence: I don't want it anymore.
+(I.pro ((pres do.aux-s) not         (want.v it.pro          anymore.adv-s)))
+
+; sid: 228346
+; sentence: He came several times.
+((He.pro (past come.v)) (adv-f ({at}.p (several.d (plur time.n)))))
+
+; sid: 228347
+; sentence: We wonder why.
+(We.pro ((pres wonder.v) (ans-to (why.adv-s {ref}.sent))))
+
+; sid: 228348
+; sentence: We must think about friends.
+(We.pro ((pres must.aux-v)          (think.v (about.p-arg (k (plur friend.n))))))
+
+; sid: 228350
+; sentence: It was raining when we left, but by the time we arrived, it was sunny.
+((It.pro ((past prog) (rain.v (when.ps (we.pro (past leave.v)))))) but.cc  ((adv-e (by.p (the.d (n+preds time.n                           (sub ({at}.p {which}.rel)                                 (we.pro ((past arrive.v) (adv-e *h))))))))   (it.pro ((past be.v) sunny.a))))
+
+; sid: 228351
+; sentence: We left by train.
+(We.pro ((past leave.v) (adv-a (by.p (k train.n)))))
+
+; sid: 228353
+; sentence: I don't know if he would have done it for me.
+(I.pro ((pres do.aux-s) not         (know.v (whether (he.pro ((cf will.aux-s) (perf (do.v it.pro (adv-a (for.p me.pro))))))))))
+
+; sid: 228354
+; sentence: Would you like to come?
+(((pres Would.aux-s) you.pro (like.v (to come.v))) ?)
+
+; sid: 228355
+; sentence: I knew he would accept.
+(I.pro ((past know.v) (tht (he.pro ((past will.aux-s) (accept.v {ref1}.pro))))))
+
+; sid: 228356
+; sentence: She would willingly come but she was on vacation.
+((She.pro ((cf will.aux-s) (willingly.adv-a come.v))) but.cc  (she.pro ((past be.v) (on.p (k vacation.n)))))
+
+; sid: 228357
+; sentence: I thought it was true.
+(I.pro ((past think.v) (tht (it.pro ((past be.v) true.a)))))
+
+; sid: 228358
+; sentence: This is the town I told you about.
+(This.pro ((pres be.v)            (= (the.d (n+preds town.n                         (sub tht.rel (I.pro ((past tell.v) you.pro (about.p-arg *h)))))))))
+
+; sid: 228359
+; sentence: This is the boy I think about.
+(This.pro ((pres be.v)            (= (the.d (n+preds boy.n                               (sub tht.rel (I.pro ((pres think.v) (about.p-arg *h)))))))))
+
+; sid: 228360
+; sentence: He has been warned on several occasions.
+((He.pro ((pres perf) (pasv warn.v)))  (adv-e (on.p (several.d (plur occasion.n)))))
+
+; sid: 228361
+; sentence: I have to give back the book before Saturday.
+(I.pro ((pres have.v)         (to (give.v back.adv-a                  (the.d book.n)                     (adv-e (before.p |Saturday|))))))
+
+; sid: 228363
+; sentence: Hi, I just wanted to let you know that the problem is fixed.
+(Hi.gr (I.pro (just.adv-s ((past want.v)                      (to (let.v you.pro                                 (know.v (that ((the.d problem.n) ((pres be.v) fixed.a))))))))))
+
+; sid: 228364
+; sentence: How can you have a laptop and not a cell phone?
+((sub How.pq       ((pres can.aux-v) you.pro        (have.v ((a.d laptop.n) and.cc (not (a.d (cell.n phone.n))))               *h))) ?)
+
+; sid: 228365
+; sentence: I went to drink a beer with friends.
+(I.pro ((past go.v)         (adv-a ({for}.p (to (drink.v (a.d beer.n)                               (adv-a (with.p (k (plur (friend-of.n *s)))))))))))
+
+; sid: 228366
+; sentence: He jumped out the window.
+(He.pro ((past jump.v) (adv-a (out.p (the.d window.n)))))
+
+; sid: 228367
+; sentence: Yesterday we had fun.
+(Yesterday.adv-e (we.pro ((past have.v) (k fun.n))))
+
+; sid: 228368
+; sentence: They quarreled.
+(They.pro (past quarrel.v))
+
+; sid: 228369
+; sentence: I ate caviar.
+(I.pro ((past eat.v) (k caviar.n)))
+
+; sid: 228370
+; sentence: He changed a lot since the last time.
+(He.pro ((past change.v) a_lot.adv-a                         (adv-a (since.p (the.d (last.a time.n))))))
+
+; sid: 228371
+; sentence: This knife was very useful to me.
+((This.d knife.n) ((past be.v) (very.adv-a useful.a)                                (adv-a (to.p me.pro))))
+
+; sid: 228372
+; sentence: You took the wrong key.
+(You.pro ((past take.v) (the.d (wrong.a key.n))))
+
+; sid: 228373
+; sentence: I managed to get in.
+(I.pro ((past manage.v) (to (get.v (in.p {ref}.pro)))))
+
+; sid: 228374
+; sentence: How much is it?
+((sub (How.adv-a much.a)       ((pres be.v) it.pro *h)) ?)
+
+; sid: 228375
+; sentence: I'll bring you the bill immediately.
+(I.pro ((pres will.aux-s)         (bring.v you.pro                  (the.d bill.n)                  immediately.adv-e)))
+
+; sid: 228378
+; sentence: Did you leave a tip?
+(((past do.aux-s) you.pro (leave.v (a.d tip.n))) ?)
+
+; sid: 228379
+; sentence: Don't forget the ticket.
+(({you}.pro ((pres do.aux-s) not.adv-s (forget.v (the.d ticket.n)))) !)
+
+; sid: 228380
+; sentence: I'm sorry, I don't have change.
+((I.pro ((pres be.v) sorry.a)) (I.pro ((pres do.aux-s) not.adv-s (have.v (k change.n)))))
+
+; sid: 228383
+; sentence: They don't even know why.
+(They.pro ((pres do.aux-s) not.adv-s (even.adv-a (know.v (why.adv-s {ref1}.sent)))))
+
+; sid: 228384
+; sentence: I want you to tell me the truth.
+(I.pro ((pres want.v) you.pro (to (tell.v me.pro (the.d truth.n)))))
+
+; sid: 228385
+; sentence: You arrived at the moment I left.
+(You.pro ((past arrive.v) (adv-e (at.p (the.d                                         (n+preds                                          moment.n                                          (sub {when}.rel (I.pro ((past leave.v) *h)))))))))
+
+; sid: 228386
+; sentence: Muiriel likes to annoy me lately.
+(|Muiriel| ((pres like.v) (to (annoy.v me.pro lately.adv-e))))
+
+; sid: 228387
+; sentence: It's not serious, I don't bear him a grudge.
+((It.pro ((pres be.v) not.adv-s serious.a))  {and}.cc (I.pro ((pres do.aux-s) not.adv-s (bear.v him.pro (a.d grudge.n)))))
+
+; sid: 228388
+; sentence: Who is coming with me?
+((Who.pro (((pres prog) come.v) (adv-a (with.p me.pro)))) ?)
+
+; sid: 228389
+; sentence: I want to know who is coming with us.
+(I.pro ((pres want.v) (to (know.v (ans-to (who.pro (((pres prog) come.v) (adv-a (with.p us.pro)))))))))
+
+; sid: 228390
+; sentence: Florence is the most beautiful city in Italy.
+(|Florence| ((pres be.v) (= (the.d (most-n beautiful.a (n+preds city.n (in.p |Italy|)))))))
+
+; sid: 228391
+; sentence: On your feet, children!
+((sub (On.p-arg (your.d (plur foot.n))) ((k (plur child.n)) ((pres {get}.v) *h ))) !)
+
+; sid: 228392
+; sentence: I talked to friends.
+(I.pro ((past talk.v) (to.p-arg (k (plur friend.n)))))
+
+; sid: 228394
+; sentence: This girl changed her look.
+((This.d girl.n) ((past change.v) (her.d look.n)))
+
+; sid: 228395
+; sentence: The film lasted 2 hours.
+((The.d film.n) ((past last.v) (2.d (plur hour.n))))
+
+; sid: 228396
+; sentence: I'm glad to see you back.
+(I.pro ((pres be.v) (glad.a (to (see.v you.pro back.adv-a)))))
+
+; sid: 228397
+; sentence: You changed a lot.
+(You.pro ((past change.v) a_lot.adv-a))
+
+; sid: 228398
+; sentence: Those who know him like him.
+((Those.d (n+preds (plur {person}.n) (who.rel ((pres know.v) him.pro)))) ((pres like.v) him.pro))
+
+; sid: 228399
+; sentence: Tell me what happened.
+(({you}.pro ((pres tell.v) me.pro (ans-to (what.pro (past happen.v))))) !)
+
+; sid: 228400
+; sentence: They are sensible girls.
+(They.pro ((pres be.v) (sensible.a (plur girl.n))))
+
+; sid: 228401
+; sentence: How beautiful you are!
+(sub (How.adv-a beautiful.a) (you.pro ((pres be.v) *h)))
+
+; sid: 228403
+; sentence: You must work more.
+(You.pro ((pres must.aux-v) (work.v more.adv-a)))
+
+; sid: 228405
+; sentence: He told me he would go to Venice.
+(He.pro ((past tell.v) me.pro (tht (He.pro ((past will.aux-s) (go.v (to.p-arg |Venice|)))))))
+
+; sid: 228406
+; sentence: Who are those guys?
+((sub who.pro ((those.d (plur guy.n)) ((pres be.v) (= *h)))) ?)
+
+; sid: 228407
+; sentence: I don't agree with him.
+(I.pro ((pres do.aux-s) not.adv-s (agree.v (with.p-arg him.pro))))
+
+; sid: 228408
+; sentence: The spirit is willing, but the flesh is weak.
+(((The.d spirit.n) ((pres be.v) willing.a)) (but.ps ((the.d flesh.n) ((pres be.v) weak.a))))
+
+; sid: 228410
+; sentence: It seems to me that the train is late.
+(It.pro ((pres seem.v) (adv-a (to.p me.pro)) (that ((the.d train.n) ((pres be.v) late.a)))))
+
+; sid: 228412
+; sentence: I don't know if I'll have time to do it.
+(I.pro ((pres do.aux-s) not.adv-s (know.v (whether (I.pro ((pres will.aux-s) (have.v (k time.n) (to (do.v it.pro)))))))))
+
+; sid: 228413
+; sentence: Ask Trang if he's going out this evening.
+(({you}.pro ((pres ask.v) |Trang| (whether (he.pro ((pres prog) (go_out.v (this.d evening.n))))))) !)
+
+; sid: 228415
+; sentence: In a town you may pass unnoticed, whereas in a village it's impossible.
+((sub (adv-a (In.p (a.d town.n))) (you.pro ((pres may.aux-s) (pass.v unnoticed.a *h))))  (whereas.ps   (sub (adv-a (in.p (a.d village.n))) (it.pro ((pres be.v) impossible.a *h)))))
+
+; sid: 228416
+; sentence: Who said that? It's totally wrong!
+((Who.pro ((past say.v) that.pro)) ?)(It.pro ((pres be.v) (totally.adv-a wrong.a)))
+
+; sid: 228418
+; sentence: Wolves won't usually attack people.
+((k (plur wolf.n)) ((pres will.aux-s) not.adv-s usually.adv-f (attack.v (k (plur person.n)))))
+
+; sid: 228419
+; sentence: "Can somebody help me?" "I will."
+(\\" (((pres Can.aux-s) somebody.pro (help.v me.pro)) ?) \\")(\\" (I.pro ((pres will.aux-s) {help}.v)) \\")
+
+; sid: 228421
+; sentence: You've given me your cold.
+(you.pro (((pres perf) give.v) me.pro (your.d cold.n)))
+
+; sid: 228422
+; sentence: Ah! If I were rich, I'd buy myself a house in Spain.
+(Ah.x ((If.ps (I.pro ((cf be.v) rich.a)))       (I.pro ((pres would.aux-s) (buy.v myself.pro (a.d (n+preds house.n (in.p |Spain|))))))))
+
+; sid: 228423
+; sentence: I wish she would stop playing that stupid music.
+(I.pro ((pres wish.v) (tht (she.pro ((pres would.aux-s) (stop.v (ka (play.v (that.d (stupid.a music.n))))))))))
+
+; sid: 228424
+; sentence: I hope he'll be able to come! I'd like to see him.
+(I.pro ((pres hope.v) (tht (he.pro ((pres will.aux-s) (be.v (able.a (to come.v))))))))(I.pro ((pres would.aux-s) (like.v (to (see.v him.pro)))))
+
+; sid: 228425
+; sentence: They will never accept; it's too far.
+((They.pro ((pres will.aux-s) never.adv-e accept.v)) (it.pro ((pres be.v) (too.adv-a far.a))))
+
+; sid: 228426
+; sentence: Her garden is a work of art.
+((Her.d garden.n) ((pres be.v) (= (a.d (n+preds work.n (of.p (k art.n)))))))
+
+; sid: 228428
+; sentence: Water freezes at zero degrees Celsius, doesn't it?
+(((k Water.n) ((pres freeze.v) (at.p-arg (zero.d ((plur degree.n) |Celsius|))))) .?)
+
+; sid: 228432
+; sentence: Forget it. It's not worth it.
+(({you}.pro ((pres forget.v) it.pro)) !) (It.pro ((pres be.v) not.adv-s (worth.v it.pro)))
+
+; sid: 228433
+; sentence: We're going to eat a lot tonight so I hope you're not on a diet.
+((We.pro ((pres be.v) (going_to.v eat.v (a.d lot.n) tonight.adv-e)))  (so.ps (I.pro ((pres hope.v) (tht (you.pro ((pres be.v) not.adv-s (on.p (a.d diet.n)))))))))
+
+; sid: 228434
+; sentence: For once in my life I'm doing a good deed... And it is useless.
+((sub (adv-a (For.p (k (n+pred once.n (in.p (my.d life.n)))))) (I.pro ((pres prog) do.v) (a.d (good.a deed.n)) *h)) and.cc  (it.pro ((pres be.v) useless.a)))
+
+; sid: 228435
+; sentence: You need not telephone me.
+(You.pro ((pres need.aux-v) not.adv-s (telephone.v me.pro)))
+
+; sid: 228436
+; sentence: Brian repeatedly told Chris that he owed him a pretty large amount of money.
+(|Brian| (repeatedly.adv-a ((past tell.v) |Chris| (that (he.pro ((past owe.v) him.pro (a.d ((pretty.adv-a large.a) (n+preds amount.n (of.p (k money.n)))))))))))
+
+; sid: 228437
+; sentence: How dare you say such a thing to me?
+((sub How.pq   ((pres dare.aux-v) you.pro    (((say.v (such.d (= (a.d thing.n)))) (adv-a (to.p me.pro))) *h))) ?)
+
+; sid: 228438
+; sentence: You ask me to do the impossible.
+(You.pro ((pres ask.v) me.pro (to (do.v (the.d (impossible.a {deed}.n))))))
+
+; sid: 228439
+; sentence: I brought you a little something.
+(I.pro ((past bring.v) you.pro (a.d (little.a something.n))))
+
+; sid: 228479
+; sentence: He's moving in with his girlfriend.
+(he.pro ((pres prog) (move_in.v (with.p-arg (his.d girlfriend.n)))))
+
+; sid: 228480
+; sentence: I'm going to sit on the bench over there next to the street lamp.
+(i.pro ((pres prog) (go.v (to (sit.v (adv-a (on.p (the.d (n+preds bench.n (over.p there.pro) (next_to.p (the.d (street.n lamp.n))))))))))))
+
+; sid: 228481
+; sentence: I have to write a letter. Do you have some paper?
+((i.pro ((pres have.v) (to (write.v (a.d letter.n))))) (((pres do.aux-s) you.pro (have.v (some.d paper.n))) ?))
+
+; sid: 228482
+; sentence: Could you do me a favour please?
+(((pres could.aux-s) you.pro (do.v me.pro (a.d favour.n) please.adv-s)) ?)
+
+; sid: 228483
+; sentence: No, I'm not mad at you, I'm just disappointed.
+((no.yn (i.pro ((pres be.v) not.adv-s mad.a (adv-a (at.p you.pro))))) (i.pro ((pres be.v) (just.adv-a disappointed.a))))
+
+; sid: 228484
+; sentence: She is mad at me.
+(she.pro ((pres be.v) mad.a (adv-a (at.p me.pro))))
+
+; sid: 228485
+; sentence: I can't believe my eyes.
+(i.pro ((pres can.aux-v) not (believe.v (my.d (plur eye.n)))))
+
+; sid: 228486
+; sentence: I couldn't say when exactly in my life it occurred to me that I would be a pilot someday.
+(i.pro ((pres could.aux-v) not (say.v (ans-to(sub (adv-e (at-time.p (exactly.adv-s (np+preds which.pro (in.p (my.d life.n))))))     (it.pro ((past occur.v) (to.p-arg me.pro) (that (i.pro ((past will.aux-s) (be.v (= (a.d pilot.n)) someday.adv-e)))) *h)))))))
+
+; sid: 228488
+; sentence: She has always done her best to make their life easier.
+(she.pro (always.adv-s ((pres perf) (do.v (her.d best.n) (to (make.v (their.d life.n) easier.a))))))
+
+; sid: 228489
+; sentence: I've got mosquito bites all over my arm.
+(i.pro ((pres perf) (got.v (mosquito.n (plur bite.n)) (adv-a (all_over.p (my.d arm.n))))))
+
+; sid: 228490
+; sentence: During winter I sleep with two blankets.
+(sub (during.p (k winter.n)) (i.pro ((pres sleep.v) (adv-a (with.p (two.d (plur blanket.n)))) (adv-e *h))))
+
+; sid: 228491
+; sentence: "Do you have any siblings?" "No, I'm an only child."
+((((pres do.aux-s) you.pro (have.v (any.d (plur sibling.n)))) ?) (no.yn (i.pro ((pres be.v) (= (an.d (only.a child.n)))))))
+
+; sid: 228492
+; sentence: Her eyes were shining with joy.
+((her.d (plur eye.n)) ((past prog) (shine.v (adv-a (with.p (k joy.n))))))
+
+; sid: 228493
+; sentence: You are to come with me.
+((you.pro ((pres be-to.aux-v) (come.v (with.p-arg me.pro)))) !)
+
+; sid: 228494
+; sentence: You have to come with me.
+((you.pro ((pres have.v) (to (come.v (with.p me.pro))))) !)
+
+; sid: 228495
+; sentence: Are you angry at what I said?
+((sub (pres be.v) (you.pro (*h angry.a (adv-a (at.p (ans-to (sub what.pro (i.pro ((past say.v) *h))))))))) ?)
+
+; sid: 228496
+; sentence: Can you justify the use of violence?
+(((pres can.aux-s) you.pro (justify.v (the.d (n+preds use.n (of.p (k violence.n)))))) ?)
+
+; sid: 228497
+; sentence: You are a busy man, so I will adjust myself to your schedule.
+((you.pro ((pres be.v) (= (a.d (busy.a man.n))))) (so.ps (i.pro ((pres will.aux-s) (adjust.v myself.pro (to.p-arg (your.d schedule.n)))))))
+
+; sid: 228499
+; sentence: Can you do bookkeeping?
+(((pres can.aux-v) you.pro (do.v (ka bookkeep.v))) ?)
+
+; sid: 228500
+; sentence: You have no sense of direction.
+(you.pro ((pres have.v) (no.d (n+preds sense.n (of.p (k direction.n))))))
+
+; sid: 228501
+; sentence: You must practice grammar.
+(you.pro ((pres must.aux-v) (practice.v (k grammar.n))))
+
+; sid: 228502
+; sentence: You had better go to the infirmary.
+(you.pro ((pres had_better.aux-s) (go.v (to.p-arg (the.d infirmary.n)))))
+
+; sid: 228504
+; sentence: You shouldn't do things by halves.
+(you.pro ((pres should.aux-s) not (do.v (k (plur thing.n)) (adv-a (by.p (k (plur half.n)))))))
+
+; sid: 228505
+; sentence: You should pay your rent in advance.
+(you.pro ((pres should.aux-s) (pay.v (your.d rent.n) (adv-a (in.p (k advance.n))))))
+
+; sid: 228506
+; sentence: You must keep your room clean.
+(you.pro ((pres must.aux-v) (keep.v (your.d room.n) clean.a)))
+
+; sid: 228507
+; sentence: You must take off your hat in the room.
+(you.pro ((pres must.aux-v) (take.v off.adv-a (your.d hat.n) (adv-a (in.p (the.d room.n))))))
+
+; sid: 228508
+; sentence: You are wavering.
+(you.pro ((pres prog) waver.v))
+
+; sid: 228509
+; sentence: Have you ever climbed Mt. Fuji?
+((you.pro (ever.adv-s ((pres perf) (climb.v |Mt. Fuji|)))) ?)
+
+; sid: 228510
+; sentence: Your undaunted spirit will carry you through.
+((your.d (undaunted.a spirit.n)) ((pres will.aux-s) (carry.v you.pro (adv-a (through.p {it}.pro)))))
+
+; sid: 228511
+; sentence: You should take care of your sick mother.
+(you.pro ((pres should.aux-v) (take.v (k care.n) (adv-a (of.p (your.d (sick.a mother.n)))))))
+
+; sid: 228512
+; sentence: You have to learn standard English.
+(you.pro (have.v (to (learn.v (standard.a |English|)))))
+
+; sid: 228515
+; sentence: Have you ever traveled in a plane?
+((you.pro (ever.adv-s ((pres perf) (travel.v (in.p-arg (a.d plane.n)))))) ?)
+
+; sid: 228516
+; sentence: I have a feeling you'll be a very good lawyer.
+(i.pro ((pres have.v) (a.d feeling.n) (tht (you.pro ((pres will.aux-s) (be.v (= (a.d ((very.adv-a good.a) lawyer.n)))))))))
+
+; sid: 228517
+; sentence: You are idle to the bone.
+(you.pro ((pres be.v) idle.a (adv-a (to.p (the.d bone.n)))))
+
+; sid: 228518
+; sentence: Can you keep a secret?
+(((pres can.aux-s) you.pro (keep.v (a.d secret.n))) ?)
+
+; sid: 228519
+; sentence: Since you look tired, you had better take a rest.
+((since.ps (you.pro ((pres look.v) tired.a))) (you.pro ((pres had_better.aux-s) (take.v (a.d rest.n)))))
+
+; sid: 228522
+; sentence: You are tired, aren't you?
+((you.pro ((pres be.v) tired.a)) .?)
+
+; sid: 228523
+; sentence: Are you not tired?
+((rep (sub (pres be.v *p) (you.pro *h)) (not tired.a)) ?)
+
+; sid: 228524
+; sentence: You look tired. You ought to rest for an hour or two.
+((you.pro ((pres look.v) tired.a)) (you.pro ((pres ought.aux-v) (rest.v (adv-a (for.p ((an.d hour.n) or.cc two.pro)))))))
+
+; sid: 228526
+; sentence: You can rely on him.
+(you.pro ((pres can.aux-s) (rely.v (on.p-arg him.pro))))
+
+; sid: 228527
+; sentence: You can rely on her.
+(you.pro ((pres can.aux-s) (rely.v (on.p-arg her.pro))))
+
+; sid: 228529
+; sentence: You must not take advantage of her innocence.
+(you.pro ((pres must.aux-v) not (take.v (k advantage.n) (adv-a (of.p (her.d innocence.n))))))
+
+; sid: 228530
+; sentence: You should have acted on her advice.
+(you.pro ((past should.aux-v) ((perf act.v) (on.p-arg (her.d advice.n)))))
+
+; sid: 228531
+; sentence: You are treading on her corns.
+(you.pro ((pres prog) (tread.v (adv-a (on.p (her.d (plur corn.n)))))))
+
+; sid: 228532
+; sentence: I think that you ought to apologize to her.
+(i.pro ((pres think.v) (that (you.pro ((pres ought.aux-v) (apologize.v (adv-a (to.p her.pro))))))))
+
+; sid: 228534
+; sentence: Just a minute.
+(pu (just.adv-s (a.d minute.n)))
+
+; sid: 228535
+; sentence: You asked after her? What did she say?
+(((you.pro ((past ask.v) (adv-a (after.p her.pro)))) ?) ((sub what.pro ((past do.aux-s) she.pro (say.v *h))) ?))
+
+; sid: 228537
+; sentence: Did you meet her?
+(((past do.aux-s) you.pro (meet.v her.pro)) ?)
+
+; sid: 228538
+; sentence: Do you want to see her very much?
+(((past do.aux-s) you.pro (want.v (to (see.v her.pro)) (adv-a (very.adv-a much.a)))) ?)
+
+; sid: 228539
+; sentence: Did you fall in love with her at first sight?
+(((past do.aux-s) you.pro (fall.v (in.p-arg (k love.n)) (with.p-arg her.pro) (adv-a (at.p (k (first.a sight.n)))))) ?)
+
+; sid: 228540
+; sentence: You were taken in by her.
+(you.pro ((past (pasv take_in.v)) (adv-a (by.p her.pro))))
+
+; sid: 228541
+; sentence: You told her that you had finished the work three days before.
+(you.pro ((past tell.v) her.pro (that (you.pro ((pres perf) (finish.v (the.d work.n) (adv-e ({at}.p (three.d (n+preds (plur day.n) (before.p {it}.pro)))))))))))
+
+; sid: 228579
+; sentence: You should have told him the truth.
+(You.pro (past should.aux-v (tell.v him.pro (the.d truth.n))))
+
+; sid: 228580
+; sentence: You should restore the money he lost to him.
+(You.pro ((pres should.aux-v)       (restore.v        (the.d (n+preds money.n                 (sub tht.rel                  (he.pro ((past lose.v) *h)))))       (to.p-arg him.pro))))
+
+; sid: 228581
+; sentence: You cannot expect much of him.
+(You.pro ((pres can.aux-v) not           (expect.v            ((k much.n) (of.p-arg him.pro)))))
+
+; sid: 228582
+; sentence: You should tell him the truth.
+(You.pro ((pres should.aux-v)          (tell.v him.pro (the.d truth.n))))
+
+; sid: 228584
+; sentence: You ought to ask him for advice.
+(You.pro ((pres ought.aux-v)           to (ask.v him.pro               (for.p (k advice.n)))))
+
+; sid: 228586
+; sentence: Didn't you write a letter to him?
+(((past do.aux-s) not   (you.pro (write.v             (a.d letter.n)             (to.p him.pro))))?)
+
+; sid: 228587
+; sentence: You need only ask him to pay the debt.
+(You.pro ((pres need.v) only.adv-s           (ask.v him.pro (to                     (pay.v (the.d debt.n))))))
+
+; sid: 228588
+; sentence: You told him that he should have a reward.
+(You.pro ((past tell.v) him.pro       (that (he.pro ((pres should.aux-s)                 (have.v (a.d reward.n)))))))
+
+; sid: 228589
+; sentence: I don't think you can gain his ear.
+(I.pro ((pres do.aux-s) not (think.v             (tht (you.pro ((pres can.aux-v)                       (gain.v (his.d ear.n))))))))
+
+; sid: 228596
+; sentence: You can trust him to keep his word.
+(You.pro ((pres can.aux-v)           (trust.v him.pro            (to (keep.v (his.d word.n))))))
+
+; sid: 228598
+; sentence: I'm certain of your success.
+(I.pro ((pres be.v)         (certain.a (of.p (your.d success.n)))))
+
+; sid: 228603
+; sentence: What subject do you think he is interested in?
+((sub (What.d subject.n)   ((pres do.aux-s) you.pro (think.v            (tht (he.pro ((pres be.v)                     (interested.a (in.p-arg *h))))))))?)
+
+; sid: 228878
+; sentence: You're coming with us now.
+(you.pro ((((pres prog) come.v) (with.p-arg us.pro)) now.adv-e))
+
+; sid: 230471
+; sentence: Be sure to put out the fire before you leave.
+((((pres be.v) sure.a) (to (put_out.v (the.d fire.n))) (before.adv-e (you.pro leave.v))) !)
+
+; sid: 231828
+; sentence: Do you like fish?
+(((pres do.aux-s) (you.pro (like.v (k fish.n))))?)
+
+; sid: 234759
+; sentence: Could you please call him into the meeting?
+(((pres could.aux-s) you.pro please.adv-s   ((call.v him.pro) (adv-a (into.p (the.d meeting.n))))) ?)
+
+; sid: 237015
+; sentence: What a fine day it is!
+(sub (what.a (= (a.d (fine.a day.n)))) (it.pro ((pres be.v) *h)))
+
+; sid: 239435
+; sentence: What on earth are you doing in my room?
+((sub (what.d (n+preds {ref1}.n (on.p |Earth|))) ((pres prog) you.pro ((do.v *h) (adv-e (in.p (my.d room.n)))))) ?)
+
+; sid: 239696
+; sentence: Can I have a bite?
+(((pres can.aux-v) I.pro (have.v (a.d bite.n))) ?)
+
+; sid: 239765
+; sentence: May I ask you to do me a favor?
+(((pres may.aux-v) I.pro ((pres ask.v)                          you.pro                          (to (do.v me.pro (a.d favor.n))))) ?)
+
+; sid: 241157
+; sentence: Do you have any rock CDs?
+(((pres do.aux-s) you.pro (have.v (any.d (rock.n (plur CD.n)))))?)
+
+; sid: 242305
+; sentence: If you can't keep your promise, what excuse will you make?
+((  (If.ps (you.pro ((pres can.aux-v) not.adv-s (keep.v (your.d promise.n)))))  (sub    (what.d excuse.n)    ((pres will.aux-s) you.pro (make.v *h)))) ?)
+
+; sid: 242705
+; sentence: If you are to do it, you must make a good start.
+(If.ps  (you.pro ((pres be-to.aux-v) do.v it.pro)) (you.pro ((pres must.aux-s) make.v (a.d (good.a start.n)))))
+
+; sid: 243143
+; sentence: Should he be given another chance, he would do his best.
+(sub (((pres should.aux-s) he.pro ((pres (pasv give.v)) (another.a chance.n))))    ((he.pro ((would.aux-s) do.v (his.d (best.a {ref}.n)) *h))))
+
+; sid: 248778
+; sentence: How formal is this ceremony?
+((sub (how.adv-a formal.a) ((pres be.v) (this.d ceremony.n) *h)) ?)
+
+; sid: 248853
+; sentence: How are you getting along?
+((sub how.adv-s (you.pro ((pres prog) get_along.v *h))) ?)
+
+; sid: 248986
+; sentence: When does Tony study?
+((sub When.pro ((pres do.aux-s) (|Tony| (pres study.v) *h))?))
+
+; sid: 249744
+; sentence: Do me the favor of coming.
+(({you}.pro (((pres do.v) me.pro) (the.d (n+preds favor.n (= (ka come.v)))))) !)
+
+; sid: 250131
+; sentence: Will you open the door?
+(((pres will.aux-v) you.pro (open.v (the.d door.n))) ?)
+
+; sid: 250218
+; sentence: What is that building whose door is painted white?
+((What.pro   ((pres be.v)    (= (that.d (n+preds building.n             (((who.rel 's) door.n) ((pres be.v) (painted.a (adv-a white.a))))))))) ?)
+
+; sid: 254824
+; sentence: The peak rises above the clouds.
+((The.d peak.n) ((pres rise.v) (adv-a (above.p (the.d (plur cloud.n))))))
+
+; sid: 256000
+; sentence: Does that include everything?
+(((pres do.v) (that.pro (include.v everything.pro))) ?)
+
+; sid: 258650
+; sentence: Didn't you visit the park?
+(((past do.aux-s) not you.pro (visit.v (the.d park.n))) ?)
+
+; sid: 259364
+; sentence: The rule holds good in this case.
+(((The.d rule.n) ((pres hold.v) good.adv-a)) (adv-s (in.p (this.d case.n))))
+
+; sid: 264011
+; sentence: Will Jane sing?
+(((pres will.aux-s) (|Jane| sing.v))?)
+
+; sid: 264507
+; sentence: I'm still alive, and that's the main thing, Father says.
+(sub (tht ((I.pro ((pres be.v) still.adv-e alive.v))   and.cc   (that.pro ((pres be.v) (= (the.d (main.a thing.n))))))) (|Father| ((pres say.v) *h)))
+
+; sid: 264731
+; sentence: A computer can calculate very rapidly.
+((a.d computer.n) ((pres can.aux-v) (calculate.v (very.adv-a rapidly.adv-a))))
+
+; sid: 265114
+; sentence: May I use this?
+(((pres may.aux-s) I.pro (use.v this.pro)) ?)
+
+; sid: 265147
+; sentence: Where would you like me to put this?
+((sub where.pq ((pres would.aux-s) you.pro ((like.v me.pro) (to ((put.v this.pro) *h))))) ?)
+
+; sid: 266868
+; sentence: May I borrow this book?
+(((pres may.aux-v) I.pro (borrow.v (this.d book.n))) ?)
+
+; sid: 267570
+; sentence: Will this road take me to the station?
+((((pres will.aux-s) (this.d road.n)) ((take.v me.pro) (to.p-arg (the.d station.n)))) ?)
+
+; sid: 269940
+; sentence: Will you tell me how to sing this song?
+(((pres will.aux-s) you.pro ((tell.v me.pro) (sub                                               how.pq                                              (to ((sing.v (this.d song.n)) *h))))) ?)
+
+; sid: 271912
+; sentence: Would you like another cup of coffee?
+(((pres would.aux-s) you.pro (like.v (another.d (cup.n (of.p coffee.n))))) ?)
+
+; sid: 274359
+; sentence: What a feast we had when we visited my aunt!
+((sub (What.a (a.d feast.n)) (we.pro ((past have.v) *h))) (when.pr (we.pro ((past visit.v) (my.pro aunt.n)))))
+
+; sid: 275865
+; sentence: May I ask some questions?
+(((pres may.aux-s) I.pro (ask.v (some.d (k (plur question.n))))) ?)
+
+; sid: 279158
+; sentence: What did you do with your camera?
+((sub What.pro       ((past do.aux-s) you.pro        ((do.v *h)         (adv-a (with.p (your.d camera.n)))))) ?)
+
+; sid: 279809
+; sentence: Shall I get some for you?
+(((pres shall.aux-s) I.pro (get.v (some.d {ref}.n) (adv-a (for.p you.pro)))) ?)
+
+; sid: 279916
+; sentence: Will you show me your album?
+(((pres will.aux-s) you.pro (show.v me.pro (your.d album.n))) ?)
+
+; sid: 280136
+; sentence: I've never seen you cook. Can you cook anything at all?
+(I.pro (((pres perf) never.adv-e (see.v you.pro cook.v))))(((pres can.aux-v) you.pro ((cook.v anything.pro) at_all.adv-a)) ?)
+
+; sid: 282012
+; sentence: Does the 19 bus go to Main Street?
+((((pres do.aux-s) ((the.d (19 bus.n)) (go.v (to.p |Main Street|.n))))) ?)
+
+; sid: 282413
+; sentence: "Could you do this instead of me?" "Sorry, I'm too busy."
+(((pres could.aux-s) (you.pro (do.v this.pro (instead.adv-e (of me.pro)))))?) ((pu Sorry.a) (I.pro ((pres be.v) (too.adv-e busy.a))))
+
+; sid: 282830
+; sentence: The train was crowded with people.
+((The.d train.n) ((past be.v)                   (crowded.a (adv-a (with.p (k people.n))))))
+
+; sid: 282967
+; sentence: How long have you been dating?
+((sub (how.adv-a long.a) ((pres perf) you.pro (prog (date.v *h)))) ?)
+
+; sid: 283832
+; sentence: Does this mean you're not coming to help?
+(((pres do.aux-s) (this.pro (mean.v tht (you.pro (not ((pres prog) (come.v (to help.v))))))))?)
+
+; sid: 284282
+; sentence: The dog traced the rabbit into the forest.
+((The.d dog.n) (((pres trace.v) (the.d rabbit.n)) (adv-e (into.p (the.d forest.n)))))
+
+; sid: 288801
+; sentence: My wife is subject to moods.
+((my.d (wife-of.n *s)) ((pres be.v) (subject.a (to.p-arg (k (plur mood.n))))))
+
+; sid: 290365
+; sentence: When I was a child, I would often call on him on Sunday.
+(sub (When.ps (I.pro ((past be.v) (a.d child.n)))) (I.pro ((past will.aux-v) often.adv-a ((call-on.v him.pro) (adv-e (on.p Sunday.n)) *h))))
+
+; sid: 291537
+; sentence: Be quiet while I'm speaking.
+(((pres be.v) quiet.a (while.ps (I.pro ((pres prog) speak.v)))) !)
+
+; sid: 291879
+; sentence: Our hens laid a lot of eggs yesterday.
+((Our.pro (plur hen.n)) (((past lay.v) (a.d (n+preds lot.n (of.p (plur egg.n))))) yesterday.adv-e))
+
+; sid: 294470
+; sentence: Will you make room for me?
+(((pres will.aux-s) (you.pro ((make.v (k room.n)) for.p me.pro)))?)
+
+; sid: 300549
+; sentence: I never try to go to there.
+(I.pro (never.adv-f ((pres try.v) (to (go.v (to.p-arg there.pro))))))
+
+; sid: 306167
+; sentence: You'll have to work hard if you want to pass the exam.
+((You.pro ((pres will.aux-s) (have.v (to (work.v hard.adv-a))))) (if.ps (you.pro ((pres want.v) (to (pass.v (the.d exam.n)))))))
+
+; sid: 307973
+; sentence: Will you give me a ride?
+(((pres will.aux-s) you.pro ((give.v me.pro) (a.d ride.n))) ?)
+
+; sid: 309367
+; sentence: Do you have a course for beginners?
+(((pres do.aux-s) you.pro (have.v (a.d course.n) (for.p (plur beginner.n)))) ?)
+
+; sid: 309612
+; sentence: Can't you just picture Ed in woman's disguise?
+(((pres Can.aux-v) not (you.pro just.adv-s ((picture.v |Ed|)                                             (in.p (((k woman.n) 's) disguise.n))))) ?)
+
+; sid: 311507
+; sentence: Where's the newspaper?
+((where.pq ((pres be.v) (the.d newspaper.n))) ?)
+
+; sid: 317842
+; sentence: Can someone take our picture?
+(((pres can.aux-s) (someone.pro (take.v (our.d picture.n)))) ?)
+
+; sid: 317869
+; sentence: Whoever calls, tell him I'm out.
+((({if}.ps   (whoever.pro ((pres call.v) {me}.pro)))  ({you}.pro ((pres tell.v)               him.pro               (tht (I.pro ((pres be.v) out.adv-a)))))) !)
+
+; sid: 318494
+; sentence: Can you give me directions to the subway station?
+(((pres can.aux-v) you.pro ((give.v me.pro) (k ((plur direction.n)   (to.p-arg (the.d (subway.n station.n))))))) ?)
+
+; sid: 319799
+; sentence: My little brother says that he had a dreadful dream last night.
+((my.d (little.a brother.n)) ((pres say.v) (that (he.pro ((past have.v) (a.d (dreadful.a dream.n)) (adv-e ({during}.p ({the}.d (last.a night.n)))))))))
+
+; sid: 320765
+; sentence: Could you put your seat back up a little?
+(((pres could.aux-v) you.pro ((put.v                               (your.d seat.n)   (back.adv-a up.a))                               a_little.adv-a)) ?)
+
+; sid: 332095
+; sentence: What is the matter with him?
+((sub what.pro (((pres be.v) ((the.d matter.n) (with.p him.pro *h))))) ?)
+
+; sid: 332414
+; sentence: How fast he runs!
+(sub (how.adv-a fast.a) (he.pro ((pres run.v) *h)))
+
+; sid: 333761
+; sentence: He must have studied English hard.
+(he.pro ((pres must.aux-s) (perf ((study.v |English|) hard.adv-a))))
+
+; sid: 334279
+; sentence: What time did he ask for your response?
+(((What.d time.n) ((past do.aux-v) he.pro (ask.v (for.p-arg (your.d response.n))))) ?)
+
+; sid: 336316
+; sentence: He has been writing poems since this morning.
+(He.pro (((pres perf) (prog (write.v (k (plur poem.n)))))          (adv-e (since.p (this.d morning.n)))))
+
+; sid: 345831
+; sentence: They like to play in the snow.
+(They.pro ((pres like.v) (to (play.v (adv-e (in.p (the-gen.d snow.n)))))))
+
+; sid: 358040
+; sentence: Could you show me another one, please?
+((((pres could.aux-s) you.pro ((show.v me.pro) (another.d one.n))) please.adv-s) ?)
+
+; sid: 358062
+; sentence: Could you exchange it with another one?
+(((pres could.aux-v) you.pro (exchange.v it.pro (with.p-arg (another.d one.n)))) ?)
+
+; sid: 358837
+; sentence: Be sure and call me tonight.
+(({you}.pro (((pres be.v) sure.a)             and.cc             (((pres call.v) me.pro) tonight.adv-e))) !)
+
+; sid: 360039
+; sentence: If you were to quit your job, what would you do?
+((If.ps   (you.pro ((cf be-to.aux-s) quit.v (your.d job.n)))   (sub what.pro ((pres would.aux-s) you.pro do.v *h))) ?)
+
+; sid: 360041
+; sentence: If a tiger should come out of the cage, what would you do?
+(((If.ps ((a.d tiger.n)           ((cf should.aux-s)            (come.v (adv-a (out_of.p (the.d cage.n)))))))   (sub what.pro ((cf will.aux-s) you.pro (do.v *h)))) ?)
+
+; sid: 360738
+; sentence: Can you tell if it will rain tomorrow?
+((Can.aux-v (you.pro (tell.v (whether (it.pro ((pres will.aux-s) rain.v tomorrow.adv-e))))))?)
+
+; sid: 361454
+; sentence: Don't fail to come here by the appointed time.
+(({you}.pro do.aux-s (not fail.v (to (come.v here.adv-e)) (by.p (the.d (appointed.a time.n)))))!)
+
+; sid: 372685
+; sentence: I've lost about 80 cents.
+(I.pro ((pres perf) lose.v) ((nquan (about.adv-a 80.a)) (plur cent.n)))
+
+; sid: 372723
+; sentence: Are we having company tonight?
+((we.pro ((pres prog) have.v (k company.n) tonight.adv-e))?)
+
+; sid: 373288
+; sentence: How can I get to gate A-1?
+((sub How.adv-a ((pres can.aux-v) (I.pro (get.v (to.p (gate.n |A-1|.n)))) *h))?)
+
+; sid: 373310
+; sentence: How many are in your party?
+((sub (how.adv-a (many.d {ref1}.n)) ((pres be.v) (in.p (your.d party.n) *h))) ?)
+
+; sid: 377295
+; sentence: If he's fluent in English, I'll hire him.
+((If.ps (he.pro ((pres be.v) (fluent.a (in.p-arg |English|)))))  (I.pro ((pres will.aux-s) (hire.v him.pro))))
+
+; sid: 378786
+; sentence: I came here yesterday.
+(I.pro ((past come.v) here.adv-e yesterday.adv-e))
+
+; sid: 381568
+; sentence: He bailed on us just when we needed him.
+(He.pro ((past bail.v) (on.p-arg us.pro) (just.adv-s (when.ps (we.pro ((past need.v) him.pro))))))
+
+; sid: 382977
+; sentence: Care for a smoke?
+(({you}.pro (pres care.v) (for.p-arg (a.d smoke.n)))?)
+
+; sid: 384977
+; sentence: Do you have a solution?
+(((pres do.aux-s) you.pro (have.v (a-gen.d solution.n))) ?)
+
+; sid: 385702
+; sentence: Have you recently taken a trip anywhere?
+(((pres perf) you.pro   (recently.adv-e ((take.v (a.d trip.n)) anywhere.adv-e))) ?)
+
+; sid: 390024
+; sentence: What's the name of my doctor?
+((What.pro ((pres be.v) (the.d name.n (of.p (my.d doctor.n)))))?)
+
+; sid: 390080
+; sentence: Where can I mail these letters?
+((sub where.pro ((pres can.aux-s) i.pro (mail.v (these.d (plur letter.n) *h)))) ?)
+
+; sid: 390130
+; sentence: Which sports do you like?
+((sub (which.d (plur sports.n)) ((pres do.v) (you.pro ((pres like.v) *h))))?)
+
+; sid: 390757
+; sentence: If my mother had still been alive, she would have helped me at that time.
+((If.ps ((my.d mother.n) (still.adv-e ((cf perf) (be.v alive.a)))))  (she.pro ((cf will.aux-s) (perf ((help.v me.pro)                (adv-e (at.p (that.d time.n))))))))
+
+; sid: 395723
+; sentence: My printer's black ink is defective; it bleeds across the page if I touch it with my finger.
+(((((My.d printer.n) 's) (black.n ink.n)) ((pres be.v) defective.a))  ((it.pro ((pres bleed.v) (adv-a (across.p (the.d page.n)))))    (if.ps (I.pro (((pres touch.v) it.pro)                   (adv-a (with.p (my.d finger.n))))))))
+
+; sid: 395965
+; sentence: Did you just get to know him?
+(((past do.aux-s) you.pro (just.adv-s (get.v (to (know.v him.pro))))) ?)
+
+; sid: 400489
+; sentence: Can I stay with you? I was kicked out of my house because I didn't pay the rent.
+(((pres can.aux-v) I.pro (stay.v (adv-a (with.p you.pro)))) ?)(I.pro ((past (pasv kick.v))         (out.adv-a (of.p (my.d house.n))))) (because.ps (I.pro (past do.aux-s) (pay.v (the.d rent.n))))
+
+; sid: 400632
+; sentence: Do you have a points card?
+((((pres do.aux-s) you.pro) (have.v (a.d (k ((plur point.n) card.n))))) ?)
+
+; sid: 403180
+; sentence: How much do these black pants and red shirts cost?
+((sub (How.adv-a much.a) ((pres do.aux-s) (these.d (black.a (plur pants.n)) and.cc (red.a (plur shirt.n))) cost.v *h))?)
+
+; sid: 404037
+; sentence: How could this happen? I thought you were on the pill.
+((sub How.pq ((past can.aux-s) this.pro happen.v *h)) ?)  (I.pro ((past think.v) (tht (you.pro ((past be.v) (on.p (the.d pill.n)))))))
+
+; sid: 406373
+; sentence: What's your favorite thing about Hawaii?
+((what.pro ((pres be.v)             (= (your.d (n+preds (favorite.a thing.n) (about.p |Hawaii|)))))) ?)
+
+; sid: 406440
+; sentence: What's your favorite snack food?
+((sub what.pro ((pres be.v) (your.d (favorite.a (snack.n food.n *h))))) ?)
+
+; sid: 407031
+; sentence: What is it about?
+(((sub What.pro ((pres be.v) (it.pro (about *h)))))?)
+
+; sid: 408839
+; sentence: Don't worry. You can confide in me.
+(({you}.pro ((pres do.aux-s) not worry.v)) !) (you.pro ((pres can.aux-v) (confide_in.v me.pro)))
+
+; sid: 409009
+; sentence: Do you feel birthdays are important?
+(((pres do.aux-v) you.pro (feel.v (tht ((k (plur birthday.n)) ((pres be.v) important.a))))) ?)
+
+; sid: 410332
+; sentence: What do the prisoners eat?
+((sub what.pro ((pres do.aux-s) ((the.d (plur prisoner.n)) eat.v *h))) ?)
+
+; sid: 411507
+; sentence: What don't you know?!
+((sub What.pro ((pres do.aux-s) not you.pro (know.v *h))) ?)
+
+; sid: 412964
+; sentence: Where was Tom when the fire broke out?
+((where.pq ((past be.v) |Tom| (when.ps ((the.d fire.n) ((past break_out.v)))))) ?)
+
+; sid: 413019
+; sentence: What am I supposed to do if Tom comes?
+((sub what.pro ((pres be.v) I.pro (supposed.a (to (do.v *h)))  (if.ps (|Tom| (pres come.v))))) ?)
+
+; sid: 413078
+; sentence: Tom, could you keep an eye on the kids?
+((|Tom| ((pres could.aux-s) you.pro (keep.v (an.d eye.n) (on.p-arg (the.d (plur kid.n)))))) ?)
+
+; sid: 420702
+; sentence: Could you help me wash the dishes?
+(((pres could.aux-s) you.pro ((help.v me.pro) (ka (wash.v (the.d (plur dish.n)))))) ?)
+
+; sid: 421851
+; sentence: Why don't you drop in?
+((Why.adv-s ((pres do.aux-s) not you.pro (drop_in.v {ref1}.pro))) ?)
+
+; sid: 430657
+; sentence: Did you know that men can get breast cancer?
+((((past do.aux-s) you.pro (know.v (that ((plur man.n) ((can.aux-v get.v) (breast.n cancer.n))))))) ?)
+
+; sid: 431123
+; sentence: I can't keep up with you. Could you dictate a bit slower?
+(I.pro ((pres can.aux-v) not (keep_up.v (with.p-arg you.pro))))  (((pres could.aux-v) you.pro (dictate.v (adv-a (a_bit.adv-a slower.a)))) ?)
+
+; sid: 431423
+; sentence: It's OK with me if you take that book.
+(it.pro (((pres be.v) ok.a)          (adv-a (with.p me.pro)) (if.ps (you.pro ((pres take.v) (that.d book.n))))))
+
+; sid: 432749
+; sentence: I'm broken.
+(I.pro ((pres be.v) broken.a))
+
+; sid: 435994
+; sentence: You don't worry.
+(You.pro ((pres do.aux-s) (not worry.v)))
+
+; sid: 442610
+; sentence: What would he know?
+((sub What.pro ((pres would.aux-s) he.pro (know.v *h)))?)
+
+; sid: 443464
+; sentence: Shall we go out for a walk?
+(((pres shall.aux-s) (we.pro (go.v out.adv-a (for.p-arg (a.d walk.n)))))?)
+
+; sid: 443488
+; sentence: Where would you go if you could time travel?
+((sub where.pq (((cf will.aux-s) you.pro (go.v *h))  (if.ps (you.pro ((cf can.aux-v)  time_travel.v))))) ?)
+
+; sid: 445122
+; sentence: Why don't you go home?
+((sub why.adv-s ((pres do.aux-s) not you.pro (go.v (k home.n) *h))) ?)
+
+; sid: 445705
+; sentence: Are Protestants tired of the Bible?
+(((pres be.v) (plur |Protestant|.n) (tired.a (of.p-arg (the.d |Bible|.n)))) ?)
+
+; sid: 448286
+; sentence: If he had worked harder, he could have succeeded.
+((if.ps (he.pro ((cf perf) (work.v (adv-a harder.a)))))  (he.pro ((cf can.aux-v) (perf succeed.v))))
+
+; sid: 451157
+; sentence: What wonderful weather!
+(sub  (What.a (wonderful.a weather.n))  ({this}.pro ((pres {be}.v) *h)))
+
+; sid: 452654
+; sentence: Don't let the dog inside.
+(((pres do.aux-s) (not ((pres let.v) (the.d dog.n) inside.adv-a)))!)
+
+; sid: 453694
+; sentence: How much time do we have?
+((sub (How.adv-a (much.a (k time.n))) ((pres do.aux-s) we.pro (have.v *h))) ?)
+
+; sid: 454259
+; sentence: What are the men doing?
+((sub what.pro ((the.d (plur man.n)) ((pres prog) do.v *h))) ?)
+
+; sid: 456983
+; sentence: Where can I find them?
+((sub where.adv-e ((pres can.aux-v) I.pro (find.v them.pro) *h)) ?)
+
+; sid: 458444
+; sentence: Can I see you a moment?
+(((pres Can.aux-v) I.pro   (see.v (you.pro (adv-e ({for}.p (a.d moment.n)))))) ?)
+
+; sid: 459128
+; sentence: They did not listen.
+(they.pro ((past do.aux-v) not listen.v))
+
+; sid: 462269
+; sentence: This is the first time I've ever needed help.
+(This.pro  ((pres be.v)   (= (the.d (first.a               (n+preds time.n         (sub tht.rel                              (I.pro (ever.adv-f (((pres perf) (need.v (k help.n)))                                                  (adv-e ({at-time}.p *h))))))))))))
+
+; sid: 463847
+; sentence: Have you tried it before?
+(((pres perf) you.pro   ((try.v it.pro) before.adv-e)) ?)
+
+; sid: 464315
+; sentence: Have your ever followed the White Rabbit to its hole?
+(((((pres perf) you.pro ever.adv-e follow.v) (the.d |White Rabbit|.n))  (to.p-arg (its.d hole.n))) ?)
+
+; sid: 466814
+; sentence: When was the last time you drank this?
+((When.pq ((past be.v) ((the.d (last.a time.n)) tht (you.pro ((past drink.v) this.pro)))))?)
+
+; sid: 467552
+; sentence: When will you go to Germany?
+((sub When.pq       ((pres will.aux-s) you.pro        (go.v (to.p-arg |Germany|))       *h)) ?)
+
+; sid: 468953
+; sentence: How do you want to be polite with people like him?
+((sub how.adv-a ((pres do.aux-s) you.v (want.v (to (be.v (*h polite.a) (adv-a (with.p (k (np+preds (plur people.n) (like.a him.pro)))))))))) ?)
+
+; sid: 471719
+; sentence: How many countries are members of the United Nations?
+(((how.adv-s (many.d (plur country.n)))  ((pres be.v) (plur member_of.n) (the.d |United Nations|.n))) ?)
+
+; sid: 474419
+; sentence: Can you remember that last time you ate ravioli?
+(((pres can.aux-v) (you.pro (remember.v (that.d ((last.a time.n) tht (you.pro ((past eat.v) (k ravioli.n))))))))?)
+
+; sid: 478671
+; sentence: Could you make sure Tom does his homework?
+(((pres could.aux-s) (you.pro (make.v sure.a (tht (|Tom| ((pres do.v) (his.d homework.n))))))) ?)
+
+; sid: 478891
+; sentence: Why should I hire you?
+((sub why.adv-s ((pres should.aux-s) i.pro (hire.v you.pro *h))) ?)
+
+; sid: 479291
+; sentence: May I assist you?
+(((pres May.aux-v) I.pro assist.v you.pro) ?)
+
+; sid: 486257
+; sentence: I can't just turn my back on Tom.
+(I.pro ((pres can.aux-v) not (just.adv-s (turn.v (my.d back.n)) (on.p-arg |Tom|))))
+
+; sid: 490249
+; sentence: Did he say that?
+(((past do.aux-s) (he.pro (say.v that.pro)))?)
+
+; sid: 491326
+; sentence: What did he see?
+((sub what.pro ((past do.aux-s) he.pro (see.v *h))) ?)
+
+; sid: 491431
+; sentence: This is my last review.
+(This.pro ((pres be.v) (= (my.d (last.a review.n)))))
+
+; sid: 492729
+; sentence: I want to know who did that.
+(I.pro ((pres want.v) (to (know.v (ans-to (who.pro ((past do.v) that.pro)))))))
+
+; sid: 493799
+; sentence: So, where do you want to do this?
+((sub where.adv-e ((pres do.aux-s) you.pro (want.v (to (do.v this.pro)) *h))) .?)
+
+; sid: 494090
+; sentence: Don't tell me if you don't want to.
+((({you}.pro ((pres do.aux-s) not.adv-s (tell.v me.pro))) (if.ps (you.pro ((pres do.aux-s) not.adv-s (want.v (to ({tell}.v {me}.pro))))))) !)
+
+; sid: 499557
+; sentence: Why won't you play with me?
+((Why.adv-s ((pres will.aux-s) not you.pro (play.v (adv-a (with.p me.pro))))) ?)
+
+; sid: 499757
+; sentence: Could you lend me your pink pen, please?
+((((pres Could.aux-v) you.pro ((lend.v me.pro) (your.d (pink.a pen.n)))) please.adv-s) ?)
+
+; sid: 505506
+; sentence: Do you refer to me?
+(((pres do.aux-s) you.pro (refer.v (to.p-arg me.pro))) ?)
+
+; sid: 505931
+; sentence: You've invited your friends as well?
+((You.pro ((((past perf) invite.v) (your.pro (plur friend.n))) as_well.adv-s))?)
+
+; sid: 510600
+; sentence: Why don't you give me a break?
+((sub Why.adv-s     ((pres do.aux-s) not you.pro        (((give.v me.pro) (a.d break.n)) *h))) ?)
+
+; sid: 512510
+; sentence: Show me the picture.
+(({you}.pro (((pres Show.v) me.pro) (the.d picture.n))) !)
+
+; sid: 517180
+; sentence: Can you cancel?
+(((pres can.aux-s) you.pro cancel.v) ?)
+
+; sid: 517184
+; sentence: Can you help?
+(((pres can.aux-v) (you.pro help.v))?)
+
+; sid: 517392
+; sentence: Don't hurt anybody.
+((pres do.aux-v) not (hurt.v anybody.pro))
+
+; sid: 519271
+; sentence: It isn't locked.
+(It.pro ((pres be.v) not locked.a))
+
+; sid: 520650
+; sentence: Don't give me that crap!
+(({you}.pro ((pres do.aux-s) not (give.v (me.pro (that.d crap.n)))))!)
+
+; sid: 521851
+; sentence: Who's giving the main speech?
+((who.pro ((pres prog) (give.v (the.d (main.a speech.n))))) ?)
+
+; sid: 521941
+; sentence: What comes next?
+((What.pro ((pres come.v) next.adv-a)?))
+
+; sid: 522118
+; sentence: Who lost it?
+((who.pro ((past lose.v) it.pro)) ?)
+
+; sid: 526673
+; sentence: Would you step aside?
+(((pres would.aux-s) you.pro (step.v aside.adv-a)) ?)
+
+; sid: 529788
+; sentence: They shoot horses, don't they?
+((They.pro ((pres shoot.v) ((k (plur horse.n))))).?)
+
+; sid: 531276
+; sentence: Don't worry. Everything will be fine.
+(({you}.pro ((pres do.aux-s) not worry.v)) !) (everything.pro ((pres will.aux-s) (be.v fine.a)))
+
+; sid: 546064
+; sentence: Why did you volunteer to do this?
+((sub Why.pq ((past do.aux-s) you.pro (volunteer.v (to (do.v this.pro))) *h))?)
+
+; sid: 549541
+; sentence: Can you come tomorrow?
+(((pres can.aux-v) you.pro come.v tomorrow.adv-e) ?)
+
+; sid: 549893
+; sentence: Tom doesn't like people to know that he can't speak French well.
+(|Tom| ((pres do.aux-s)         not.adv-s         (like.v (ke ((k people.n) (know.v                                   (that (he.pro ((pres can.aux-v)                                                   not.adv-s ((speak.v |French|) well.adv-a))))))))))
+
+; sid: 554310
+; sentence: He says that he will come tomorrow.
+(He.pro ((pres say.v) (that.rel (he.pro ((pres will.aux-s) (come.v tomorrow.adv-e))))))
+
+; sid: 555349
+; sentence: Maybe you could draw me a map?
+((maybe.adv-s (you.pro ((pres could.aux-v) (draw.v me.pro (a.d map.n))))) ?)
+
+; sid: 556069
+; sentence: Would you like to grab a bite to eat somewhere?
+(((past would.aux-v) you.pro (like.v (to ((grab.v (a.d bite.n)) (to (eat.v somewhere.adv-e)))))) ?)
+
+; sid: 557369
+; sentence: Would you take Tom to Boston with you?
+(((pres Would.aux-s) you.pro   ((take.v |Tom| (to.p-arg |Boston|))    (adv-a (with.p you.pro)))) ?)
+
+; sid: 558231
+; sentence: Are you recording this conversation?
+(((pres prog) you.pro (record.v (this.d conversation.n))) ?)
+
+; sid: 559083
+; sentence: Tom won't even know we were here.
+(|Tom| (not ((pres will.aux-s) (even.adv-a (know.v (tht (we.pro ((past be.v) here.adv-e))))))))
+
+; sid: 562628
+; sentence: I'd know if you were lying.
+((I.pro ((cf will.aux-s) (know.v {ref}.s))) (if.ps (you.pro ((cf prog) lie.v))))
+
+; sid: 564580
+; sentence: What's behind the door?
+((What.pro ((pres be.v) (behind.p (the.d door.n))))?)
+
+; sid: 564804
+; sentence: I'm the boss, aren't I?
+((i.pro ((pres be.v) (the.d boss.n))) .?)
+
+; sid: 569824
+; sentence: Do you want to drink a perfect cocktail?
+(((pres do.aux-s) you.pro   (want.v (to (drink.v (a.d (perfect.a cocktail.n)))))) ?)
+
+; sid: 569829
+; sentence: Do you care who helps us?
+(((pres do.aux-s) you.pro (care.v (who.pro (help.v us.pro)))) ?)
+
+; sid: 569860
+; sentence: When the sun comes up, I'll get out of bed.
+(sub (when.ps ((the.d sun.n) (pres come_up.v)))  (I.pro (((pres will.aux-s) (get.v               (out_of.p ({the}.d bed.n)))) *h)))
+
+; sid: 572742
+; sentence: Do you want to see me?
+(((pres do.aux-s) you.pro (want.v (to (see.v me.pro)))) ?)
+
+; sid: 578992
+; sentence: Why are you whispering?
+((sub Why.adv-s ((pres prog) you.pro (whisper.v *h)))?)
+
+; sid: 579034
+; sentence: What did you do before?
+((sub what.pro ((past do.aux-s) you.pro ((do.v *h) before.adv-e))) ?)
+
+; sid: 579120
+; sentence: Tom wanted it this way.
+(|Tom| ((past want.v) (np+preds it.pro (= (this.d way.n)))))
+
+; sid: 579467
+; sentence: Can't you do something?
+(((pres can.aux-v) not (you.pro (do.v something.pro)))?)
+
+; sid: 581059
+; sentence: Have you been there?
+((you.pro ((pres perf) (be.v there.pro))) ?)
+
+; sid: 582759
+; sentence: May I have the floor?
+(((pres may.aux-v) I.pro (have.v (the.d floor.n))) ?)
+
+; sid: 583004
+; sentence: The culture was completely different from the one she was used to.
+((The.d culture.n) ((past be.v)   (completely.adv-a    (different.a     (from.p-arg (the.d (n+preds one.n                        (sub tht.rel (she.pro ((past be.v) (used_to.a *h)))))))))))
+
+; sid: 585563
+; sentence: He had bought a dog.
+(He.pro (((past perf) buy.v) (a.d dog.n)))
+
+; sid: 588085
+; sentence: Why am I so sleepy?
+((why.adv-s ((pres be.v) I.pro (so.adv-a sleepy.a))) ?)
+
+; sid: 593805
+; sentence: Do you believe in guiding stars?
+(((pres do.aux-s) you.pro (believe_in.v (k (guiding.a (plur star.n))))) ?)
+
+; sid: 595345
+; sentence: When do you think the Philippines will host the Olympic Games?
+((sub When.pq ((pres do.aux-s) you.pro                (think.v                 (tht ((the.d |Philippines|.n)                       (((pres will.aux-s) (host.v (the.d (|Olympic|.a (plur |Game|.n))))) *h)))))) ?)
+
+; sid: 595472
+; sentence: If you want it, you can have it.
+((if.ps  (you.pro ((pres want.v) it.pro))) (you.pro ((pres can.aux-v) (have.v it.pro))))
+
+; sid: 600507
+; sentence: Tom doesn't have any close friends.
+(|Tom| ((pres do.aux-s) not (have.v (any.d (close.a (plur (friend-of.n *s)))))))
+
+; sid: 601967
+; sentence: If I'd known the truth, I would've told it to you.
+((If.ps (I.pro ((cf perf) (know.v (the.d truth.n))))) (I.pro ((cf will.aux-s) (perf ((tell.v it.pro) (adv-a (to.p you.pro)))))))
+
+; sid: 602166
+; sentence: Do you think Tom is handsome?
+(((pres do.aux-s) (you.pro (think.v tht (|Tom| ((pres be.v) handsome.a)))))?)
+
+; sid: 604819
+; sentence: You quit your job, didn't you?
+((you.pro ((past quit.v) (your.d job.n))) .?)
+
+; sid: 605745
+; sentence: What would you suggest that I do?
+((sub what.pro ((pres would.aux-s) you.pro (suggest.v (that (I.pro ((pres do.v) *h)))))) ?)
+
+; sid: 606215
+; sentence: What made you say that?
+((what.pro ((past make.v) you.pro (say.v that.pro))) ?)
+
+; sid: 607780
+; sentence: Do you want to learn English?
+(((pres do.aux-v) you.pro (want.v (to (learn.v |English|)))) ?)
+
+; sid: 608976
+; sentence: How can you say that to me?
+((sub How.pq ((pres can.aux-s) (you.pro ((say.v that.pro) to.p me.pro *h))))?)
+
+; sid: 610934
+; sentence: Write your surname on the fourth line.
+(({you}.pro ((pres write.v) (your.d surname.n) (adv-a (on.p (the.d (fourth.a line.n)))))) !)
+
+; sid: 611115
+; sentence: Do you know of a dish that has laurel leaves in it?
+(((pres do.aux-s) you.pro (know.v (of.p-arg (a.d (np+preds dish.n (sub that.rel ((pres have.v) ((laurel.a (plur leaf.n)) (in.p it.pro)) *h))))))) ?)
+
+; sid: 612134
+; sentence: How many years has Tom lived in Boston?
+((sub ((How.adv-a many.a) (plur year.n)) (|Tom| (((pres perf) live.v) (in.p |Boston|.n) *h)))?)
+
+; sid: 612566
+; sentence: I met my boyfriend there.
+(i.pro ((past meet.v) (my.d boyfriend.n) there.adv-e))
+
+; sid: 612786
+; sentence: If we didn't satisfy your expectations, that's your problem.
+((If.ps (we.pro ((past do.aux-s) not (satisfy.v (your.d (plur expectation.n)))))) (that.pro ((pres be.v) (= (your.d problem.n)))))
+
+; sid: 614606
+; sentence: And what if he rejects me?
+((and.adv-s ((pu what.pro) (if.ps (he.pro ((pres reject.v) me.pro))))) ?)
+
+; sid: 614941
+; sentence: Can you protect me?
+(((pres Can.aux-v) you.pro (protect.v me.pro)) ?)
+
+; sid: 615086
+; sentence: Do you think Tom can speak French?
+(((pres do.aux-s) (you.pro (think.v (tht (|Tom| ((pres can.aux-v) (speak.v |French|.n)))))))?)
+
+; sid: 616355
+; sentence: It would be good if Tom did a little more exercise.
+((it.pro ((cf will.aux-s) (be.v good.a)))  (if.ps (|Tom| ((cf do.v) ((nquan (a_little.adv-a more.a)) exercise.n)))))
+
+; sid: 617268
+; sentence: You can understand French, right?
+((you.pro ((pres can.aux-v) (understand.v |French|))) .?)
+
+; sid: 624627
+; sentence: Would you mind if I ask you a few questions?
+((((pres would.aux-s) you.pro mind.v)    (if.ps (I.pro ((ask.v you.pro) (a.d (nquan few.a) (plur question.n)))))) ?)
+
+; sid: 625992
+; sentence: Would you fancy a game of Japanese chess?
+(((pres would.aux-s) (you.pro (fancy.v ((a.d game.n) (of.p (Japanese.a (k chess.n)))))))?)
+
+; sid: 626291
+; sentence: You went to Boston, right?
+((you.pro ((past go.v) (to.p-arg |Boston|))) .?)
+
+; sid: 628719
+; sentence: Tom does have a certain charm, doesn't he?
+((|Tom| ((pres do.aux-s) (have.v (a.d (certain.a charm.n))))) .?)
+
+; sid: 628842
+; sentence: Did you really think I didn't know?
+(((past do.aux-s) you.pro (really.adv-a (think.v (tht (I.pro ((past do.aux-s) (not know.v))))))) ?)
+
+; sid: 630388
+; sentence: You're students, aren't you?
+((You.pro ((pres be.v) (plur student.n))) .?)
+
+; sid: 632369
+; sentence: Can't you see we're on a break?
+((((pres can.aux-s) not you.pro (see.v (tht (we.pro ((pres be.v) (on.p-arg (a.d break.n)))))))) ?)
+
+; sid: 633382
+; sentence: Can you miss the present moment?
+(((pres Can.aux-v) you.pro   (miss.v (the.d (present.a moment.n)))) ?)
+
+; sid: 634105
+; sentence: Would you please take me home?
+(((pres would.aux-s) you.pro please.adv-s ((take.v me.pro) (k home.n))) ?)
+
+; sid: 634889
+; sentence: You're going to be bored if you go.
+((you.pro ((pres be.v) (going_to.v (be.v bored.a)))) (if.ps (you.pro (pres go.v))))
+
+; sid: 638712
+; sentence: We ate at a restaurant just outside Boston.
+(We.pro ((past eat.v)          (adv-e (at.p (a.d (n+preds restaurant.n                             (just.adv-a (outside.p |Boston|))))))))
+
+; sid: 639195
+; sentence: Do you think Tom will buy it?
+((pres do.aux-s) (you.pro (think.v (tht (|Tom| ((pres will.aux-s) (buy.v it.pro))))))?)
+
+; sid: 639750
+; sentence: Who gave that order?
+((who.pro ((past give.v) (that.d order.n)))?)
+
+; sid: 640773
+; sentence: Could you give me just a moment?
+(((pres could.aux-v) you.pro (give.v me.pro (just.adv-e (a.d moment.n)))) ?)
+
+; sid: 643584
+; sentence: Why would anyone dye their hair pink?
+((sub why.adv-s ((pres would.aux-s) (anyone.pro (dye.v ((their.d hair.n) pink.a) *h)))) ?)
+
+; sid: 644095
+; sentence: Tom seemed somewhat annoyed by that.
+(|Tom| ((past seem.v) (somewhat.adv-a (annoyed.a (by.p-arg that.pro)))))
+
+; sid: 644749
+; sentence: Do you think you're handsome?
+(((pres do.aux-s) you.pro (think.v (tht (you.pro ((pres be.v) handsome.a))))) ?)
+
+; sid: 645437
+; sentence: Have you tried taking a sleeping pill?
+(((pres perf) you.pro (try.v (ka (take.v (a-gen.d (sleeping.a pill.n)))))) ?)
+
+; sid: 646871
+; sentence: Tom, may I speak with you?
+((|Tom| ((pres may.aux-s) i.pro (speak.v (adv-a (with.p you.pro))))) ?)
+
+; sid: 647338
+; sentence: I think Tom really likes me.
+(I.pro ((pres think.v) (tht (|Tom| (really.adv-a ((pres like.v) me.pro))))))
+
+; sid: 648369
+; sentence: How can we contact you?
+((sub How.adv-a (can.aux-v (we.pro (contact.v you.pro)) *h))?)
+
+; sid: 648635
+; sentence: Have you had any lunch?
+(((pres perf) you.pro (have.v (any.d lunch.n)))?)
+
+; sid: 648661
+; sentence: Would you mind not talking about your surgery now - I'm trying to eat.
+(((pres would.aux-s) you.pro (mind.v (ka (not ((talk.v (about.p-arg (your.d surgery.n))) now.adv-e))))) (i.pro ((pres prog) (try.v (to eat.v)))))
+
+; sid: 649037
+; sentence: Tom told me you had stopped by.
+(|Tom| (((past tell.v) me.pro) (tht (you.pro ((past perf) stop_by.v)))))
+
+; sid: 649471
+; sentence: Can you tell us what Tom did?
+(((pres can.aux-v (you.pro (tell.v (us.pro (what.pro (|Tom| (past do.v))))))))?)
+
+; sid: 649618
+; sentence: When are you going to tell her?
+((when.adv-e ((pres be.v) you.pro ((going_to.v tell.v) her.pro))) ?)
+
+; sid: 650796
+; sentence: Did you tell Tom I was having trouble?
+((((past do.aux-s) you.pro (tell.v |Tom|)) (tht (I.pro ((past prog) have.v (k trouble.n))))) ?)
+
+; sid: 652712
+; sentence: Is this your first convention?
+(((pres be.v) this.pro (your.d (first.a convention.n))) ?)
+
+; sid: 652842
+; sentence: Who is going to coordinate our activity if we don't do it for ourselves?
+((sub ((who.pro ((pres be.v) (going_to.v coordinate.v)) (our.d activity.n)))    ((if.ps (we.pro ((pres do.aux-s) (not (do.v it.pro)) (for.p ourselves.pro *h)))))) ?)
+
+; sid: 652869
+; sentence: Do you love your children?
+(((pres do.aux-s) you.pro (love.v (your.d (plur child.n)))) ?)
+
+; sid: 654086
+; sentence: Are you sure it's safe?
+((((pres be.v) you.pro sure.a) (tht (it.pro (be.v safe.a)))) ?)
+
+; sid: 654336
+; sentence: Why do you hate me so much?
+(((sub why.adv-s ((pres do.aux-s) you.pro ((hate.v me.pro) so_much.adv-a)))) ?)
+
+; sid: 657004
+; sentence: Heyâ€¦ did you hear the news?
+((Hey.gr ((past do.aux-s) (you.pro (hear.v (the.d news.n)))))?)
+
+; sid: 657145
+; sentence: Can you loan him some money?
+(((pres Can.aux-v) you.pro ((loan.v him.pro) (some.d money.n))) ?)
+
+; sid: 657146
+; sentence: Can you loan her some money?
+(((pres can.aux-s) you.pro (loan.v her.pro (some.d (plur money.n)))) ?)
+
+; sid: 657398
+; sentence: I do not understand Tom's ostensible contempt for satorial concerns of his peers.
+(I.pro ((pres do.aux-s) (not (understand.v (n+preds ((|Tom|'s) (ostensible.a (contempt-of.n *s))) (for.p (n+preds (satorial.a (plur concern.n)) (of.p (his.d (plur peer.n))))))))))
+
+; sid: 658175
+; sentence: Do you mean all this was for nothing?
+(((pres do.aux-s) you.pro (mean.v (tht ((all.d this.pro) ((past be.v) (for.p-arg nothing.n))))))?)
+
+; sid: 658231
+; sentence: How could I forget something like that?
+((sub   How.pq   ((pres could.aux-v) I.pro (forget.v (np+preds something.pro (like.p that.pro)) *h))) ?)
+
+; sid: 659571
+; sentence: What's the name of that fat girl you used to date in high school?
+((sub what.pro (((pres be.v) (= (the.d (n+preds name.n (of.p (that.d (n+preds (fat.a girl.n) (sub tht.rel (you.pro (((past use.v) (to (date.v *h))) (adv-e (in.p (k (high.a school.n)))))))))))))) *h)) ?)
+
+; sid: 662734
+; sentence: Can I get up now?
+(((pres Can.aux-v) I.pro   (get_up.v now.adv-e)) ?)
+
+; sid: 662755
+; sentence: Can you prevent it?
+(((pres can.aux-s) you.pro (prevent.v it.pro)) ?)
+
+; sid: 662758
+; sentence: Can you freeze it?
+(((pres can.aux-v) you.pro freeze.v it.pro) ?)
+
+; sid: 662784
+; sentence: Can I ask a favor?
+(((pres can.aux-s) (i.pro (ask.v (a.d favor.n)))) ?)
+
+; sid: 662786
+; sentence: Can you help me down?
+(((pres can.aux-s) you.pro ((help.v me.pro) down.a)) ?)
+
+; sid: 663001
+; sentence: Can you excuse me a second?
+(((pres can.aux-s) you.pro (excuse.v me.pro ({for}.p (a.d second.n)))) ?)
+
+; sid: 663254
+; sentence: Can you shut the door on your way out?
+(((pres can.aux-s) you.pro   ((shut.v (the.d door.n))    (adv-a (on.p (your.d (n+preds way.n (out.p {ref}.pro))))))) ?)
+
+; sid: 664774
+; sentence: Do you think I did it?
+(((pres do.aux-s) you.pro (think.v (tht (i.pro ((past do.v) it.pro))))) ?)
+
+; sid: 666774
+; sentence: Were you surprised to see Tom?
+(((past be.v) you.pro (surprised.a (to (see.v |Tom|)))) ?)
+
+; sid: 669566
+; sentence: Can I chat with you outside for a second?
+((pres can.aux-v) I.pro  (chat.v (with.p-arg you.pro)) (adv-a (outside.p))  (adv-a (for.p (a.d second.n))))
+
+; sid: 671906
+; sentence: Who took care of you?
+((Who.pro ((past take-care.v) (of.p-arg you.pro)))?)
+
+; sid: 675192
+; sentence: Tom is a troublemaker, isn't he?
+((|Tom| ((pres be.v) (a.d troublemaker.n))) .?)
+
+; sid: 675446
+; sentence: Tom is quite observant, isn't he?
+((|Tom| ((pres be.v) (quite.adv-a observant.a))).?)
+
+; sid: 676885
+; sentence: Tom asked me if he could borrow my car.
+(|Tom| ((past ask.v) me.pro (whether (he.pro ((pres could.aux-v) (borrow.v (my.d car.n)))))))
+
+; sid: 679415
+; sentence: Am I still in charge here?
+((I.pro ((pres be.v) (still.adv-a ((in.p (k charge.n)) here.adv-e)))) ?)
+
+; sid: 682014
+; sentence: Did Tom say that I said that?
+(((past do.aux-s) |Tom| (say.v (that (i.pro ((past say.v) that.pro))))) ?)
+
+; sid: 682433
+; sentence: Tom says he's sorry about what happened yesterday.
+(|Tom| ((pres say.v)         (tht (he.pro ((pres be.v) (sorry.a (about.p-arg              (ans-to ((what.pro (past happen.v)) yesterday.adv-e)))))))))
+
+; sid: 683293
+; sentence: If the opposition were to win, it would not entail a radical departure from current policies.
+((If.ps ((the.d opposition.n) ((past are.v) (to win)))) (it.pro ((past would.aux-s) (not (entail.v (a.d (radical.a (n+preds departure.n (from.p (current.a (plur policy.n)))))))))))
+
+; sid: 686834
+; sentence: Do you believe in evolution?
+(((pres do.aux-v) you.pro (believe.v (in.p-arg evolution.n))) ?)
+
+; sid: 687696
+; sentence: People usually die if you kill them.
+((k (plur person.n)) (usually.adv-f die.v (if.ps (you.pro ((pres kill.v) them.pro)))))
+
+; sid: 689066
+; sentence: Tom didn't know if it would be worth his while applying for the job.
+(|Tom|  ((past do.aux-s) not   (know.v    (whether     (it-extra.pro (((past will.aux-s) (be.v (worth.a (his.d while.n))))                    (ka (apply.v (for.p-arg (the.d job.n))))))))))
+
+; sid: 690231
+; sentence: Do you want to tag along?
+(((pres do.aux-s) (you.pro (want.v (to (tag-along.v)))))?)
+
+; sid: 690409
+; sentence: Can you tell me where you were at the time of the murder?
+(((pres can.aux-s) you.pro (tell.v me.pro (ans-to (sub where.a (you.pro ((past be.v) *h (adv-a (at.p (the.d (n+preds time.n (of.p (the.d murder.n)))))))))))) ?)
+
+; sid: 694361
+; sentence: Tom is pretty good at singing.
+(|Tom| ((pres be.v) ((pretty.adv-a good.a) (at.p-arg (ka sing.v)))))
+
+; sid: 694713
+; sentence: Tom wouldn't have married Mary if he'd known she had spent time in prison.
+(|Tom| (((cf will.aux-v) not (perf (marry.v |Mary|)))   (if.ps (he.pro (((cf perf) (know.v (tht (she.pro ((((past perf) ((spend.v (k time.n))                                         (adv-e (in.p (k prison.n))))))))))))))))
+
+; sid: 697843
+; sentence: May I have the menu and the wine list?
+(((pres May.aux-v) I.pro (have.v ((the.d menu.n) and.cc (the.d (wine.n list.n))))) ?)
+
+; sid: 700083
+; sentence: Does she have an opinion about this?
+(((pres do.v) (she.pro (have.v ((an.d opinion.n) (about.p this.pro))))) ?)
+
+; sid: 700212
+; sentence: What's the matter, love?
+(((What.pro ((pres be.v) (the.d matter.n))) (voc love.pro))?)
+
+; sid: 711977
+; sentence: Even Tom grinned.
+((Even.adv-s |Tom|) (past grin.v))
+
+; sid: 714006
+; sentence: Remind me to thank Tom the next time I see him.
+({you}.pro (remind.v (me.pro (to ((thank.v |Tom|) (adv-e ({at}.p (the.d (next.a time.n)) (tht.rel (I.pro ((pres see.v) him.pro))))))))))
+
+; sid: 715205
+; sentence: There are more of those in the drawer.
+(there.pro (((pres be.v) (more.a (of.p those.pro))) (adv-e (in.p (the.d drawer.n)))))
+
+; sid: 717436
+; sentence: Are you really sure?
+(((pres be.v) you.pro (really.adv-a sure.a)) ?)
+
+; sid: 717850
+; sentence: Is Tom still asleep?
+(((pres be.v) |Tom| (still.adv-e asleep.a)) ?)
+
+; sid: 718090
+; sentence: Why don't you eat meat?
+((sub why.adv-s (you.pro ((pres do.aux-v) not (eat.v meat.n *h)))) ?)
+
+; sid: 718211
+; sentence: How did you like the food at that restaurant?
+((sub (how.adv-a (past do.aux-v) you.pro (like.v (the.d food.n) *h)) (at.p (that.d restaurant.n))) ?)
+
+; sid: 718286
+; sentence: You can do this, can't you?
+((you.pro ((pres can.aux-v) (do.v this.pro))) .?)
+
+; sid: 719322
+; sentence: What is that, Tom? It sounds like someone crying.
+(((sub What.pro ((pres be.v) (that.pro *h))) (voc |Tom|))? (It.pro ((pres sound.v) (adv-a (like.p (n+preds someone.pro (cry.v)))))))
+
+; sid: 720117
+; sentence: Are we really in 2015?
+(((pres be.v) we.pro really.adv-s (in.p (k (|2015| {year}.n)))) ?)
+
+; sid: 721421
+; sentence: Have you made a list yet?
+(((((pres perf) make.v) (a.d list.n)) yet.adv-e) ?)
+
+; sid: 722384
+; sentence: Why did you poison Tom?
+((sub Why.pq ((past do.aux-s) you.pro (poison.v |Tom| *h))) ?)
+
+; sid: 722994
+; sentence: Tom probably thought I was thirsty.
+(|Tom| (probably.adv-a ((past think.v) (tht (I.pro ((past is.v) thirsty.a))))))
+
+; sid: 723841
+; sentence: Tell me if it isn't so.
+(({you}.pro (((pres tell.v) me.pro) (if.ps (it.pro ((pres be.v) not so.a))))) !)
+
+; sid: 725074
+; sentence: Don't throw away your notes.
+(((pres do.aux-s) not.adv-s   ({you}.pro (throw.v (away.p-arg (your.d (plur note.n)))))) !)
+
+; sid: 725492
+; sentence: Could I just have a minute?
+(((pres could.aux-s) I.pro (just.adv-s (have.v (a.d (k minute.n))))) ?)
+
+; sid: 725597
+; sentence: Why won't you look at me?
+((sub Why.pq ((pres will.aux-s) not you.pro (look.v (at.p-arg me.pro)) *h)) ?)
+
+; sid: 725844
+; sentence: Has Tom been fighting with Mary?
+((|Tom| (((pres perf) prog fight.v) (with.p |Mary|)))?)
+
+; sid: 726312
+; sentence: Would you help me move these beer kegs.
+((((pres would.aux-s) you.pro (help.v me.pro)) ((to (move.v (these.d (k (beer.a (plur keg.n)))))))) ?)
+
+; sid: 726969
+; sentence: Do you not want me here?
+(((pres do.aux-s) you.pro not.adv-s ((want.v me.pro) here.a)) ?)
+
+; sid: 727528
+; sentence: What's Tom running from?
+((sub (what.d {ref1}.n) ((pres prog) |Tom| (run.v from.p *h))) ?)
+
+; sid: 727654
+; sentence: What do you need me for?
+((sub What.pro ((pres do.aux-s) (you.pro ((need.v me.pro) for.p *h))))?)
+
+; sid: 728143
+; sentence: How soon can you get that done?
+((sub  (adv-e (how.adv-a soon.a))  ((pres can.aux-v) you.pro ((get.v that.pro done.a) *h))) ?)
+
+; sid: 730631
+; sentence: The earthquake left the city looking like a war zone.
+((the.d earthquake.n)  (((past leave.v) (the.d city.n))   (look.v (adv-a (like.p (a.d (war.a zone.n)))))))
+
+; sid: 730735
+; sentence: How do skunks scream?
+((sub how.pq ((pres do.aux-s) ((k (plur skunk.n)) scream.v *h)))?)
+
+; sid: 733310
+; sentence: Why aren't you with them?
+((sub Why.adv-s ((pres be.v) not (you.pro (with.p them.pro)) *h))?)
+
+; sid: 733814
+; sentence: May I speak with her?
+(((pres may.aux-s) I.pro (speak.v (with.p-arg her.pro))) ?)
+
+; sid: 734229
+; sentence: Can I go with him?
+(((pres can.aux-v) (I.pro (go.v (with.p him.pro))))?)
+
+; sid: 734837
+; sentence: What do you want them for?
+((sub (what.d {ref1}.n) ((pres do.v) you.pro (want.v (them.pro (for.p *h))))) ?)
+
+; sid: 738563
+; sentence: Will you tell her?
+(((pres will.aux-s) you.pro (tell.v her.pro)) ?)
+
+; sid: 739853
+; sentence: Did you show her your pictures?
+(((past do.aux-s) you.pro ((show.v her.pro) (your.d (plur picture.n)))) ?)
+
+; sid: 740487
+; sentence: Are you going to see him?
+(((pres be.v) you.pro (going_to.v (see.v him.pro))) ?)
+
+; sid: 741443
+; sentence: I didn't say I persuaded them.
+(I.pro ((past do.aux-s) (say.v (tht (I.pro ((past persuade.v) them.pro))))))
+
+; sid: 742796
+; sentence: Can you make them smile?
+(((pres can.aux-v) you.pro (make.v them.pro smile.v))?)
+
+; sid: 742870
+; sentence: What made you so mad?
+((what.pro ((past make.v) you.pro (so.adv-a mad.a))) ?)
+
+; sid: 743846
+; sentence: Let's let them try that again.
+(({you}.pro ((pres let.v) us.pro              (let.v them.pro (try.v that.pro again.adv-e)))) !)
+
+; sid: 748403
+; sentence: Why did they fire her?
+((sub Why.pq ((past do.aux-s) (they.pro (fire.v her.pro *h))))?)
+
+; sid: 751209
+; sentence: What didn't you like about me?
+((sub What.pro ((past do.aux-s) not (you.pro (like.v *h (about.p-arg me.pro)))))?)
+
+; sid: 751988
+; sentence: Would you tell Tom I'm here?
+(((pres would.aux-s) you.pro (tell.v |Tom| (tht (I.pro ((pres be.v) here.a))))) ?)
+
+; sid: 754304
+; sentence: Have you lost the key of your house?
+(((pres perf) you.pro (lose.v (the.d (n+preds key.n (of.p (your.d house.n)))))) ?)
+
+; sid: 754831
+; sentence: The Earth orbits around the Sun. It takes one year to go around the Sun one complete time.
+((The.d |Earth|.n) ((pres orbit.v) (adv-a (around.p (the.d |Sun|.n)))))(it-extra.pro (((pres take.v) (one.d year.n))    (to (go.v (adv-a (around.p (the.d |Sun|.n)))                      (adv-a ({for}.p (one.d (complete.a time.n))))))))
+
+; sid: 756109
+; sentence: How will you solve the problem?
+((sub How.pq ((pres will.aux-s) you.pro (solve.v (the.d problem.n) *h))) ?)
+
+; sid: 757629
+; sentence: When do you know me from?
+((sub when.pro ((pres do.aux-s) (you.pro (know.v me.pro (from.p *h))))) ?)
+
+; sid: 758037
+; sentence: Are your parents coming to pick you up?
+(((your.d (plur parent.n)) ((pres prog) (come.v (to (pick-up.v you.pro)))))?)
+
+; sid: 758281
+; sentence: Wasn't there anything they could do for you?
+(((past be.v) not there.pro (anything.pro (tht (they.pro ((past could.aux-v) (do.v (for.p-arg you.pro))))))) ?)
+
+; sid: 759384
+; sentence: What am I supposed to think?
+((sub what.pro (I.pro ((pres be.v) (supposed.a (to think.v))))) ?)
+
+; sid: 760111
+; sentence: What do you like on your salad?
+((what.pro ((pres do.aux-s) you.pro (like.v (on.p-arg (your.d salad.n))))) ?)
+
+; sid: 760161
+; sentence: Are you saying Tom was right?
+((you.pro ((pres prog) (say.v (tht (|Tom| ((past be.v) right.a)))))) ?)
+
+; sid: 760308
+; sentence: How long were you in prison?
+(((sub (how.adv-a long.a) ((past be.v) (you.pro (in.d (k prison.n))) *h)))?)
+
+; sid: 760785
+; sentence: Would you mind if I ask why not?
+(((pres Would.aux-s) you.pro   (mind.v (if.ps (I.pro ((pres ask.v)                          (ans-to (why.adv-s (not {ref}.sent)))))))) ?)
+
+; sid: 761620
+; sentence: Did you really expect Tom to read it?
+((((past do.aux-s) you.pro ((really.adv-a expect.v)) (|Tom| (to (read.v it.pro))))) ?)
+
+; sid: 762281
+; sentence: Would you lend me a hand?
+(((pres would.aux-s) you.pro ((lend.v me.pro) (a.d hand.n))) ?)
+
+; sid: 763819
+; sentence: Are you just going to sit here and not do anything?
+(((pres be.v) you.pro just.adv-s ((going_to.v (sit.v here.adv-e)) and.cc (not (do.v anything.n)))) ?)
+
+; sid: 767736
+; sentence: Where did you get these delicious apples?
+((sub Where.adv-e ((past do.aux-s) (you.pro (get.v (these.d (delicious.a (plur apple.n))) *h))))?)
+
+; sid: 769349
+; sentence: If your wife cheated on you, thank God she only cheated on you and did not betray the country.
+((if.ps ((your.d wife.n) ((past cheat.v) (on.p-arg you.pro)))) ({you}.pro (((pres thank.v) |God|)  (tht (she.pro   ((only.adv-s           ((past cheat.v) (on.p-arg you.pro))) and.cc     ((past do.aux-s) not (betray.v (the.d country.n)))))))))
+
+; sid: 769686
+; sentence: Do you skip breakfast in the mornings?
+(((pres do.aux-s) you.pro (skip.v breakfast.n) (in.p-arg (the.d (k (plur morning.n))))) ?)
+
+; sid: 771997
+; sentence: Don't believe everything you hear! Don't like everything you see! Don't say everything you know! Don't do everything you want!
+(((pres do.aux-s) (not believe.v (everything.pro tht (you.pro (pres hear.v)))))!) (((pres do.aux-s) (not like.v (everything.pro tht (you.pro (pres see.v)))))!) (((pres do.aux-s) (not say.v (everything.pro tht (you.pro (pres know.v)))))!) (((pres do.aux-s) (not do.v (everything.pro tht (you.pro (pres want.v)))))!)
+
+; sid: 778071
+; sentence: What were your favorite subjects in school?
+((What.pro ((past be.v) (your.d ((favorite.a (plur subject.n)) (in.p (k school.n))))))?)
+
+; sid: 778571
+; sentence: Who is that guy, anyway?
+((Who.pro ((pres be.v) (that.d guy.n) anyway.adv-s))?)
+
+; sid: 778936
+; sentence: Tom was very jealous.
+(|Tom| ((past be.v) (very.adv-a jealous.a)))
+
+; sid: 782429
+; sentence: What were they eating?
+((sub what.pro (they.pro ((past prog) eat.v *h))) ?)
+
+; sid: 783554
+; sentence: Can you help out?
+(((pres can.aux-s) you.pro (help.v out.adv-a)) ?)
+
+; sid: 786245
+; sentence: Is it simple enough?
+(((pres be.v) (it.pro (simple.a enough.adv-a))) ?)
+
+; sid: 786777
+; sentence: Would you trust them?
+(((cf will.aux-s) you.pro (trust.v them.pro)) ?)
+
+; sid: 788599
+; sentence: Did you offer Tom any assistance?
+(((past do.aux-s) you.pro (offer.v |Tom| (any.d assistance.n))) ?)
+
+; sid: 788802
+; sentence: Why do you hang out with Tom?
+((why.adv-s ((pres do.aux-s) you.pro (hang_out.v (with.p-arg |Tom|)))) ?)
+
+; sid: 789148
+; sentence: Is this really allowed?
+(((pres be.v) this.pro (really.adv-a allowed.a)) ?)
+
+; sid: 790391
+; sentence: Do you like noodles with beef?
+((((pres do.aux-s) you.pro like.v) ((plur noodle.n) (with.p-arg beef.n))) ?)
+
+; sid: 792840
+; sentence: Can you prove which was the original language of your holy writings?
+(((pres can.aux-v) you.pro   (prove.v    (which.pro ((past be.v)                (= (the.d (n+preds (original.a language.n)                            (of.p (your.d (holy.a (plur writing.n))))))))))) ?)
+
+; sid: 792966
+; sentence: Mary chewed on her nails.
+(|Mary| ((past chew.v) (on.p-arg (her.d (plur nail.n)))))
+
+; sid: 794121
+; sentence: Tom can study in my office if he wants to.
+((|Tom| ((pres can.aux-s) (study.v (adv-e (in.p (my.d office.n)))))) (if.ps (he.pro ((pres want.v)          (to ({study}.v (adv-e ({in}.p ({my}.d {office}.n)))))))))
+
+; sid: 795997
+; sentence: I couldn't sleep on the plane.
+(I.pro ((past can.aux-v) not (sleep.v (adv-e (on.p (the.d plane.n))))))
+
+; sid: 796041
+; sentence: When did you buy this bicycle?
+((sub when.adv-e ((past do.aux-s) (you.pro ((buy.v (this.d bicycle.n)) *h)))) ?)
+
+; sid: 806608
+; sentence: Do not do this!
+(((pres do-aux.v) not (do.v this.pro)) !)
+
+; sid: 809511
+; sentence: Are you the runner who escaped the underground city?
+(((pres be.v) you.pro (the.d (n+preds runner.n (who.rel ((past escape.v) (the.d (underground.a city.n))))))) ?)
+
+; sid: 810531
+; sentence: Is Tom a nice guy?
+(((pres be.v) (|Tom| (a.d (nice.a guy.n))))?)
+
+; sid: 811455
+; sentence: Have you ever seen one?
+(((pres perf) (you.pro (ever.adv-s (see.v (one.d {ref}.n)))))?)
+
+; sid: 814983
+; sentence: What's wrong with this plan?
+((sub (what.d {ref1}.n) ((pres be.v) (wrong.a (with.p (this.d plan.n *h))))) ?)
+
+; sid: 815431
+; sentence: Pray, of what land or lineage should I rightly call you?
+((pray.x !) ((sub (of.p (what.d (land.n or.cc lineage.n))) ((pres should.aux-s) i.pro ((rightly.adv-a call.v) you.pro *h))) ?))
+
+; sid: 821586
+; sentence: I wish you wouldn't drive so fast.
+(i.pro ((pres wish.v) (tht (you.pro ((pres would.aux-v) not (drive.v (adv-a (so.adv-a fast.a))))))))
+
+; sid: 824099
+; sentence: Can you explain how Tom died?
+(((pres can.aux-v) you.pro explain.v   (tht (sub how.adv-a (|Tom| ((past die.v) *h))))) ?)
+
+; sid: 824120
+; sentence: Can you jump rope?
+(((pres can.aux-v) you.pro jump_rope.v) ?)
+
+; sid: 827182
+; sentence: Aren't cookies delicious?
+(((pres be.v) not (k (plur cookie.n)) delicious.a) ?)
+
+; sid: 828134
+; sentence: Why would you say such an awful thing?
+((sub why.adv-s   ((past will.aux-s) you.pro    (say.v (such.d (= (an.d (awful.a thing.n)))) *h))) ?)
+
+; sid: 832655
+; sentence: She was the last guest.
+(She.pro ((past be.v) (the.d (last.a guest.n))))
+
+; sid: 834373
+; sentence: The man stole my purse.
+((The.d man.n) ((past steal.v) (my.d purse.n)))
+
+; sid: 839753
+; sentence: If the devil is powerless, he sends his wife.
+((If.ps ((the.d devil.n) ((pres be.v) powerless.a))) (he.pro ((pres send.v) (his.d wife.n))))
+
+; sid: 842324
+; sentence: You understand why, don't you?
+((You.pro ((pres understand.v) why)).?)
+
+; sid: 846022
+; sentence: Tom tiptoed into the bedroom to avoid waking up his wife.
+(|Tom|  (((past tiptoe.v)    (adv-e (into.p (the.d bedroom.n))))   (adv-a ({for}.p           (to (avoid.v (ka (wake_up.v (his.d (wife-of.n *s))))))))))
+
+; sid: 846977
+; sentence: How dare you call me poor?
+((sub how.adv-a ((pres dare.aux-s) you.pro (call.v me.pro poor.a)) *h) ?)
+
+; sid: 847928
+; sentence: This song makes me homesick.
+((this.d song.n) (((pres make.v) me.pro) (adv-a homesick.a)))
+
+; sid: 847930
+; sentence: Where is the next shop?
+((sub Where.pq ((pres be.v) (the.d (next.a shop.n)) *h))?)
+
+; sid: 860216
+; sentence: Who built this thing, anyway?
+((who.pro (((past build.v) (this.d thing.n)) anyway.adv-s)) ?)
+
+; sid: 863202
+; sentence: Can they compete next year?
+(((pres can.aux-s) (they.pro (compete.v (adv-e (next.a year.n)))))?)
+
+; sid: 863289
+; sentence: We've got a real good car.
+(We.pro ((pres perf) (got.v (a.d (((adv-a real.a) good.a) car.n)))))
+
+; sid: 864532
+; sentence: What good are you people?
+(sub (what.d good.n) ((pres be.v) (np+preds you.pro (plur person.n)) (= *h)))
+
+; sid: 865512
+; sentence: Do you have five dollars?
+((((pres do.aux-s) you.pro have.v) (ds currency "five dollars")) ?)
+
+; sid: 866267
+; sentence: It must've been destiny.
+(it.pro ((pres must.aux-s) ((perf be.v) destiny.n)))
+
+; sid: 868418
+; sentence: Do you have cellulite?
+(((pres do.aux-s) you.pro (have.v |cellulite|.n)) ?)
+
+; sid: 871053
+; sentence: Are you my mommy?
+(((pres be.v) you.pro (my.d mommy.n)) ?)
+
+; sid: 872221
+; sentence: Could she be Tom's daughter?
+(((pres could.aux-s) she.pro (be.v ((poss-by |Tom|) daughter.n))) ?)
+
+; sid: 872874
+; sentence: When Tom was a boy, he lived near a swamp and created his own zoo.
+(sub (when.pq (|Tom| ((past be.v) (a.d boy.n)))) (he.pro ((past live.v) (near.a (a.d swamp.n))) and.cc (created (his.d (own.a zoo.n))) *h))
+
+; sid: 873889
+; sentence: How did you persuade Tom to help us?
+((sub How.pq ((past do.aux-s) you.pro (persuade.v |Tom| (to (help.v us.pro))) *h)) ?)
+
+; sid: 874838
+; sentence: What do you usually do on Friday night?
+((sub what.pro      ((pres do.aux-s) you.pro ((usually.adv-e do.v *h) (on.p-arg (a.d (Friday.a night.n)))))) ?)
+
+; sid: 875439
+; sentence: Did Tom really tell Mary not to come here tomorrow?
+((((past do.aux-s) |Tom|) ((really.adv-a tell.v |Mary|)  ((not (to (come.v here.adv-e)))) tomorrow.adv-e)) ?)
+
+; sid: 875837
+; sentence: Would you like to play with us, Jim?
+((((pres would.aux-s) you.pro (like.v (to (play.v (with.p-arg us.pro))))) (voc |Jim|))?)
+
+; sid: 876454
+; sentence: Tom insulted me.
+(|Tom| ((past insult.v) me.pro))
+
+; sid: 876631
+; sentence: How tough is your job?
+((sub (how.adv-s tough.a) ((pres be.v) (your.d job.n *h))) ?)
+
+; sid: 877560
+; sentence: I'll just talk it over with Tom.
+(I.pro ((pres will.aux-s) (just.adv-s (talk.v         it.pro over.adv-a (with.p-arg |Tom|)))))
+
+; sid: 877654
+; sentence: Will your parents let you stay home today?
+(((pres will.aux-s) (your.d (plur parent.n)) ((let.v (you.pro (stay.v (at.p home.n)))) today.adv-e)) ?)
+
+; sid: 880647
+; sentence: Are you pregnant yet?
+(((pres be.v) you.pro (pregnant.a yet.adv-e)) ?)
+
+; sid: 881784
+; sentence: How exactly did this happen?
+((sub How.pq (exactly.adv-e ((past do.aux-s) (this.pro happen.v *h))))?)
+
+; sid: 885332
+; sentence: Do you think I look happy?
+(((pres do.aux-s) you.pro (think.v (tht (I.pro ((pres look.v) happy.a)))))?)
+
+; sid: 891183
+; sentence: What curriculum does Fadil use to teach Arabic?
+(((what.d curriculum.n) ((pres do.aux-s) |Fadil| (use.v (to (teach.v |Arabic|))))) ?)
+
+; sid: 893790
+; sentence: Were you able to convince Tom to help us?
+(((past be.v) you.pro (able.a (to (convince.v |Tom| (to (help.v us.pro))))))?)
+
+; sid: 896205
+; sentence: Can I borrow your laptop for a second?
+(((pres can.aux-s) i.pro (borrow.v (your.d laptop.n) (for.p (a.d second.n)))) ?)
+
+; sid: 899528
+; sentence: I'm going to go to the bank. Can you watch the gratin?
+(((I.pro (((pres be.v) (going_to.v go.v)) (to.p (the.d bank.n)))) {so.cc} ((pres can.aux-s) you.pro (watch.v (the.d gratin.n)))) ?)
+
+; sid: 902341
+; sentence: What happened after Tom disappeared?
+(((What.pro (past happen.v)) (after.ps (|Tom| (past disappear.v)))) ?)
+
+; sid: 903267
+; sentence: The air in this city is very polluted.
+((The.d (n+preds air.n           (in.p (this.d city.n))))  ((pres be.v) (very.adv-a polluted.a)))
+
+; sid: 907822
+; sentence: How much is that VR headset?
+((sub (how.adv-a much.a) ((pres be.v) (that.d (|VR|.a headset.n *h)))) ?)
+
+; sid: 908540
+; sentence: You can't do that by yourself, can you?
+(((You.pro ((pres can.aux-s) not (do.v that.pro (by.p-arg yourself.pro))))).?)
+
+; sid: 908704
+; sentence: Did Tom figure that out by himself?
+(((past do.aux-s) |Tom| (figure_out.v that.pro (by.p himself.pro))) ?)
+
+; sid: 908803
+; sentence: Do you think that's wrong?
+(((pres do.aux-s) you.pro (think.v (that.pro (be.v wrong.a)))) ?)
+
+; sid: 911067
+; sentence: Who's going to do that?
+((who.pro ((pres be.v) ((going_to.v do.v) that.pro))) ?)
+
+; sid: 911477
+; sentence: Why didn't you answer your cell phone?
+((Why.adv-s ((past do.aux-s) not you.pro (answer.v (your.d (cell.n phone.n))))) ?)
+
+; sid: 913068
+; sentence: Do you know why I need to do that?
+((((pres do-aux.v) you.pro know.v (why.aux-s (I.pro ((pres need.aux-v) (to (do.v that.pro))))))) ?)
+
+; sid: 914364
+; sentence: Are you sure this isn't some kind of mistake?
+(((pres be.v) you.pro (sure.a   (tht (this.pro         ((pres be.v) not (= (some.d (n+preds kind.n (of.p ({a}.d mistake.n)))))))))) ?)
+
+; sid: 914369
+; sentence: How much will Tom pay you to do that?
+((sub (adv-a (How.adv-a much.a)) ((pres will.aux-s) (|Tom| ((pay.v you.pro) *h (to (do.v that.pro))))))?)
+
+; sid: 914975
+; sentence: The CFM56s used on 737s have been in service for about five years .
+((the.d (n+preds (plur |CFM56|.n)           (tht.rel ((pasv use.v)                            (on.p-arg (k (plur |737|.n))))))) ((pres perf) (be.v (in.p (k service.n)) (adv-e (for.p ((nquan (about.adv-a five.a))                                                         (plur year.n)))))))
+
+; sid: 915058
+; sentence: The set for this first staged presentation was a cutaway two-story house by Michael Anania .
+((The.d (n+preds set.n           (for.p (this.d (first.a (staged.a presentation.n)))))) ((past be.v) (= (a.d (n+preds (cutaway.n ((two.a story.n) house.n)) (by.p |Michael Anania|))))))
+
+; sid: 915122
+; sentence: `` As technology progresses , we adopt it , '' said GSX Vice President Roger Davis .
+(sub (\\" ((As.ps ((k technology.n) (pres progress.v)))       (we.pro ((pres adopt.v) it.pro))) \\")  ((np+preds ({the}.d (|GSX| (|Vice|.a |President|.n)))    |Roger Davis|)  ((past say.v) *h)))
+
+; sid: 915159
+; sentence: `` Have we forgotten our children were killed , too ? ''
+(((pres perf) we.pro   (forget.v (tht (((our.d (plur child.n)) (past (pasv kill.v))) too.adv-s))))?)
+
+; sid: 915167
+; sentence: ... With the stones , we get rid of the enemy . ''
+(sub (adv-a (With.p (the.d (plur stone.n))))      (we.pro ((past get_rid.v) (of.p-arg (the.d enemy.n)) *h)))
+
+; sid: 915189
+; sentence: Rather , he asked a question: `` Are we doing a good enough job teaching our children what America is and what she represents in the long history of the world ? ''
+(Rather.adv-s (he.pro ((past ask.v)  (np+preds   (a.d question.n) (= (\\" (((pres prog) we.pro ((do.v (a.d ((good.a enough.adv-a) job.n))) (ka ((teach.v (our.d (plur (child-of.n *ref))))  (set-of (ans-to (sub what.pro (|America| ((pres be.v) (= *h)))))          (ans-to (sub what.pro                         (she.pro (((pres represent.v) *h)                                     (adv-e (in.p (the.d (long.a (history-of.n (the.d world.n))))))))))))))) ?)       \\"))))))
+
+; sid: 915250
+; sentence: Do n't wait -- a savings institution needs your help now !
+((({you}.pro ((pres do.aux-s) not wait.v)) !)  ((a-gen.d (savings.n institution.n)) (((pres need.v) (your.d help.n)) now.adv-e)))
+
+; sid: 915260
+; sentence: U.S. District Judge Gerhard Gesell is expected to act on Walsh 's request this week .
+((|U.S.| ((District.n Judge.n) |Gerhard Gesell|)) (((pres pasv) expect.v) (to ((act.v (on.p-arg ((|Walsh| 's) request.n))) (adv-e ({in}.p (this.d week.n)))))))
+
+; sid: 915284
+; sentence: The president 's bowl rests on a 14-pound , beveled , lead glass plinth , or flat base .
+((((the.d president.n) 's) bowl.n)  ((pres rest.v)   (on.p-arg ((a.d ((14.a pound.n) (beveled.a ((lead.n glass.n) plinth.n)))) or.cc              (k (flat.a base.n))))))
+
+; sid: 915336
+; sentence: `` We try very hard to keep some of the hotels in a decent state so the foreign investors can come in .
+((We.pro (((pres try.v) very.adv-a hard.adv-a) (to ((keep.v (n+preds some.n (of.p (the.d (plur hotel.n))))) (adv-a (in.p (a.d (decent.a state.n)))))))) so.cc ((the.d (foreign.a (plur investor.n))) ((pres can.aux-v) (come.v in.adv-e))))
+
+; sid: 915347
+; sentence: Let 's just take that .
+({you}.pro (((pres let.v) us.pro) (just.adv-a (take.v that.pro))))
+
+; sid: 915352
+; sentence: `` Now it 's different .
+(now.adv-s (it.pro ((pres be.v) different.a)))
+
+; sid: 915354
+; sentence: They have to worry about marketing , everything , just like any other businessman . ''
+(rep ((np+preds they.pro *p)      ((pres have.v) (to (worry.v             (about.p-arg ((k marketing.n) {and}.cc everything.pro)))))) (just.adv-s (like.a (any.d (other.a businessman.n)))))
+
+; sid: 915360
+; sentence: `` If there is no political solution now , Vietnam will withdraw all its troops in 1990 .
+(If.ps  (there.pro (((pres be.v) (no.d (political.a solution.n))) now.adv-e)) (|Vietnam| ((pres will.aux-s) withdraw.v (all.d (its.a (plur troop.n))) (in.p |1990|))))
+
+; sid: 915422
+; sentence: Bush bailed out over the water but his two crew members were lost .
+((|Bush| ((past bail_out.v) (adv-a (over.p (the.d water.n))))) but.cc  (his.d (two.a (crew.n (plur member.n)))) (past (pasv lost.v)))
+
+; sid: 915447
+; sentence: `` Is there something rotten in the kingdom of museums ? ''
+(((pres be.v) there.pro                (= (np+preds something.pro (tht.rel ({be}.v rotten.a))                           (in.p (the.d (n+preds kingdom.n                                         (of.p (k (plur museum.n)))))))))?)
+
+; sid: 915481
+; sentence: When the shuttle does begin flying non-essential passengers again , NASA said , a teacher will be the first .
+(sub (When.ps ((the.d shuttle.n) (pres do.aux-s) (begin.v                                                   (ka (fly.v                                                        (k (non-essential.a (plur passenger.n)))))                                                  again.adv-a))) (|NASA|   ((past say.v)    (*h ((a.d teacher.n)        (pres will.aux-s) (be.v (the.d (first.a {one}.n))))))))
+
+; sid: 915565
+; sentence: If I have any confessions to make , I will make them to a priest .
+((if.ps (i.pro ((pres have.v) (any.d (n+preds (plur confession.n) ({for}.p (to make.v))))))) (i.pro ((pres will.aux-s) (make.v them.pro (adv-a (to.p (a.d priest.n)))))))
+
+; sid: 915578
+; sentence: According to an account in the New Republic last May 23 , Bennett repeatedly urged the Pentagon and then-Attorney General Edwin Meese to unleash the U.S. military against foreign drug traffickers .
+((adv-s (Accord.v (to.p-arg                    (np+preds (an.d account.n)                              (in.p (the.d (|New|.a |Republic|.n)))                      ({on}.p (last.d ({member-of}.p (ds date-time "May 23")))))))) (|Bennett|   (repeatedly.adv-a    ((past urge.v)     ((the.d |Pentagon|.n) and.cc (np+preds ({the}.d (then.a (|Attorney|.n |General|.n)))                                          (= |Edwin Meese|)))     (to ((unleash.v (the.d (|U.S.|.n military.n)))          (adv-a (against.p (k (foreign.a (drug.n (plur traffickers.n))))))))))))
+
+; sid: 915601
+; sentence: Catching up with commercial competitors in retail banking and financial services , they argue , will be difficult , particularly if market conditions turn sour .
+((sub   (ka (catch_up.v        (with.p-arg (k (commercial.a (plur competitor.n))))        (adv-e (in.p ((k (retail.n banking.n)) and.cc (k (financial.a (plur service.n))))))))  (they.pro ((pres argue.v) (tht (*h ((pres will.aux-s) (be.v difficult.a))))))) (particularly.adv-s (if.ps ((the.d (market.n (plur condition.n))) ((pres turn.v) (adv-a sour.a))))))
+
+; sid: 915626
+; sentence: But the bank 's retail activities in Latin America are likely to be cut back .
+(But.adv-s  ((((the.d bank.n) 's)    (n+preds (retail.n (plur activity.n))             (in.p |Latin America|)))   ((pres be.v) (likely.a (to (pasv cut_back.v))))))
+
+; sid: 915762
+; sentence: What part did U.S. warnings play in the major 's unwillingness to pull the trigger when he had General Noriega in custody , but was under attack by pro-Noriega troops ?
+((sub (What.d part.n)  ((past do.aux-s)   (k (|U.S.| (plur warning.n)))   ((play.v *h)    (in.p-arg     (((the.d major.n) 's)  (unwillingness.a   (to ((pull.v (the.d trigger.n))    (adv-e (sub (at-time.p which.rel)                       ((he.pro                          (((((past have.v) |General Noriega|) (in.p-arg (k custody.n)))                             but.cc                            ((past be.v)                             (under.p (k (attack.n                                          (by.p-arg                                           (k ((pro.p |Noriega|) (plur troop.n)))))))))                           (adv-e *h)))))))))))))) ?)
+
+; sid: 915764
+; sentence: Maybe we need a CIA version of the Miranda warning: You have the right to conceal your coup intentions , because we may rat on you .
+(Maybe.adv-s (we.pro  ((pres need.v)   (a.d (n+preds (|CIA|.n (version-of.n (the.d (|Miranda| warning.n))))             (= (tht ((You.pro ((pres have.v)                                 (the.d (n+preds right.n                                              (= (to (conceal.v (your.d (coup.n                                                                            (plur intention.n))))))))))            (because.ps (we.pro ((pres may.aux-s) (rat.v (on.p-arg you.pro)))))))))))))
+
+; sid: 915769
+; sentence: In other words , Congress wo n't let the CIA do much of anything anymore , and that 's fine with the CIA .
+((adv-s (in.p (other.d (plur word.n)))) (|Congress| ((pres will.aux-s) not                (let.v (the.d |CIA|.n) (do.v (much.d (of.p anything.pro))))))  and.cc  (that.pro ((pres be.v) (fine.a (with.p-arg (the.d |CIA|.n))))))
+
+; sid: 915776
+; sentence: Who wants to end up as the protagonist in a Bill Cohen morality play ?
+((Who.pro ((pres want.v) (to ((end_up.v) (as.p-arg                                          (the.d (n+preds protagonist.n                                                 (in.p (a.d (|Bill Cohen| (morality.n play.n))))))))))) ?)
+
+; sid: 915846
+; sentence: " If true , " the court wrote , " this contention would justify dismissal of these actions on prudential grounds . "
+(\\" ((If.ps (pu true.a))  (qt-attr ((the.d court.n) ((past write.v) *qt)))   ((this.d contention.n)       ((cf will.aux-s)        (justify.v         (k (dismissal.n (of.p-arg (these.d (plur action.n)))             (on.p-arg (k (prudential.a (plur ground.n)))))))))) \\")
+
+; sid: 915859
+; sentence: If I sell now , I 'll take a big loss . "
+((If.ps (I.pro (((pres sell.v) {ref1}.pro) now.adv-e)))  (I.pro ((pres will.aux-s) (take.v (a.d (big.a loss.n))))))
+
+; sid: 915885
+; sentence: When the little guy gets frightened , the big guys hurt badly .
+(When.ps  ((the.d (little.a guy.n))   ((pres get.v) frightened.a)) ((the.d (big.a (plur guy.n)))   ((pres hurt.v) badly.adv-a)))
+
+; sid: 915912
+; sentence: When the uniformed men had finished killing Cecilio , they went back to his house to demand food and his weapon .
+((When.ps ((the.d (uniformed.a (plur man.n)))            ((past perf) (finish.v (ka (kill.v |Cecilio|)))))) (they.pro ((past go.v) back.adv-a               (to.p-arg (his.d house.n)))            (adv-a ({for}.p (to (demand.v ((k food.n) and.cc (his.d weapon.n))))))))
+
+; sid: 915947
+; sentence: When the guerrillas kill civilians , they usually announce it on their clandestine Radio Venceremos .
+((When.ps ((the.d (plur guerrilla.n)) ((pres kill.v) (plur civilian.n))))   (they.pro usually.adv-f (((pres announce.v) it.pro)                           (adv-e (on.p (their.d (clandestine.a |Radio Venceremos|.n)))))))
+
+; sid: 915955
+; sentence: When a U.S. ambassador sat down with a PLO delegation for the first official meeting in 13 years , Sweden scored a triumph for a foreign policy variously described as magnanimous or meddlesome .
+((When.ps ((a.d (|U.S.|.n ambassador.n))           ((past sit.v)            (down.adv-a (with.p (a.d (|PLO| delegation.n))))            (for.p (the.d (n+post (first.a (official.a meeting.n)) (in.p-arg (|13| (plur year.n))))))))) (|Sweden| ((past score.v) (a.d (n+preds triumph.n (for.p (a.d (foreign.a policy.n))) (variosly.adv-a (described.v (as.p-arg (magnanimous.a or.cc meddlesome.a)))))))))
+
+; sid: 915994
+; sentence: Where we have a contribution to make , we do all we can .
+((Where.pr (we.pro (((pres have.v) (a.d contribution.n)) (to make.v)))) (we.pro (do.v (n+preds all.n ({that}.rel (we.pro ((pres can.aux-v) {do}.v)))))))
+
+; sid: 916037
+; sentence: Some have been jailed since the first years after the 1959 revolution .
+(Some.pro (((past perf) (pasv jail.v))            (since.p-arg             (the.d (n+preds                     (first.a (plur year.n))                     (after.p-arg (the.d ((|1959| {year}.n) revolution.n))))))))
+
+; sid: 916146
+; sentence: Because tritium decays at a rate of 5.5 percent a year , it needs to be regularly replenished to keep warheads at peak explosive power .
+((Because.ps ((k tritium.n) ((pres decay.v)                        (adv-a (at.p (a.d (n+preds rate.n                              (of.p (ds unk "5.5 percent a year")))))))))(it.pro ((pres need.v)      (to (regularly.adv-f (pasv replenish.v)))      (adv-a ({for}.p (to (keep.v (k (plur warhead.n))                                   (at.p (k (peak.a (explosive.a (k power.n))))))))))))
+
+; sid: 916161
+; sentence: 1989 has begun for Soviets with Mikhail S. Gorbachev warning them not to expect `` manna from heaven '' and a multitude of signs - from barren shop shelves to astrology - heralding another hard year in the building of communism .
+(|1989|  (((pres perf) begin.v)   (adv-e (for.p (k (plur |Soviet|.n))))  (with.p-arg    (ke    (|Mikhail S. Gorbachev|      ((warn.v them.pro)       (to not.adv-s        (expect.v         ((k (n+preds manna.n               (from.p (k heaven.n))))         and.cc          (np+preds (a.d (n+preds multitude.n (of.p (k (plur sign.n)))))              (from.p (k (barren.a (shop.n (plur shelve.n)))))              (to.p (k astrology.n))              (herald.v (another.d (n+preds (hard.a year.n)                                (in.p (the.d (building.n                                                                (of.p-arg (k communism.n))))))))))))))))))
+
+; sid: 916175
+; sentence: According to Radio Moscow , enterprises that account for 60 percent of Soviet industrial output have been on `` self-accounting '' since January 1988 .
+((adv-s (accord.v (to.p-arg |Radio Moscow|)))((k (n+preds (plur enterprise.n)             (that.rel ((pres account.v)                         (for.p-arg                          (k ((fquan (= (ds percent "60 percent")))                              (of.p ({the}.d (|Soviet|.a (industrial.a output.n))))))))))) ((past perf) ((be.v (on.p (k self-accounting.n)))                (adv-e (since.p (ds date-time "January 1998")))))))
+
+; sid: 916207
+; sentence: `` Stocks of barley and oats would tend to build modestly if production returns to normal , and prices probably will fall . ''
+(rep (  (((np+preds (k (plur stock.n))        (of.p (set-of ((k barley.n) (k (plur oat.n))))))     ((pres would.aux-s) (tend.v (to (build.v modestly.adv-a))))) and.cc *p)  (if.ps ((k production.n) ((pres return.v) (to.p-arg (k normal.n)))))) ((k (plur price.n)) probably.adv-s ((pres will.aux-s) fall.v)))
+
+; sid: 916208
+; sentence: Soghum output `` is likely to rebound '' this year if yields are normal , although total use may continue to exceed production , Hull said .
+(sub ((((k (Soghum.n output.n))     (((pres be.v) (likely.a (to rebound.v))) (adv-e ({during}.p (this.d year.n)))))   (if.ps ((k (plur yield.n)) ((pres be.v) normal.a))))  (although.ps ((k (total.a use.n)) ((pres may.aux-s)                                      (continue.v (to (exceed.v (k production.n)))))))) (|Hull| ((past say.v) (tht *h))))
+
+; sid: 916324
+; sentence: What would you do ? ''
+((sub What.pro ((cf will.aux-s) you.pro (do.v *h))) ?)
+
+; sid: 916328
+; sentence: What does the future hold ?
+((sub what.pro ((pres do.aux-s) (the.d future.n) (hold.v *h))) ?)
+
+; sid: 916361
+; sentence: On Wednesday , two American F-14s shot down two Libyan jet fighters .
+((adv-e (on.p |Wednesday|)) ((two.d (|American|.a (plur |F-14|.n))) ((past shoot_down.v)                                           (two.d (|Libyan|.a (jet.n (plur fighter.n)))))))
+
+; sid: 916410
+; sentence: `` Maybe this time he will finally get it straight: Whenever he threatens American forces , we will defend ourselves . ''
+(rep (maybe.adv-s ((adv-s ({at}.p (this.d time.n)))                (he.pro ((pres will.aux-s)                         (finally.adv-s ((get.v (np+preds it.pro (= (tht *p)))) straight.a)))))) ((whenever.ps (he.pro ((pres threaten.v)                             (k (|American|.a (plur force.n))))))       (we.pro ((pres will.aux-v) (defend.v ourselves.pro)))))
+
+; sid: 916441
+; sentence: When he reached for his gun , the men shot him in the thigh , police said .
+(sub (sub (when.ps (he.pro ((past reach.v) (for.p-arg (his.d gun.n)))))  ((the.d (plur man.n)) (((past shoot.v) him.pro)   (adv-a (in.p (the.d thigh.n))) *h)))((the.d police.n) ((past say.v) (tht *h))))
+
+; sid: 916455
+; sentence: `` But I do n't know if they will be actually sons and daughters .
+(But.cc (I.pro ((pres do.aux-s) (know.v (whether (they.pro ((((pres will.aux-s) be.v) actually.adv-a) ((plur son.n) and.cc (plur daughter.n)))))))))
+
+; sid: 916497
+; sentence: The only nation that so far seems unaffected by the East European travel boom is Romania , whose 23 million citizens have scarce opportunity to journey abroad .
+((the.d   (n+preds (only.a nation.n)     (that.rel (so_far.adv-e ((pres seem.v)                                     (unaffected.a                                     (by.p-arg (the.d (|East European|.a (travel.n boom.n))))))))))  ((pres be.v)    (= (np+preds |Romania|   (((who.rel 's) (((adv-a 23.a) million.a) (plur citizen.n)))             ((pres have.v)                   ((k (scarce.a                     (opportunity.n (to (journey.v abroad.adv-a))))))))))))
+
+; sid: 916557
+; sentence: Typically , money-fund yields beat comparable short-term investments because portfolio managers can vary maturities and go after the highest rates .
+(Typically.adv-e (((k (money-fund.a (plur yield.n))) ((pres beat.v) (k (comparable.a (short-term.a (plur investment.n)))))) (because.ps (((k (portfolio.a (plur manager.n))) ((pres can.aux-s) (vary.v (plur maturity.n)))) and.cc (go.v (after.p-arg (the.d (most-n high.a (plur rate.n)))))))))
+
+; sid: 916689
+; sentence: `` If we refuse and reject negotiations with the Russians , we will be blamed by the world , '' Mojaddidi said .
+(sub (\\" ((if.ps (we.pro (((pres refuse.v) and.cc (pres reject.v))           (k (n+preds (plur negotiation.n) (with.p (the.d (plur |Russian|.n)))))))) (we.pro ((pres will.aux-s) ((pasv blame.v) (by.p-arg (the.d world.n)))))) \\") (|Mojaddidi| ((past say.v) *h)))
+
+; sid: 916699
+; sentence: `` What is going to happen ?
+((what.pro ((pres be.v) (going_to.v happen.v))) ?)
+
+; sid: 916715
+; sentence: Test results to determine if the second custodian at Hunterdon Central Regional High School has the disease should be available in about five days , said Marilyn Riley , state Health Department spokeswoman .
+(sub ((k (n+preds           (Test.n (plur result.n))           ({that}.rel            ((pres {be-to}.aux-v)             (determine.v             (whether ((the.d (n+preds (second.a custodian.n)                               (at.p (k (|Hunterdon| (|Central|.a (|Regional|.a (|High|.a |School|.n))))))))                       ((pres have.v) (the.d disease.n)))))))))      ((pres should.aux-s) (be.v available.a (adv-e (in.p ((nquan (about.adv-a five.a)) (plur day.n))))))) ((np+preds    |Marilyn Riley|    ((state.n (|Health|.n |Department|.n)) spokeswoman.n))   ((past say.v) (tht *h))))
+
+; sid: 916757
+; sentence: At one time , U.S. diplomats got into hot water if they clinked teacups with members of the PLO , but now the State Department has switched signals .
+(((adv-e (At.p (one.d time.n)))   (((k (|U.S.| (plur diplomat.n)))     ((past get.v) (into.p-arg (k (hot.a water.n)))))    (if.ps (they.pro (((past clink.v) (k (plur teacup.n)))                      (adv-a (with.p (k (plur (member-of.n (the.d |PLO|.n)))))))))))  but.cc  (now.adv-e ((the.d (|State|.n |Department|.n)) ((pres perf) (switch.v (k (plur signal.n)))))))
+
+; sid: 916776
+; sentence: When it 's time for their biannual powwow , the nation 's manufacturing titans typically jet off to the sunny confines of resort towns like Boca Raton and Hot Springs .
+((when.ps (it.pro ((pres be.v)                    (n+preds time.n (for.p (their.d (biannual.a powwow.n))))))) ((((the.d nation.n) 's) (manufacturing.n (plur titan.n)))  (typically.adv-f ((pres jet.v)                    (off_to.p-arg                     (the.d (n+preds (sunny.a (plur confine.n))                             (of.p (np+preds (k (resort.a (plur town.n)))                                            (like.p (set-of |Boca Raton| |Hot Springs|)))))))))))
+
+; sid: 916805
+; sentence: He is expected to rework the lame-duck budget Reagan will be sending to Congress on Monday .
+(He.pro  ((pres be.v)   (expected.a (to (rework.v (the.d (n+preds (lame-duck.a budget.n)           (sub tht.rel (|Reagan| ((pres will.aux-s)                                          ((((prog send.v) *h) (adv-a (to.p |Congress|)))                                           (adv-e (on.p |Monday|)))))))))))))
+
+; sid: 916836
+; sentence: But it does call into profound question his judgment , in particular his willingness to turn a blind eye to the background and beliefs of notorious colleagues if they share his anti-communism . ''
+(but.adv-s (it.pro (((pres do.aux-s) (call.v (into.p-arg (k (profound.a question.n)))))   ((his.d judgement.n) and.cc    ((adv-s (in.p (k particular.a))) ((his.d willingness.n)(to (turn.v (a.d (blind.a eye.n))          (to.p (set-of (k background.n) (k (plur belief.n))))           (of.p ({the}.d (notorious.a (plur colleague.n))))))     (if.ps (they.pro ((pres share.v) (his.d anti-communism.n))))))))))
+
+; sid: 916932
+; sentence: Affadavits showed that Parkin , Berlin and Savaides had planned at one time to divide $150,000 from Teledyne .
+((k (plur Affidavit.n))  ((past show.v) (that                  ((|Parkin| {and}.cc |Berlin| and.cc Savaides)                  (((past perf) plan.v)                    (adv-e (at.p (one.d time.n)))                    (to (divide.v (n+preds                                   (= (ds currency "$150000"))                                  (from.p |Teledyne|)))))))))
+
+; sid: 916997
+; sentence: She did not have details of the inmates ' injuries .
+(she.pro ((past do.aux-s) not (have.v (k                                        (n+preds (plur detail.n)   (of.p (((the.d (plur inmate.n)) 's)                                                (plur (injury-of.n *s)))))))))
+
+; sid: 917034
+; sentence: When he first was diagnosed as retarded , he was 9 . ''
+((When.pr (he.pro (first.adv-e (((past pasv) diagnose.v) (adv-a (as.p retarded.a)))))) (he.pro ((past be.v) 9.a)))
+
+; sid: 917073
+; sentence: His whereabouts were unknown until he applied for refugee status in Montreal sometime before Jan. 1 , claiming that his life would be in danger if he was forced to return to the Soviet Union , the Canadian Broadcast Corp. reported .
+(sub  ((His.d (plur whereabout.n))   (((past be.v) unknown.a)    (until.ps (he.pro (((((past apply.v) (for.p-arg (k (refugee.n status.n))))                (adv-e (in.p |Montreal|)))                sometime.adv-e (adv-e (before.p (date-time "Jan. 1"))))(adv-a (claim.v                     (that ((his.d (life-of.n *s))             (((cf will.aux-s) (be.v (in.p (k danger.n))))                          (if.ps (he.pro                                         ((cf be.v)                                          (forced.a                                           (to (return.v                                                (to.p-arg (the.d |Soviet Union|.n))))))))))))))))))  ((the.d (|Canadian|.n (|Broadcast|.n |Corp.|.n))) ((past report.v) (tht *h))))
+
+; sid: 917175
+; sentence: Official trade unions have pledged to strike and mount other protests if wage and social reforms fail to offset price increases planned by the government , a union newspaper said Saturday .
+(sub ((Official.a (plur (trade.n union.n))) ((((pres perf) pledge) (to strike and mount other protests)) (if.ps ((wage.n and.cc (plur (social.a reform.n))) (fail.v (to (offset.v (n+preds (plur (price.n increase.n)) ((pasv plan) (by.p-arg (the.d government.n))))))))))) ((a.d (union.n newspaper.n)) (((past say.v) tht.rel *h) (adv-e (on.p Saturday.n)))))
+
+; sid: 917191
+; sentence: The only fire house in the rural community was destroyed and the only school was heavily damaged , according to Grounds .
+((((the.d (only.a (n+preds (fire.n house.n)                       (in.p (the.d (rural.a community.n))))))    (past (pasv destroy.v)))  and.cc  ((the.d (only.a school.n)) ((past (pasv damage.v)) heavily.adv-a)))   (adv-s (according.v (to.p-arg |Grounds|))))
+
+; sid: 917354
+; sentence: Police in the county of Derbyshire reported several bodies scattered on each side of the highway .
+((k (n+preds      police.n     (in.p (the.d (n+preds                    county.n                    (of.p |Derbyshire|)))))) ((past report.v) (several.d (n+preds                               (plur body.n)                              (scatter.v (adv-e (on.p (each.d (n+preds                                                                side.n                                                               (of.p (the.d highway.n)))))))))))
+
+; sid: 917411
+; sentence: Both parties operate unofficially in Hong Kong .
+((Both.d (plur party.n))  ((pres operate.v) unofficially.adv-a (in.p-arg |Hong Kong|)))
+
+; sid: 917533
+; sentence: If the debts are repaid , it could clear the way for Soviet bonds to be sold in the U.S .
+((If.ps ((the.d (plur debt.n)) ((pres pasv) pay.v))) (it.pro ((pres could.aux-v) (((clear.v (the.d way.n)) (for.p-arg (Soviet.a (plur bond.n)))) (to ((pasv sell.v) (adv-e (in.p (the.d |U.S.|.n)))))))))
+
+; sid: 917570
+; sentence: `` People wondered , ` If you spin up the pulsar with a companion , where is the companion ? ' '' said Fruchter .
+(sub(\\" ((plur person.n) ((past wonder.v) (\\"(( (if.ps (you.pro (((pres spin_up.v) (the.d pulsar.n)) (adv-a (with.p (a.d companion.n))))))   (sub where.pq ((pres be.v) (the.d companion.n) *h))) ?) \\")\\")))(|Fruchter| ((past say.v) *h)))
+
+; sid: 917597
+; sentence: `` Did he say he had the murders done ? ''
+(((past do.aux-s) he.pro   (say.v (tht (he.pro ((past have.v) (the.d (plur murder.n)) done.a))))) ?)
+
+; sid: 917643
+; sentence: In Vienna , a deal was struck between Turkey and the Soviet Union .
+((adv-e (In.p |Vienna|))  ((a.d deal.n)   ((past (pasv strike.v))    (between.p-arg (set-of |Turkey| (the.d (|Soviet| |Union|.n)))))))
+
+; sid: 917685
+; sentence: One top adviser who turned down an offer of a White House job after weeks of agonizing was pollster Robert M. Teeter , who informed Bush that for personal and family considerations he preferred to remain in Michigan .
+((one.d (n+preds (top.a adviser.n)  (who.rel (((past turn.v) down.adv-a                             (an.d (offer.n (of.p-arg (a.d (|White House|.n job.n))))))      (adv-e (after.p (k (n+preds (plur week.n) (of.p (ka agonize.v)))))))))) ((past be.v) (= (np+preds ({the}.d (n+preds pollster.n                                       (= |Robert M. Teeter|))) (who.rel   ((past inform.v) |Bush|    (that (sub (adv-s (for.p (k ((personal.n and.cc family.n) (plur consideration.n)))))                           (he.pro (((past prefer.v) (to (remain.v (in.p |Michigan|)))) *h))))))))))
+
+; sid: 917695
+; sentence: `` It 's a program we 've run a winning national campaign on , a program ratified in the light of intense national examination . ''
+(It.pro ((past be.v) (= (np+preds (a.d (n+preds (program.n (sub tht.rel (we.pro ((pres perf) (ran.v ((a.d (winning.a (national.a campaign.n)) (adv-a (on.p *h))))))))))) (= (n+preds (a.d (program.n (ratify.v (adv-a (in.p (the.d (n+preds (light.n (of.p (intense.a (national.a examination.n)))))))))))))))))
+
+; sid: 917716
+; sentence: `` What we need to know before Congress can go to work is what George Bush wants in his defense budget .
+((ans-to (sub what.pro             (we.pro ((pres need.v) (to (know.v *h))                        (before.ps (|Congress| ((pres can.aux-v) (go.v (to.p-arg (k work.n)))))))))) ((pres be.v)   (= (ans-to (sub what.pro (|George Bush|                             ((pres want.v) *h (adv-a (in.p (his.d (defense.a budget.n)))))))))))
+
+; sid: 917820
+; sentence: Revenue rose 42% to $133.7 million from $94 million .
+((k Revenue.n) ((((past rise.v) (ds percent "42%"))                 (adv-a (to.p (ds currency "$133.7 million"))))                (adv-a (from.p (ds currency "$94 million")))))
+
+; sid: 917837
+; sentence: It said all refugee boats were permitted to land and that arrivals were taken to a special camp in cooperation with the U.N. High Commissioner for Refugees .
+(It.pro ((past say.v) ((tht ((all.d (refugee.a (plur boat.n)))           ((past (pasv permit.v)) (to.p-arg (to land.v)))))      and.cc  (that ((k (plur arrival.n))             (((past (pasv take.v)) (to.p-arg (a.d (special.a camp.n))))      (adv-a (in.p (k (cooperation.n                               (with.p-arg (the.d (n+preds (|U.N.|.n |High Commissioner|.n)                                                     (for.p (k (plur |Refugee|.n))))))))))))))))
+
+; sid: 917890
+; sentence: The shooting came a month after Contorno testified before Italian magistrates , who questioned him in the United States to prepare another mass Mafia trial .
+((The.d shooting.n)  ((past come.v)           ((adv-a ({by}.p (a.d month.n)))            (after.ps (|Contorno|                       ((past testify.v)                        (before.p-arg                         (np+preds (k (|Italian|.a (plur magistrate.n)))                         (who.rel (((past question.v) him.pro)                              (adv-e (in.p (the.d |United States|.n)))                              (adv-a ({for}.p                                      (to (prepare.v                                           (another.d (mass.a (|Mafia| trial.n)))))))))))))))))
+
+; sid: 917893
+; sentence: Last month , Italy 's state television broadcast an interview with Contorno that was conducted at an undisclosed location in the United States .
+((adv-e ({during}.p (last.d month.n))) (((|Italy| 's) (state.n television.n))  ((past broadcast.v)    (an.d (n+post interview.n            (with.p-arg |Contorno|)    (that.rel ((past (pasv conduct.v))           (adv-e (at.p (an.d (undisclosed.a                                                 (n+preds location.n                                                  (in.p (the.d |United States|.n))))))))))))))
+
+; sid: 917910
+; sentence: If by that he meant women , so far , he has fallen short .
+((If.ps (sub (by.p-arg that.pro)              (he.pro (((past mean.v) (k (plur woman.n))) *h))))  ((adv-e (so.adv-a far.a))   (he.pro ((pres perf) fall_short.v))))
+
+; sid: 917987
+; sentence: The previous record was $10 million , he said .
+(sub ((The.d (previous.a record.n))       ((past be.v) (= (ds currency "$10 million")))) (he.pro ((past say) (tht *h))))
+
+; sid: 917999
+; sentence: `` If I thought this would make it difficult for the family , I would n't do it , '' he said .
+(sub (\\" ((if.ps   (I.pro ((cf think.v)    (tht (this.pro ((cf will.aux-s) ((make.v it.pro difficult.a)                                     (adv-a (for.p (the.d family.n))))))))))  (I.pro ((cf will.aux-s) not (do.v it.pro)))) \\") (he.pro ((past say.v) *h)))
+
+; sid: 918688
+; sentence: Where can I find information on the Narragansett Indians and other tribes in Rhode Island ?
+((where.adv-e ((pres can.aux-v) I.pro (find.v                (k (n+preds information.n                 (on.p ((the.d (plur |Narragansett Indian|.n))   and.cc                                 (other.d (n+preds (plur tribe.n)                                           (in.p |Rhode Island|)))))))))) ?)
+
+; sid: 918840
+; sentence: What is Spumante ?
+((sub what.pro ((pres be.v) |Spumante| (= *h))) ?)
+
+; sid: 918998
+; sentence: Name the only extant trilogy of classical Greek plays .
+(({you}.pro ((pres name.v)              (the.d (n+preds (only.a (extant.a trilogy.n))                      (of.p (k (((adv-a classical.a) |Greek|.a) (plur play.n)))))))) !)
+
+; sid: 919133
+; sentence: Who comprised the now-defunct comic book team known as the Champions ?
+((who.pro   ((past comprise.v)    (the.d (n+preds ((now.adv-e defunct.a)                     ((comic.n book.n) team.n))            ((pasv know.v) (as.p-arg (the.d (plur |Champion|.n)))))))) ?)
+
+; sid: 919157
+; sentence: When did the Bounty mutiny take place ?
+((sub When.pq ((past do.aux-s) (the.d (Bounty.n mutiny.n)) ((take.v place.n) *h))) ?)
+
+; sid: 919228
+; sentence: Name Alvin 's brothers
+(({you}.pro ((pres name.v) ((|Alvin| 's) (plur (brother-of.n *s))))) !)
+
+; sid: 919685
+; sentence: How is Easter Sunday 's date determined ?
+((sub How.pq ((pres be.v) ((|Easter Sunday| 's) date.n) determined.a *h)) ?)
+
+; sid: 919704
+; sentence: How can I find a phone number of someone if I only know their email address ?
+(((sub    How.pq   ((pres can.aux-s) I.pro     (find.v (a.d (n+preds (phone.n number.n) (of.p someone.pro)))) *h))  (if.ps    (I.pro (only.adv-a ((pres know.v) (their.d (email.n address.n))))))) ?)
+
+; sid: 919712
+; sentence: What Judith Rossner novel was made into a film starring Diane Keaton ?
+(((what.d (|Judith Rossner| novel.n))((past (pasv make.v)) (into.p-arg   (a.d (n+preds film.n (star.v |Diane Keaton|)))))) ?)
+
+; sid: 919794
+; sentence: Where can I find correct tabs for Third Eye Blind songs ?
+((sub Where.adv-e     ((pres can.aux-v) I.pro        (find.v (n+preds (correct.a (plur tab.n))                         (for.p (k (|Third Eye Blind| (plur song.n)))))))) ?)
+
+; sid: 920128
+; sentence: What is the executor in a will ?
+((What.pro ((pres be.v) (= (np+preds (the.d executor.n)                                      (in.p (a.d will.n)))))) ?)
+
+; sid: 920191
+; sentence: How can you stop the itch from poison ivy ?
+((sub  how.pq ((pres can.aux-v) you.pro (stop.v                             (the.d (n+preds                                    itch.n                                    (from.p (k (poison.n ivy.n)))))                            *h))) ?)
+
+; sid: 920205
+; sentence: Name a Gaelic language .
+(({you}.pro ((pres name.v) (a.d (|Gaelic|.a language.n)))) !)
+
+; sid: 920498
+; sentence: Name the creator of `` The Muppets '' .
+(({you}.pro ((pres name.v) (the.d (creator-of.n (\\" (The.d (plur |Muppet|.n)) \\"))))) !)
+
+; sid: 920607
+; sentence: How can anyone tell if a female had sexual intercourse ?
+((sub How.pq   ((pres can.aux-v) anyone.pro    (tell.v (whether ((a.d female.n) ((past have.v) (k (sexual.a intercourse.n)))))) *h)) ?)
+
+; sid: 920807
+; sentence: What country are you in if you woo in the Wu dialect ?
+(((sub    (What.d country.n)    (you.pro (pres be.v) (in.p-arg *h)))   if.ps   (you.pro (pres woo.v)    (in.p-arg (the.d (|Wu| dialect.n))))) ?)
+
+; sid: 920847
+; sentence: How can I find online spelling ?
+((sub How.pq ((pres can.aux-v) I.pro ((find.v (k (online.a spelling.n))) *h))) ?)
+
+; sid: 920897
+; sentence: Where can I find the lyrics for the song ` Getting Married Today ' from the musical ` Company ' ?
+((sub Where.pq   ((pres can.aux-s) I.pro ((find.v       (the.d        (n+preds (plur lyric.n)            (for.p (the.d (n+preds song.n           (= |Getting Married Today|)                                           (from.p (the.d (n+preds musical.n                                                            (= |Company|))))))))))     *h))) ?)
+
+; sid: 920942
+; sentence: Who 's the only man to have won the Olympic decathlon twice ?
+((who.pro ((pres be.v)            (= (the.d (n+preds (only.a man.n)                         (to.p (ka (perf ((win.v (the.d (|Olympic|.a decathlon.n)))                                                twice.adv-f))))))))) ?)
+
+; sid: 921216
+; sentence: What does gringo mean ?
+((sub What.pro ((pres do.aux-s) (\\" (gringo.n) \\") (mean.v *h))) ?)
+
+; sid: 921228
+; sentence: Name Alvin 's brothers
+(({you}.pro ((pres name.v) ((|Alvin| 's) (plur brother.n)))) !)
+
+; sid: 921404
+; sentence: Where can I find a case on Individuals with Disabilities Education Act of 1991 ?
+((sub   Where.pro  ((pres can.aux-v) I.pro find.v    (a.d     (n+preds case.n (on.p                      (n+preds                       ((n+preds |Individuals|.n (with.p |Disabilities|.n))                       (|Education|.n |Act|.n))                      (of.p (|1991| {year}.n)))))))) ?)
+
+; sid: 921543
+; sentence: What do I need to do to take my dog with me to live in Dominica , West Indies for a year ?
+((sub What.pro ((pres do.aux-s) I.pro                 ((need.v (to (do.v *h)))                  (adv-a ({for}.p                          (to (((take.v (my.d dog.n)) (adv-a (with.p me.pro)))   (adv-a ({for}.p (to ((live.v                                                     (in.p-arg (|Dominica| |West Indies|)))                                                    (adv-e (for.p (a.d year.n)))))))))))))) ?)
+
+; sid: 921672
+; sentence: Name the organization that is presided by a Security Council .
+(({you}.pro ((pres name.v) (the.d (n+preds organization.n (that.rel ((pres (pasv preside.v))                            (by.p-arg (a.d (|Security|.n |Council|.n))))))))) !)
+
+; sid: 921689
+; sentence: Name a tiger that is extinct .
+(({you}.pro ((pres name.v)              ((a.d (n+preds tiger.n                     (that.rel ((pres be.v) extinct.a))))))) !)
+
+; sid: 921708
+; sentence: What do players try to do when the music stops in a game of musical chairs ?
+((sub What.pro ((pres do.aux-s) (k (plur player.n))                 (try.v (to (do.v *h))                  (when.ps ((the.d music.n) (pres stop.v)                            (adv-e (in.p (a.d (game.n                                        (of.p-arg (musical.a (plur chair.n))))))))))))?)
+
+; sid: 922191
+; sentence: How can you stop the itch from poison ivy ?
+((sub How.pq   ((pres can.aux-v) you.pro    (stop.v (the.d (n+preds itch.n (from.p (k poison_ivy.n))))) *h))?)
+
+; sid: 922205
+; sentence: Name a Gaelic language .
+(({you}.pro ((pres name.v) (a.d (Gaelic.a language.n))))!)
+
+; sid: 922265
+; sentence: Name the On Stage character whose face was never seen .
+(({you}.pro   ((pres Name.v)    (the.d (n+preds (|On Stage| character.n)                    (((who.rel 's) face.n) never.adv-s (past (pasv see.v))))))) !)
+
+; sid: 922435
+; sentence: Name the food company that traveled to Soviet Georgia to film a series of ads .
+(({you}.pro ((pres name.v)              (the.d (n+preds (food.n company.n)                              (that.rel (((past travel.v) (to.p-arg (|Soviet|.a |Georgia|)))                                         (adv-a ({for}.p (to (film.v (a.d (n+preds series.n                                                                           (of.p (k (plur ad.n))))))))))))))) !)
+
+; sid: 922528
+; sentence: Name the two mystical ravens Odin has at his command .
+(({you}.pro ((pres name.v) (two.d                  (n+preds (mystical.a (plur raven.n))    (sub tht.rel (|Odin| ((pres have.v) *h (at.p-arg (his.d command.n))))))))) !)
+
+; sid: 922571
+; sentence: What will happen when sodium is put in water ?
+((what.pro   ((pres will.aux-s)    (happen.v     (when.ps ((k sodium.n) ((pres (pasv put.v)) (in.p-arg (k water.n)))))))) ?)
+
+; sid: 922607
+; sentence: How can anyone tell if a female had sexual intercourse ?
+((sub how.pq   ((pres can.aux-v) anyone.pro    ((tell.v (whether ((a.d female.n) ((past have.v) (k (sexual.a intercourse.n)))))) *h))) ?)
+
+; sid: 922903
+; sentence: Name Randy Craft 's lawyer .
+(({you}.pro ((pres name.v) ((|Randy Craft| 's) lawyer.n))) !)
+
+; sid: 922983
+; sentence: How can I easily remove red wine stains from t-shirts ?
+((sub how.pq ((pres can.aux-s) i.pro               (easily.adv-a ((remove.v ((red.a wine.n) (plur stain.n)))                              (adv-a (from.p (k (plur t-shirt.n)))) *h)))) ?)
+
+; sid: 923124
+; sentence: How do birds find their way back to the same place every year ?
+((sub How.adv-a       ((pres do.aux-s) (k (plur bird.n))        ((find.v (their.d way.n))          back.adv-e          (adv-e (to.p (the.d (same.a place.n)))))        (adv-f (every.a year.n))       *h)) ?)
+
+; sid: 923137
+; sentence: How can you tell if someone is lying ?
+((sub how.pq   ((pres can.aux-v) you.pro    ((tell.v (whether (someone.pro ((pres prog) lie.v)))) *h))) ?)
+
+; sid: 923272
+; sentence: What well-known TV talk show host was a lay preacher by the time he was seventeen ?
+(((What.d ((well.adv-a known.a) ((|TV|.n (talk.n show.n)) host.n)))   ((past be.v) (= (a.d (lay.a preacher.n)))    (adv-e (by.p (the.d (n+preds time.n                         (sub ({at-time}.p {which}.rel)                                      (he.pro (((past be.v) seventeen.a) (adv-e *h)))))))))) ?)
+
+; sid: 923282
+; sentence: Why is it called `` hamburger '' if there is no ham in it ?
+(((sub why.pq (it.pro ((pres (pasv call.v)) (\\" hamburger.n \\")) *h))   (if.ps (there.pro (((pres be.v) (no.d ham.n)) (adv-a (in.p it.pro)))))) ?)
+
+; sid: 923338
+; sentence: Who said : `` The victor will never be asked if he told the truth '' ?
+((who.pro   ((past say.v)    (\\" ((the.d victor.n) ((pres will.aux-s) never.adv-e                           ((pasv ask.v) (whether (he.pro ((past tell.v) (the.d truth.n)))))))) \\")) ?)
+
+; sid: 923353
+; sentence: Where can I learn about Samuel Gompers ?
+((sub Where.pq ((pres can.aux-v) I.pro ((learn.v (adv-a (about.p |Samuel Gompers|))) *h))) ?)
+
+; sid: 923428
+; sentence: Who says , `` If you don 't look good , we don 't look good '' ?
+((who.pro   ((pres say.v)    (\\" ((if.ps (you.pro ((pres do.aux-s) not (look.v good.a))))         (we.pro ((pres do.aux-s) not (look.v good.a)))) \\"))) ?)
+
+; sid: 923438
+; sentence: What does 7847+5943 equal ?
+((sub What.pro     ((pres do.aux-s) (ds math-expression "7847+5943") (equal.v *h))) ?)
+
+; sid: 923453
+; sentence: Name a Salt Lake City newspaper .
+(({you}.pro ((pres name.v) (a.d (|Salt Lake City|.n newspaper.n)))) !)
+
+; sid: 923466
+; sentence: How can I find out my biorhythm ?
+((sub how.pq ((pres can.aux-s) i.pro ((find_out.v (my.d biorhythm.n)) *h))) ?)
+
+; sid: 923662
+; sentence: Where can I get a photograph of professor Randolph Quirk ?
+((sub where.pq   ((pres can.aux-s) i.pro    (get.v (a.d (n+preds photograph.n (of.p (professor.n |Randolph Quirk|)))) *h))) ?)
+
+; sid: 923734
+; sentence: Who said : `` What contemptible scoundrel stole the cork from my lunch ? ''
+((Who.pro   ((past say.v)    (\\" (((What.d (contemptible.a scoundrel.n))          ((past steal.v) (the.d cork.n) (from.p-arg (my.d lunch.n)))) ?) \\"))) ?)
+
+; sid: 923798
+; sentence: What film had Bette Davis creating a scandal by wearing a daring red gown to a society ball ?
+(((What.d film.n) ((past have.v)                   (ke                     (|Bette Davis| ((create.v                                     (a.d scandal.n))                                     (adv-a (by.p                                             (ka (wear.v (a.d (daring.a (red.a gown.n)))                                                  (adv-e (to.p (a.d (society.n ball.n))))))))))))) ?)
+
+; sid: 923858
+; sentence: How do you determine if a computer monitor has an SVGA adapter ?
+((sub How.adv-a       ((pres do.aux-s) you.pro        ((determine.v         (whether ((a-gen.d (computer.n monitor.n))                   ((pres have.v) (an-gen.d (|SVGA| adapter.n)))))) *h))) ?)
+
+; sid: 923922
+; sentence: What do goldfish lose if kept in dimly-lit or running water ?
+(((sub What.pro        ((pres do.aux-s) (k (plur goldfish.n)) (lose.v *h)))   (if.ps ({ref}.pro           ((pres (pasv keep.v))           (in.p (k (((dimly.adv-a lit.a) or.cc running.a) water.n))))))) ?)
+
+; sid: 924030
+; sentence: How can I find a list of celebrities ' real names ?
+((sub How.adv-a   ((pres can.aux-v)    I.pro find.v (a.d (n+preds                       list.n                       (of.p (((plur celebrity.n) 's) (real.a (plur name.n)))))) *h)) ?)
+
+; sid: 924218
+; sentence: What therapy attempts to elicit the `` primal scream '' ?
+(((what.d therapy.n) ((pres attempt.v) (to (elicit.v (the.d (primal.a scream.n)))))) ?)
+
+; sid: 924328
+; sentence: What chemicals are used in lethal injection ?
+(((what.d (plur chemical.n))   ((pres (pasv use.v)) (in.p-arg (k (lethal.a injection.n))))) ?)
+
+; sid: 924404
+; sentence: Where can I find a case on Individuals with Disabilities Education Act of 1991 ?
+((sub Where.pq       ((pres can.aux-v) I.pro        ((find.v (a.d (case.n                 (on.p-arg (k (n+preds ((n+preds (plur |Individual|.n)                                                  (with.p (k (plur |Disability|.n))))                                        (|Education|.n |Act|.n))                                       (of.p |1991|))))))) *h))) ?)
+
+; sid: 924483
+; sentence: Where can I find a person 's address from a telephone number ?
+((sub Where.pq   ((pres can.aux-v) I.pro    (find.v (((a.d person.n) 's) address.n)            (adv-a (from.p (a.d (telephone.n number.n))))            *h)))?)
+
+; sid: 924630
+; sentence: Name the operating system that runs on IBM-compatible machines .
+(({You}.pro ((pres name.v) (the.d (operating.a (n+preds system.n (that.rel ((pres run.v) (on.p-arg (IBM-compatible.a (plur machine.n)))))))))) !)
+
+; sid: 924728
+; sentence: How far do you have to run if you hit a home run ?
+(((sub (How.adv-a far.a) ((pres do.aux-s) you.pro (have.v (to (run.v *h))))) (if.ps (you.pro ((pres hit.v) (a.d (home.n run.n)))))) ?)
+
+; sid: 924837
+; sentence: What is the meaning of W.B. Yeat 's poem , `` The Three Hermits ? ''
+((What.pro   ((pres be.v)   (= (the.d (meaning.n (of.p-arg (np+preds ((|W.B. Yeat| 's) poem.n)                                    (= |The Three Hermits|)))))))) ?)
+
+; sid: 924881
+; sentence: What is the full name of the man who invented the multicolored game cube that has 42.3 quintillion potential combinations ?
+((What.pro  ((pres be.v)   (the.d (n+preds           (full.a name.n)           (of.p (the.d (n+preds                         man.n                         (who.rel                          ((past invent.v) (the.d (n+preds                                                  (multicolored.a (game.n cube.n))                                                  (that.rel ((pres have.v)                                                              (nquan (42.3.a quintillion.n))                                                             (potential.a (plur combination.n))))))))))))))) ?)
+
+; sid: 924923
+; sentence: How many casinos are in Atlantic City , NJ ?
+((((nquan (how.adv-a many.a)) (plur casino.n))          ((pres be.v) (in.p (ds address "Atlantic City, NJ")))) ?)
+
+; sid: 924981
+; sentence: Where can I find information on George Bush ?
+((sub where.pq ((pres can.aux-s) i.pro ((find.v (np+preds (k information.n) (on.p |George Bush|))) *h))) ?)
+
+; sid: 924998
+; sentence: Name the only extant trilogy of classical Greek plays .
+(({you}.pro   ((pres name.v)    (the.d (n+preds (only.a (extant.a trilogy.n)) (of.p (k (classical.a (|Greek|.n (plur play.n))))))))) !)
+
+; sid: 925077
+; sentence: How can I find out how much income tax is paid on Social Security income on the 1998 income tax ?
+((sub       How.pq   ((pres can.aux-v) I.pro    ((find_out.v     (((nquan (how.adv-a much.a)) (income.n tax.n))      (((pres (pasv pay.v)) (on.p-arg (k ((|Social|.a |Security|.n) income.n))))    (adv-e (on.p (the.d (|1998| (income.n tax.n)))))))) *h))) ?)
+
+; sid: 925191
+; sentence: How can you stop the itch from poison ivy ?
+((sub How.adv-a    ((pres can.aux-v) you.pro     (stop.v (the.d              (n+preds itch.n (from.p-arg (k poison.n ivy.n)))) *h))) ?)
+
+; sid: 925240
+; sentence: Where can I find information about touring the Philippines ?
+((sub   Where.pq  ((pres can.aux-s) I.pro    (find.v (k (n+preds information.n                (about.p (ka (tour.v (the.d (plur |Philippine|.n))))))) *h))) ?)
+
+; sid: 925315
+; sentence: Name four famous cartoon cats .
+(({you}.pro ((pres name.v) (four.d                            (famous.a (cartoon.n (plur cat.n)))))) !)
+
+; sid: 925435
+; sentence: Name the food company that traveled to Soviet Georgia to film a series of ads .
+(({you}.pro ((pres name.v)   (the.d    (n+preds (food.n company.n)    (that.rel ((past travel.v)                        (to.p-arg (k (|Soviet|.a |Georgia|.n)))                        (adv-a ({for}.p (to (film.v (a.d (n+preds series.n                                                           (of.p (k (plur ad.n))))))))))))))) !)
+
+; sid: 925450
+; sentence: Name Li 'l Abner 's favorite Indian drink .
+(({you}.pro   ((pres name.v)    ((|Li'l Abner| 's) (favorite.a (|Indian|.a drink.n))))) !)
+
+; sid: 925497
+; sentence: What two commanders directed the forces in the Battle of El Alamein ?
+(((What.d (two.a (plur commander.n))) (((past direct.v) (the.d (plur force.n))) (adv-a (in.p (the.d (n+preds Battle.n (of.p |El Alamein|.n))))))) ?)
+
+; sid: 925607
+; sentence: How can anyone tell if a female had sexual intercourse ?
+((sub how.pq ((pres can.aux-v) anyone.pro               ((tell.v (whether ((a.d female.n) ((past have.v) (k (sexual.a intercourse.n)))))) *h))) ?)
+
+; sid: 925796
+; sentence: When was the first flush toilet invented ?
+((sub when.adv-e ((past (pasv invent.v)) (the.d (first.a (flush.n toilet.n))) *h)) ?)
+
+; sid: 925954
+; sentence: The major league baseball team in Pittsburgh is called what ?
+(((The.d (n+preds           ((major.a league.n) (baseball.n team.n))          (in.p |Pittsburgh|)))  ((pres (pasv call.v)) what.pro)) ?)
+
+; sid: 926184
+; sentence: How can I find out how much it costs to raise a baby for six months ?
+((sub how.adv-a    ((pres can.aux-v) I.pro        ((find_out.v          (ans-to (sub (how.adv-a much.a)                       (it-extra.pro (((pres cost.v) (k (*h {ref}.n)))                                      (to ((raise.v (a.d baby.n))                                           (adv-e (for.p (six.d (plur month.n))))))))))) *h))) ?)
+
+; sid: 926196
+; sentence: What year did the first issue of `` Playboy '' come out ?
+((sub (what.d year.n)   ((past do.aux-s)    (the.d (n+preds (first.a issue.n) (of.p (\\" |Playboy| \\"))))    (come_out.v (adv-e ({in}.p *h))))) ?)
+
+; sid: 926261
+; sentence: Name the two blob members of the animated Herculoids .
+(({you}.pro ((pres name.v) (the.d (n+preds (two.a (blob.a (plur member.n)))                                    (of.p (the.d (animated.a |Herculoids|.n))))))) !)
+
+; sid: 926282
+; sentence: Why is it called `` hamburger '' if there is no ham in it ?
+(((why.adv-s ((pres be.v) it.pro ((pasv call.v) (\\" hamburger.n \\"))))             (if.ps (there.pro (((pres be.v) (= (no.d ham.n))) (adv-e (in.p it.pro)))))) ?)
+
+; sid: 926317
+; sentence: What is the all-time stock high of Apple Computer , and where can I find this information ?
+(((what.pro ((pres be.v) (= (the.d (n+preds (all-time.a (stock.n high.n))  (of.p |Apple Computer|)))))) and.cc  (where.adv-e ((pres can.aux-s) I.pro (find.v (this.d information.n))))) ?)
+
+; sid: 926371
+; sentence: What would you add to the clay mixture to produce bone china ?
+((sub What.pro ((past will.aux-s) you.pro add.v *h                (to.p-arg (the.d (clay.n mixture.n)))                (to (produce.v (k (bone.n china.n)))))) ?)
+
+; sid: 926428
+; sentence: Who says , `` If you don 't look good , we don 't look good '' ?
+((Who.pro ((pres say.v)            (\\" ((If.ps (you.pro ((pres do.aux-s) not (look.v good.a))))                 (we.pro ((pres do.aux-s) not (look.v good.a)))) \\"))) ?)
+
+; sid: 926547
+; sentence: Name a civil war battlefield .
+(({you}.pro ((pres name.v) (a.d ((civil.n war.n) battlefield.n)))) !)
+
+; sid: 926578
+; sentence: How far can you see ?
+((sub (adv-a (how.adv-a far.a)) ((pres can.aux-v) you.pro (see.v *h))) ?)
+
+; sid: 926662
+; sentence: Where can I get a photograph of professor Randolph Quirk ?
+((sub where.pq ((pres can.aux-s) i.pro                 ((get.v (a.d (n+preds photograph.n                                       (of.p ({the}.d (n+preds professor.n                                                                (= |Randolph Quirk|))))))) *h))) ?)
+
+; sid: 926858
+; sentence: How do you determine if a computer monitor has an SVGA adapter ?
+((sub How.adv-a     ((pres do.aux-s) you.pro        ((determine.v (whether                       ((a.d (computer.n monitor.n))                        ((pres have.v) (an.d (|SVGA| adapter.n)))))) *h))) ?)
+
+; sid: 926914
+; sentence: Where can I get cotton textiles importer details ?
+((sub where.pq   ((pres can.aux-s) i.pro    (get.v (((cotton.n (plur textile.n)) importer.n) (plur detail.n))) *h)) ?)
+
+; sid: 926983
+; sentence: What is AFS ?
+((What.pro ((pres be.v) (= |AFS|))) ?)
+
+; sid: 927027
+; sentence: Who is the actress Bette Davis once said she wished she looked like ?
+((sub who.pro   ((pres be.v)    (the.d (n+preds actress.n                   (sub tht.rel                         (|Bette Davis|                              once.adv-e                              ((past say.v)                               (tht (she.pro ((past wish.v)                                              (tht (she.pro ((past look.v) (like.a *h))))))))))))    (= *h))) ?)
+
+; sid: 927033
+; sentence: What made the Finger Lakes in western New York state ?
+((what.pro ((past make.v) (np+preds (the.d (|Finger|.n (plur |Lake|.n)))                            (in.p (k (western.a (|New York| state.n))))))) ?)
+
+; sid: 927094
+; sentence: Name the three races unleashed by the Celestials in Marvel comics .
+(({you}.pro  ((pres Name.v)    (the.d (n+preds (three.a (plur race.n))   ((pasv unleash.v) (by.p-arg (the.d (plur |Celestial|.n))))            (in.p (k (|Marvel| (plur comic.n)))))))) !)
+
+; sid: 927203
+; sentence: How did the 7th inning stretch get started ?
+((sub How.adv-a ((past do.aux-s)                  (the.d ((7th.a inning.n) stretch.n))                  ((get.v started.a) *h))) ?)
+
+; sid: 927260
+; sentence: Where can you find the Venus flytrap ?
+((sub Where.pq ((pres can.aux-s) you.pro                 (find.v (the.d (|Venus| flytrap.n))) *h)) ?)
+
+; sid: 927311
+; sentence: What are you caught in if a haboob blows up ?
+(((sub what.pro (you.pro (pres ((pasv catch.v) (in.p-arg *h))))) (if.ps ((a.d haboob.n) (pres blow_up.v)))) ?)
+
+; sid: 927385
+; sentence: Where can I find lyrics for R&B ?
+((sub where.adv-e ((pres can.aux-v) I.pro (find.v ({the}.d (n+preds (plur lyric.n) (for.p |R&B|))) *h))) ?)
+
+; sid: 927521
+; sentence: How do I find if my relatives were on the Trail of Tears ?
+((sub How.pq ((pres do.aux-s) I.pro find.v               (whether ((my.d (plur relative.n))                         ((past be.v)                          (= (on.p-arg (the.d |Trail of Tears|.n)))))) *h)) ?)
+
+; sid: 927534
+; sentence: What are the chances of pregnacy if the penis does not penetrate the vagina ?
+((sub what.pro ((pres be.v)                  ((the.d (n+preds (plur chance.n)                             (of.p (k pregnacy.n))))                   (if.ps ((the.d penis.n) ((pres do.aux-s) not (penetrate.v (the.d vagina.n)))))) (= *h))) ?)
+
+; sid: 927744
+; sentence: Name the fast food chain with the golden arches .
+(({you}.pro ((pres name.v)              (the.d (n+preds ((fast.a food.n) chain.n)                      (with.p (the.d (golden.a (plur arch.n)))))))) !)
+
+; sid: 927826
+; sentence: What is the meaning of `` CPR '' ?
+((sub what.pro ((pres be.v) (= (the.d (n+preds meaning.n (of.p (\\" |CPR| \\"))))) *h)) ?)
+
+; sid: 928030
+; sentence: How can I find a list of celebrities ' real names ?
+((sub How.pq       ((pres can.aux-v) I.pro        ((find.v         (a.d (n+preds list.n                 (of.p                        (((k (plur celebrity.n)) 's) (real.a (plur name.n))))))) *h))) ?)
+
+; sid: 928115
+; sentence: What is a fear of shadows ?
+((What.pro ((pres be.v) (= (a.d (n+preds fear.n (of.p (k (plur shadow.n)))))))) ?)
+
+; sid: 928483
+; sentence: Where can I find a person 's address from a telephone number ?
+((sub where.pq   ((pres can.aux-s) i.pro    (((find.v ((a.d person.n) 's) address.n)) *h    (adv-a (from.p (a.d (telephone.a number.n))))))) ?)
+
+; sid: 928527
+; sentence: Which oil company almost picked a word that meant `` stalled car '' in Japanese as its new international name ?
+(((Which.d (oil.n complany.n))  (almost.adv-a ((past pick.v) (a.d (n+preds                                      word.n                                      (that.rel ((past mean.n)                                                      (\\" (k (stalled.a car.n)) \\")                                                       (in.p |Japanese|)))))                 (as.p-arg                   (its.d (new.a (international.a name.n))))))) ?)
+
+; sid: 928568
+; sentence: Name a movie about the Sioux Indians starring Kevin Costner .
+(({you}.pro ((pres name.v) (a.d (n+preds movie.n   (about.p (the.d (plur |Sioux Indian|.n)))    (star.v |Kevin Costner|))))) !)
+
+; sid: 928607
+; sentence: Name the soft drink that is `` number one in the sun . ''
+(({you}.pro ((pres name.v)              (the.d (n+preds (soft.a drink.n)                      (that.rel ((pres be.v)                            (n+preds (number.n one.n) (in.p (the.d sun.n))) )))))) !)
+
+; sid: 928704
+; sentence: How can I find a phone number of someone if I only know their email address ?
+((sub How.pq   (((pres can.aux-v) I.pro               (find.v (a.d (n+preds (phone.n number.n)                             (of.p someone.pro)))) *h)    (if.ps (I.pro (only.adv-s ((pres know.v) (their.d (email.n address.n)))))))) ?)
+
+; sid: 928810
+; sentence: What are two plants that clothes are made from ?
+((what.pro ((pres be.v)    (= (two.d (n+preds (plur plant.n)    (sub that.rel ((k (plur cloth.n)) ((pres (pasv make.v)) (from.p-arg *h))))))))) ?)
+
+; sid: 928969
+; sentence: What sports event is Meyer Wolfsheim supposed to have fixed in The Great Gatsby ?
+((sub   (What.d ((plur sport.n) event.n))   ((pres be.v)   |Meyer Wolfsheim|    (supposed.a (to ((perf fix.v)                     *h                     (adv-e (in.p |The Great Gatsby|))))))) ?)
+
+; sid: 928972
+; sentence: Who was chairman of the Senate select committee that tried to get to the bottom of Watergate ?
+((Who.pro ((past be.v)            (= ({the}.d (chairman-of.n                          (the.d (n+preds (|Senate|.n (select.n committee.n))                           (that.rel ((past try.v)                                      (to (get.v (to.p-arg                                                 (the.d (bottom-of.n |Watergate|)))))))))))))) ?)
+
+; sid: 929081
+; sentence: Name the various super-teams to which the Angel has belonged .
+(({you}.pro ((pres name.v)   (the.d (n+preds (various.a (super.a (plur team.n)))      (sub (to.p-arg which.rel)                       ((the.d |Angel|.n) ((pres perf) (belong.v *h)))))))) !)
+
+; sid: 929196
+; sentence: What phone number can I call to have a tree planted ?
+((sub (what.d (phone.n number.n)) ((pres can.aux-s) i.pro (call.v *h (to (have.v (a.d tree.n) planted.a))))) ?)
+
+; sid: 929207
+; sentence: Where can I find a list of all the companies in America that offer a direct stock purchase plan ?
+((where.adv-e  ((pres can.aux-v) I.pro   (find.v (a.d (n+preds list.n                         (of.p (all.d (n+preds (plur company.n)                                               (in.p |America|)        (that.rel ((pres offer.v)                                                         (a.d (direct.a                                                                ((stock.n purchase.n) plan.n))))))))))))) ?)
+
+; sid: 929301
+; sentence: Where can I look at a perpetual calendar ?
+((sub where.pq ((pres can.aux-s) i.pro ((look.v (adv-a (at.p (a.d (perpetual.a calendar.n))))) *h))) ?)
+
+; sid: 929323
+; sentence: Define cosmology .
+(({You}.pro (pres define.v) (k cosmology.n)) ?)
+
+; sid: 929387
+; sentence: Name an art gallery in New York .
+(({You}.pro ((pres name.v)             (an.d (art.n gallery.n))             (in.p |New York|))) !)
+
+; sid: 929498
+; sentence: Name the creator of `` The Muppets '' .
+(({you}.pro ((pres name.v) (the.d (creator.n (of.p-arg (|The|.d (plur |Muppet|.n)))))))!)
+
+; sid: 929981
+; sentence: How does light travel through the void of space if there is no medium for it to ` wave ' or ` pulse ' .
+(((sub How.pq    ((pres do.aux-s) (k light.n)     (travel.v (adv-e (through.p (the.d (n+preds void.n (of.p (k space.n))))))) *h))   (if.ps (there.pro ((pres be.v) (no.d (n+preds medium.n                                         (for.p it.pro)                                         ({for}.p (to (wave.v or.cc pulse.v))))))))) ?)
+
+; sid: 930067
+; sentence: How do I find a city if I have the area code ?
+((sub How.pq ((pres do.aux-s) I.pro (((find.v (a.d city.n)) *h) (if.ps (I.pro ((pres have.v) (the.d (area.n code.n)))))))) ?)
+
+; sid: 930162
+; sentence: What is the name of the planet that the Ewoks live on ?
+((sub what.pro ((pres be.v)    (the.d (name-of.n            (the.d (n+preds planet.n                       (sub that.rel                                 ((the.d (plur |Ewok|.n)) ((pres live.v)                                                           (adv-a (on.p *h))))))))) (= *h))) ?)
+
+; sid: 930255
+; sentence: Where can I find a website that gives comparisons of good prices ?
+((sub where.pq   ((pres can.aux-s) i.pro    (find.v (a.d (n+preds website.n                  (that.rel ((pres give.v)                             (k ((plur comparison.n)                                     (of.p-arg (k (good.a (plur price.n)))))))))) *h))) ?)
+
+; sid: 930338
+; sentence: Who said : `` The victor will never be asked if he told the truth '' ?
+((who.pro ((past say.v)   (\\" ((the.d victor.n) ((pres will.aux-s) never.adv-e        ((pasv ask.v) (whether (he.pro ((past tell.v) (the.d truth.n))))))) \\"))) ?)
+
+; sid: 930428
+; sentence: Who says , `` If you don 't look good , we don 't look good '' ?
+((Who.pro  ((pres say.v)   (\\" ((If.ps (you.pro ((pres do.aux-s) not (look.v good.a))))      (we.pro ((pres do.aux-s) not (look.v good.a)))) \\")   ))?)
+
+; sid: 930453
+; sentence: Name a Salt Lake City newspaper .
+(({you}.pro ((pres name.v) (a.d (|Salt Lake City| newspaper.n)))) !)
+
+; sid: 930815
+; sentence: How does a hurricane form ?
+((sub How.adv-a ((pres do.aux-s) (a.d hurricane.n) (form.v *h))) ?)
+
+; sid: 930851
+; sentence: What four tournaments make up tennis ' Grand Slam ?
+(((What.d (four.a (plur tournament.n))) ((pres make.v) (up.p-arg (((k tennis.n) 's) |Grand Slam|.n)))) ?)
+
+; sid: 930858
+; sentence: How do you determine if a computer monitor has an SVGA adapter ?
+((sub how.pq ((pres do.aux-s) you.pro               ((determine.v (whether                              ((a-gen.d (computer.n monitor.n))                               ((pres have.v) (an-gen.d (|SVGA| adapter.n)))))) *h))) ?)
+
+; sid: 930914
+; sentence: Where can I get cotton textiles importer details ?
+((sub Where.pq   ((pres can.aux-v) I.pro    (get.v (k (((cotton.n (plur textile.n)) importer.n) (plur detail.n))) *h))) ?)
+
+; sid: 930930
+; sentence: Name a female figure skater .
+(({you}.pro ((pres name.v) (a.d (female.a (figure.n skater.n))))) !)
+
+; sid: 931168
+; sentence: Name a movie that the actress , Sandra Bullock , had a role in .
+(({you}.pro ((pres name.v) (a.d (n+preds movie.n    (sub that.rel ((the.d (n+preds actress.n (= |Sandra Bullock|)))      ((past have.v) (a.d (n+preds role.n                                                                   (in.p *h)))))))))) !)
+
+; sid: 931184
+; sentence: What is the brand name of a chemical used to control ripening ?
+((what.pro   ((pres be.v)    (= (the.d (n+preds (brand.n name.n)               (of.p (a.d (n+preds chemical.n                           ((pasv use.v)                            (adv-a ({for}.p (to (control.v (k ripening.n)))))))))))))) ?)
+
+; sid: 931245
+; sentence: What country would you visit to ski in the Dolomites ?
+((sub (What.d country.n)       ((pres would.aux-s) you.pro        (visit.v *h         (adv-a ({for}.p (to (ski.v (adv-e (in.p (the.d (plur |Dolomite|.n))))))))))) ?)
+
+; sid: 931276
+; sentence: Who sued the Dannon yougurt company for using a character named Ron Raider for promotion ?
+((Who.pro ((past sue.v)           (the.d (|Dannon| (yougurt.n company.n)))           (for.p-arg (ka (((pres prog) use.v)                           (a.d (n+preds                                 character.n                                ((past (pasv name.v)) |Ron Raider|)))                          (adv-a (for.p (k promotion.n)))))))) ?)
+
+; sid: 931384
+; sentence: Who invented the lawnmower ?
+((who.pro ((past invent.v) (the-gen.d lawnmower.n))) ?)
+
+; sid: 931735
+; sentence: How many tenths of the Earth 's surface lie under water ?
+((((nquan (how.adv-a many.a)) (plur (tenth-of.n (((the.d |Earth|.n) 's) (surface-of.n *s)))))  ((pres lie.v) (adv-e (under.p (k water.n))))) ?)
+
+; sid: 931744
+; sentence: Name the fast food chain with the golden arches .
+(({you}.pro ((pres name.v)              (the.d (n+preds ((fast.a food.n) chain.n)                       (with.p (the.d (golden.a (plur arch.n)))))))) !)
+
+; sid: 931812
+; sentence: How can you define time ?
+((sub how.pq ((pres can.aux-v) you.pro ((define.v (k time.n)) *h))) ?)
+
+; sid: 931871
+; sentence: Where could I go to take a ride on a steam locomotive ?
+((sub where.pq   ((pres could.aux-s) I.pro                (go.v *h                (adv-a ({for}.p (to (take.v (a.d ride.n)                                     (adv-e (on.p (a.d (steam.n locomotive.n))))))))))) ?)
+
+; sid: 931890
+; sentence: How do vending machines tell if your dollar is a 1 or a 5 ?
+((sub How.pq ((pres do.aux-s) (k (vending.a (plur machine.n)))               (tell.v (whether ((your.d dollar.n)                                 ((pres be.v)                                  (= ((a.d |1|.n) or.cc (a.d |5|.n)))))) *h)))?)
+
+; sid: 932027
+; sentence: Where can I read about Abraham Lincoln ?
+((sub Where.pq ((pres can.aux-v) I.pro                 ((read.v (about.p-arg |Abraham Lincoln|)) *h))) ?)
+
+; sid: 932119
+; sentence: What famous coach said `` if you can 't beat 'em in the alley , you can 't beat 'em on the ice '' ?
+(((What.d (famous.a coach.n)) ((past say.v) (\\" ((if.ps (you.pro ((pres can.aux-v) (not ((beat.v them.pro) (adv-e (in.p (the.d alley.n)))))))) (you.pro ((pres can.aux-v) (not ((beat.v them.pro) (adv-e (on.p (the.d ice.n)))))))) \\"))) ?)
+
+; sid: 932204
+; sentence: How can I get someone 's email address ?
+((sub How.adv-a ((pres can.aux-v) I.pro (get.v (someone.pro 's (email.n address.n)) *h))) ?)
+
+; sid: 932233
+; sentence: Name a flying mammal .
+(({you}.pro ((pres name.v) (a.d (flying.a mammal.n)))) !)
+
+; sid: 932294
+; sentence: How do you say 2 in Latin ?
+((sub how.pq ((pres do.aux-s) you.pro ((say.v (\\" 2 \\")) (adv-a (in.p |Latin|)) *h))) ?)
+
+; sid: 932312
+; sentence: Name four comic strips about pilots .
+(({you}.pro ((pres Name.v)              (four.d (n+preds (comic.n (plur strip.n))                         (about.p (k (plur pilot.n))))))) !)
+
+; sid: 932349
+; sentence: How many cards is each player dealt in Contract Bridge ?
+((sub   ((nquan (How.adv-a many.a)) (plur card.n))   (((each.d player.n) ((pres (pasv deal.v)) *h))    (adv-e (in.p |Contract Bridge|)))) ?)
+
+; sid: 932393
+; sentence: What famous communist leader died in Mexico City ?
+(((what.d (famous.a (communist.a leader.n))) ((past die.v) (adv-e (in.p |Mexico City|)))) ?)
+
+; sid: 932425
+; sentence: Name Dick Tracy 's two children .
+(({you}.pro ((pres name.v)               ({the}.d ((|Dick Tracy| 's) (two.a (plur (child-of.n *s))))))) !)
+
+; sid: 932507
+; sentence: What two countries is Andorra nestled between ?
+((sub (What.d (two.a (plur country.n)))       ((pres be.v) |Andorra| (nestled.a                               (adv-a (between.p *h))))) ?)
+
+; sid: 932512
+; sentence: How can I determine the radius of an ellipse ?
+((sub how.pq   ((pres can.aux-s) i.pro    (determine.v (the.d (radius-of.n (an.d ellipse.n))) *h))) ?)
+
+; sid: 932704
+; sentence: Who was the 1st U.S. President ?
+((Who.pro ((past be.v) (= (the.d (1st.a (|U.S.| |President|.n)))))) ?)
+
+; sid: 932752
+; sentence: How long do you have to live in a community to vote ?
+((sub (adv-e (how.adv-a long.a)) ((pres do.aux-s) you.pro (have.v (to ((live.v (in.p-arg (a.d community.n))) *h))                                                (adv-a ({for}.p (to vote.v))))) )?)
+
+; sid: 932848
+; sentence: Who would you use the Heimlich maneuver on ?
+((sub Who.pro ((pres would.aux-s) you.pro ((use.v (the.d (Heimlich.n maneuver.n))) (adv-a (on.p *h))))) ?)
+
+; sid: 932945
+; sentence: Where can I get information on the original 13 US colonies ?
+((sub Where.pq ((pres can.aux-v) I.pro ((get.v (n+preds information.n (on.p (the.d (original.a (13.a (US.a (plur colony.n)))))))) *h))) ?)
+
+; sid: 932995
+; sentence: Who wrote The Collector ?
+((who.pro ((past write.v) |The Collector|)) ?)
+
+; sid: 933009
+; sentence: Name the Islamic counterpart to the Red Cross .
+(({you}.pro ((pres Name.v)              (the.d (n+preds (|Islamic|.a counterpart.n)                       (to.p (the.d |Red Cross|.n)))))) !)
+
+; sid: 933139
+; sentence: What country is the worlds leading supplier of cannabis ?
+(((What.d country.n) ((pres be.v) (the.d (worlds.a (leading.a (n+preds supplier.n (of.p cannabis.n))))))) ?)
+
+; sid: 933277
+; sentence: Where can I buy a pony on the Big Island for my daughter ?
+((sub Where.pq       ((pres can.aux-v) I.pro        (buy.v (a-gen.d pony.n))        (adv-e (on.p (the.d (|Big|.a |Island|.n))))        (adv-a (for.p (my.d (daughter-of.n *s))))        *h)) ?)
+
+; sid: 933348
+; sentence: What 's a Craps player called ?
+((sub  What.pro  ((a.d (|Craps|.n player.n))   ((pres (pasv call.v)) *h))) ?)
+
+; sid: 933387
+; sentence: Who used AuH2O as an election slogan ?
+((Who.pro ((past use.v) |AuH2O| (as.p-arg (an.d (election.n slogan.n)))))?)
+
+; sid: 933423
+; sentence: Describe the Long March .
+(({you}.pro ((pres describe.v) (the.d (|Long|.a |March|.n))))!)
+
+; sid: 938119
+; sentence: " But for such a work you must have needed books--had you any ? "
+(But.adv-s  (adv-s (for.p (such.d (= (a.d work.n)))))  (you.pro ((pres must.aux-s) (perf (need.v (k (plur book.n))))))) (((past have.v) you.pro (any.d {ref}.n)) ?)
+
+; sid: 940327
+; sentence: " You ? "
+((pu You.pro) ?)
+
+; sid: 941968
+; sentence: " Sinbad the Sailor ? " he said .
+(sub (\\" ((pu |Sinbad the Sailor|) ?) \\") (he.pro ((past say.v) *h)))
+
+; sid: 943203
+; sentence: he asked of Franz .
+(He.pro ((past ask.v) {that}.pro (of.p-arg |Franz|)))
+
+; sid: 947876
+; sentence: " Ah , you see ---- "
+(ah.x (you.pro (pres see.v)))
+
+; sid: 961136
+; sentence: All they would do was to give me a loaded pistol lest we were attacked , and to promise to have horses ready saddled in case we were pursued on our return , while one lad was to ride forward to the doctor 's in search of armed assistance .
+(((np+preds All.pro    (sub tht.rel (they.pro ((past will.aux-v) (do.v *h)))))   ((past be.v) (= ((to ((give.v me.pro (a.d (loaded.a pistol.n)))          (lest.ps (we.pro (past (pasv attack.v))))))          and.cc (to (promise.v (to ((have.v (k (plur horse.n))                                 (ready.a {and}.cc saddled.a))     (in-case.ps (we.pro ((past (pasv pursue.v)) (adv-e (on.p (our.d return.n))))))))))))))            (while.ps ((one.d lad.n) ((past be-to.aux-s)                               ((ride.v forward.adv-a)                                (adv-a (to.p (((the.d doctor.n) 's) {refl}.n)))                                (adv-a (in.p (k (search.n (of.p-arg (k (armed.a assistance.n))))))))))))
+
+; sid: 963833
+; sentence: ' Who 's that ? ' says one .
+(sub (\\" ((Who.pro ((pres be.v) (= that.pro))) ?) \\")  (one.pro ((pres say.v) *h)))
+
+; sid: 965566
+; sentence: Castruccio was received in great honour by Frederick , and many privileges were conferred upon him , and he was appointed the emperor 's lieutenant in Tuscany .
+((|Castruccio| ((past (pasv receive.v))                 (adv-a (in.p (k (great.a honour.n))))                              (by.p-arg |Frederick|))) and.cc ((many.d (plur privilege.n)) ((past (pasv confer.v)) (upon.p-arg him.pro))) and.cc (he.pro ((past (pasv appoint.v)) (((the.d emperor.n) 's) lieutenant.n) (adv-e (in.p |Tuscany|)))))
+
+; sid: 971024
+; sentence: Now , can you tell me whether it is actually true that Mr. Rochester has asked you to marry him ?
+((now.adv-s   ((pres can.aux-v) you.pro    (tell.v me.pro     (whether (it-extra.pro (((pres be.v) (actually.adv-a true.a))                      (that (|Mr. Rochester| ((pres perf)                                               (ask.v you.pro (to (marry.v him.pro)))))))))))) ?)
+
+; sid: 982645
+; sentence: What are you thinking about ? "
+((sub   What.pro   (you.pro (((pres prog) think.v) (about.p-arg *h)))) ?)
+
+; sid: 998177
+; sentence: Shall we go into ecstasies over Russia ?
+(((pres shall.aux-s) we.pro (go.v (adv-a (into.p (k (plur (n+preds ecstasy.n (over.p |Russia|.n)))))))) ?)
+
+; sid: 1006555
+; sentence: The ventriloquist 's voice repeated his distich : --
+((((the.d ventriloquist.n) 's) (voice-of.n *s)) ((past repeat.v) (his.d distich.n)))
+
+; sid: 1012535
+; sentence: To follow to the slope is to arrive at the river .
+((to (follow.v (adv-a (to.p (the.d slope.n)))))  ((pres be.v) (= (to (arrive.v (at.p-arg (the.d river.n)))))))
+
+; sid: 1022273
+; sentence: " Can you change me a hundred-dollar bill ? " he demanded .
+(sub (\\" (((pres can.aux-v) you.pro (change.v (me.pro (a.d (hundred-dollar.a bill.n))))) ?) \\") (he.pro ((past demand.v) *h)))
+
+; sid: 1025432
+; sentence: I reflected for some time , and then answered as if I had discovered a new idea , " I mean pretty well . "
+(rep (I.pro    (((past reflect.v) (for.p (some.d time.n)))    and.cc    (then.adv-e ((past answer.v) *p                  (as_if.ps (I.pro ((past perf) (discover.v (a.d (new.a idea.n))))))))))(\\" (I.pro ((pres mean.v) (pretty.adv-a well.a))) \\"))
+
+; sid: 1031853
+; sentence: I went on with my explanation , and told her how I had hoped to complete the transaction out of my means , but how in this I was disappointed .
+((I.pro   ((past go.v)    on.adv-a    (with.p-arg (my.d explanation.n)))  and.cc   ((past tell.v)    her.pro    (tht (sub how.adv-a          (I.pro ((((past perf) hope.v)                  (to (complete.v (the.d transaction.n)                      (out.adv-a (of.p (my.d (plur mean.n))))))) *h)))))) but.ps (sub          (how.adv-a (in.p this.pro))          (I.pro ((past be.v) disappointed.a) *h)))
+
+; sid: 1032023
+; sentence: " So you did .
+(sub so.pro (you.pro ((past do.v) *h)))
+
+; sid: 1037295
+; sentence: What effect may be produced by this partial reform , must be left to further experience .
+((ans-to ((What.d effect.n) ((pres may.aux-s) ((pasv produce.v) (adv-a (by.p (this.d (partial.a reform.n)))))))) ((pres must.aux-s) ((pasv leave.v) (to.p-arg (further.a experience.n)))))
+
+; sid: 1037496
+; sentence: Estimating the negroes in the proportion of three fifths , it can scarcely be doubted that the population of the United States will by that time , if it does not already , amount to three millions .
+((adv-a ((estimate.v (the.d (plur negro.n)))         (adv-a (in.p (the.d (n+preds proportion.n (of.p 0.6)))))))(it-extra.pro (((pres can.aux-v) (scarcely.adv-a (pasv doubt.v))) (that ((the.d (n+preds population.n (of.p (the.d |United States|.n))))  ((pres will.aux-s)    (adv-e (by.p (that.d time.n)))    (if.ps (it.pro ((pres do.aux-s) not already.adv-e {ref}.v)))                  (amount.v (to.p-arg (three.d (plur million.n))))))))))
+
+; sid: 1038502
+; sentence: And how far does this combination characterize the plan which has been reported by the convention ?
+((and.adv-s   (sub (how.adv-a far.a)    ((pres do.aux-s) (this.d combination.n)     (characterize.v (the.d (n+preds plan.n                             (which.rel ((pres perf)                                         ((pasv report.v)                                          (by.p-arg (the.d convention.n))))))) *h)))) ?)
+
+; sid: 1048995
+; sentence: Would you say that knowledge is a faculty , or in what class would you place it ?
+(((((pres would.aux-s) you.pro (say.v (that                                       ((k knowledge.n) ((pres be.v) (= (a.d faculty.n)))))))  or.cc   (sub       (in.p (what.d class.n))   ((pres would.aux-s) you.pro ((place.v it.pro) *h))))) ?)
+
+; sid: 1055113
+; sentence: He will connect himself well if he can . "
+(he.pro (((pres will.aux-s)          ((connect.v himself.pro) well.adv-a))     (if.ps (he.pro ((pres can.aux-v) (({connect}.v {himself}.pro) {well}.adv-a))))))
+
+; sid: 1087250
+; sentence: " Ca n't you see your ideal in it ? " said Dorian bitterly .
+(sub  (\\" ((pres can.aux-v) not.adv-s (you.pro (see.v (your.d ideal.n) (in.p it.pro)))) \\")  (|Dorian| (((past say.v) *h) bitterly.adv-a)))
+
+; sid: 1089131
+; sentence: It was better not to think of the past .
+(it-extra.pro (((past be.v) better.a)                (ka (not (think.v (of.p-arg (the.d past.n)))))))
+
+; sid: 1097346
+; sentence: Not for you do I wait here in these mountains ; not with you may I descend for the last time .
+((sub (adv-a (for.p you.pro)) (I.pro ((pres do.aux-s) (not (((wait.v here.adv-e) (adv-e (in.p (these.d (plur mountain.n))))) *h))))) (sub (adv-a (with.p you.pro)) (I.pro ((pres may.aux-v) ((descend.v (adv-e (for.p (the.d (most-n late.a time.n))))) *h)))))
+
+; sid: 1109707
+; sentence: I say to my friend , Suppose we try who will get there first .
+(I.pro ((pres say.v)        (to.p-arg (my.d friend.n))         (\\" (({you}.pro ((pres Suppose.v)                         (tht (we.pro (pres try.v)                               ({the}.d (n+preds {person}.n (who.rel (pres will.aux-s)                                                             ((get.v there.pro) (adv-a first.a)))))))) !) \\"))))
+
+; sid: 1120824
+; sentence: Could make out several words , but cannot now remember all .
+(({Someone}.pro ((past can.aux-v) (make.v (out.p-arg (several.d (plur word.n)))))) (but.ps ({someone}.pro ((pres can.aux-v) not.adv-s (now.adv-e remember.v all.pro)))))
+
+; sid: 1123611
+; sentence: VALDEMAR
+|VALDEMAR|.n
+
+; sid: 1147045
+; sentence: Have I ? "
+(((pres perf) I.pro {ref}.v)? )
+
+; sid: 1149658
+; sentence: " A-a-h ! Yes , I remember ....
+(A-a-h.x (Yes.yn (I.pro (pres remember.v))))
+
+; sid: 1154134
+; sentence: " What lies ! " he cried impudently , " why , how could you , standing by the window , see the note ?
+(sub (sub (= (what-em.d (plur lie.n))) ({these}.pro ((pres {be}.v) *h))) (he.pro ((past cry.v) impudently.adv-a   (\\" (*h         ((why.adv-s (sub how.adv-a                      ((pres could.aux-s)                       (np+preds you.pro (stand.v (adv-e (by.p (the.d window.n)))))                       ((see.v (the.d note.n)) *h)))) ?)) \\"))))
+
+; sid: 1154348
+; sentence: How would you decide which of them was to die ? I ask you ? "
+((sub how.adv-a ((cf will.aux-s) you.pro (decide.v                 (ans-to ((which.d (of.p them.pro)) ((cf be-to.aux-v) die.v))) *h))) ?)(I.pro ((pres ask.v) you.pro {ref}.pro))
+
+; sid: 1154539
+; sentence: But what can I tell you ?
+((But.adv-s (sub what.pro ((pres can.aux-s) I.pro (tell.v you.pro *h))))?)
+
+; sid: 1160225
+; sentence: It was not long before the witch came striding up towards them , and said to the musician : ' Dear musician , may I pluck that beautiful flower for myself ? '
+(it.pro (((past be.v) not long.a)          (before.ps ((the.d witch.n)                       (((past come.v)                         (adv-a (stride.v (adv-a (towards.p them.pro)))))                        and.cc                        ((past say.v) (to.p-arg (the.d musician.n))(\\"((voc (k (Dear.a musician.n))) (((pres may.aux-v) I.pro    ((pluck.v (that.d (beautiful.a flower.n))) (adv-a (for.p myself.pro)))) ?)) \\")))))))
+
+; sid: 1161642
+; sentence: The time soon came , when the eldest brother thought that he would make haste to go to the princess , and say that he was the one who had set her free , and that he should have her for his wife , and the kingdom with her .
+(((The.d time.n) (soon.adv-e (past come.v))) (when.ps ((the eldest brother) (((past think.v) (that (he.n ((past will.aux-s) (make_haste.v (to (go.v (to (the.d princess.n))))))))) and.cc ((past say.v) ((that (he.pro ((past be.v) (n+preds (the.d one.pro) (who.rel (((past perf) set.v) (her.pro free.a)))))) and.cc (that (he.pro ((past shall.aux-s) (((have.v her.pro) (adv-a (for.p (his.pro wife.n)))) and.cc ({have}.v ((the.d kingdom.n)) (adv-a (with.p her.pro))))))))))))))
+
+; sid: 1163399
+; sentence: But wo n't you come to this other table ? " repeated Anna Pavlovna .
+(sub (\\" ((but.adv-s            ((pres will.aux-s) not you.pro             (come.v (to.p-arg (this.d (other.a table.n)))))) ?) \\")  (|Anna Pavlovna| ((past repeat.v) *h)))
+
+; sid: 1168018
+; sentence: " Can something bad have happened to me ? "
+(((pres Can.aux-s)   (np+preds something.pro    bad.a)   (perf (happen.v (to.p-arg me.pro)))) ?)
+
+; sid: 1169836
+; sentence: If he is standing before Brunn ... "
+(If.ps  (he.pro (((pres prog) stand.v) (adv-a (before.p |Brunn|)))))
+
+; sid: 1173551
+; sentence: " Now , what are you pestewing me for ? " cried Denisov , suddenly losing his temper .
+(sub (\\" ((now.adv-e (sub what.pro  ((pres prog) you.pro (pester.v me.pro (adv-a (for.p *h)))))) ?) \\") (|Denisov| ((past cry.v) (adv-a (suddenly.adv-e (lose.v (his.d temper.n)))) *h)))
+
+; sid: 1174151
+; sentence: " Oh , how can you sleep ?
+((Oh.x (sub how.adv-a ((pres can.aux-v) you.pro sleep.v *h)))?)
+
+; sid: 1174833
+; sentence: " How can you know ?
+((sub How.pq (((pres can.aux-v) you.pro know.v) *h))?)
+
+; sid: 1174862
+; sentence: " You 're not asleep ? "
+(\\" ((You.pro       ((pres be.v) (not.p-arg asleep.a))) ?)\\")
+
+; sid: 1176271
+; sentence: " Yes , she 's fast enough , " replied Nicholas , and thought : " If only a full-grown hare would cross the field now I 'd show you what sort of borzoi she is , " and turning to his groom , he said he would give a ruble to anyone who found a hare .
+((sub (\\" (yes.yn    (she.pro ((pres be.v) fast.a enough.adv-s))) \\") (|Nicholas|   (((past reply.v) *h)    and.cc   ((past thought.v)    (\\" ((if.ps (only.adv-s                 ((a.d (full-grown.a hare.n)) ((cf will.aux-s) (cross.v (the.d field.n)) now.adv-e))))         (I.pro ((cf will.aux-s) (show.v you.pro (ans-to                                                   (sub (= (what.d (sort_of.n (k borzoi.n))))                                                         (she.pro ((pres be.v) *h)))))))) \\"))))) and.cc ((adv-a (turn.v (adv-a (to.p (his.d groom.n)))))   (he.pro ((past say.v)           (he.pro ((past will.aux-s)                      (give.v (a.d ruble.n)                      (to.p-arg (np+preds anyone.pro                                           (who.rel ((past find.v) (a.d hare.n))))))))))))
+
+; sid: 1177589
+; sentence: When he comes , he 'll find you already know his sister and father and are liked by them .
+((when.ps (he.pro (pres come.v)))(he.pro ((pres will.aux-s)          (find.v (tht (you.pro already.adv-s                        (((pres know.v) (his.d ((sister-of.n *s) and.cc (father-of.n *s))))                        and.cc                         ((pasv like.v) (by.p-arg them.pro)))))))))
+
+; sid: 1179264
+; sentence: I wish success to your mission , " and with his embroidered red mantle , his flowing feathers , and his glittering ornaments , he rejoined his suite who were respectfully awaiting him .
+(\\" (I.pro (((pres wish.v) success.a) (to.p-arg (your.d mission.n)))) \\") (and.adv-s (adv-e (with.p (set-of                 (his.d (embroidered.a (red.a mantle.n)))          (his.d (flowing.a (plur feather.n)))              (his.d (glittering.a (plur ornament.n))))))    (he.pro ((past rejoin.v)            (np+preds (his.d suite.n)     (who.rel ((past prog) (respectfully.adv-a (await.v him.pro))))))))
+
+; sid: 1181949
+; sentence: What could I have lost ?
+((sub What.pro (((pres perf) could.aux-s) I.pro (lose.v *h))) ?)
+
+; sid: 1184983
+; sentence: " We do n't expect to get him home alive !
+(We.pro ((pres do.aux-s) (expect.v (to (((get.v him.pro) home.adv-e) alive.adv-a)))))
+
+; sid: 1187838
+; sentence: So you have abundance , then ?
+(((So.adv-s (you.pro ((pres have.v) ({an}.d abundance.n)))) then.adv-s) ?)
+
+; sid: 1190554
+; sentence: One of the generals was reporting to him where the guns and prisoners had been captured .
+((One.d (of.p (the.d (plur general.n))))  (((past prog) report.v) (to.p him.pro)   (ans-to    (sub where.pq         ((the.d ((plur gun.n) and.cc (plur prisoner.n)))          (((past perf) (pasv capture.v)) *h))))))
+
+; sid: 1198073
+; sentence: Dost not think of murdering the officers when thou gettest to sea ? "
+(((pres dost.aux-s) not {you}.pro ((think.v (of.p-arg (ka (murder.v (the.d (plur officer.n))))))   (when.ps (thou.pro ((pres gettest.v) (to.p-arg ({the}.d sea.n))))))) ?)
+
+; sid: 1206513
+; sentence: " Who has made me a judge over them ? " was all he said , smilingly , to Alyosha .
+((\\" ((Who.pro ((pres perf) (made.v me.pro                   (= (a.d (n+preds judge.n (over.p them.pro))))))) ?) \\")((past be.v) (= (all.d (n+preds (plur {thing}.n)                  (sub tht.rel ((he.pro (((past say.v) *h) smilingly.adv-a                                           (adv-a (to.p |Alyosha|)))))))))))
+
+; sid: 1207230
+; sentence: " How can you presume to do such deeds ? " the monk asked suddenly , pointing solemnly and significantly at Lise .
+(sub (\\" ((sub how.pq            ((pres can.aux-v) you.pro (presume.v             (to (do.v (such.d (plur deed.n))))) *h)) ?) \\")((the.d monk.n) ((past ask.v) suddenly.adv-e *h                  (adv-a (point.v                           (solemnly.adv-a and.cc significantly.adv-a)                           (at.p-arg |Lise|))))))
+
+; sid: 1207968
+; sentence: If that 's all , you 've reassured me .
+((If.ps (that.pro ((pres be.v) all.a))) (you.pro (((pres perf) reassure.v) me.pro)))
+
+; sid: 1209747
+; sentence: Shall we go over and have a look at it , eh ?
+(((pres Shall.aux-s) we.pro   ((go.v over.adv-a)    and.cc    ((have.v (a.d look.n))     (adv-a (at.p it.pro))))) ?)
+
+; sid: 1214146
+; sentence: How could I dare to keep it back from him ?
+((sub How.pq ((pres could.aux-v) I.pro               (dare.v (to (keep.v it.pro back.adv-a                            (from.p him.pro)))) *h))?)
+
+; sid: 1215356
+; sentence: He visits princes , though he is only a peasant corrupted .
+((He.pro ((pres visit.v) (plur prince.n))) (though.ps   (he.pro ((pres be.v) (only.adv-a (a.d (peasant.n corrupted.a)))))))
+
+; sid: 1218532
+; sentence: Were you a cavalry officer ? " put in Kalganov at once .
+(sub (\\" ((sub (past be.v) (you.pro (*h (= (a.d (cavalry.n officer.n)))))) ?) \\") (|Kalganov| ((past put_in.v) *h (adv-a (at.p once.pro)))))
+
+; sid: 1226940
+; sentence: My idea seemed silly to me at the time , but he was perhaps pointing then to that little bag in which he had fifteen hundred roubles ! "
+(((My.d idea.n) ((past seem.v)                 (= silly.a)                 (adv-a (to.p me.pro))                (adv-e (at.p (the.d time.n))))) (but.ps   (he.pro (perhaps.adv-s            (((past prog) point.v) then.adv-e            (adv-a (to.p (that.d (n+preds                                 (little.a bag.n)                                 (sub                                   (adv-a (in.p which.rel))                                   (he.pro ((past have.v) (ds currency "fifteen hundred roubles") *h))))))))))))
+
+; sid: 1227571
+; sentence: She became prudent and saved money .
+(she.pro (((past become.v) prudent.a) and.cc ((past save.v) (k (plur money.n)))))
+
+; sid: 1230855
+; sentence: What will you have ?
+((sub What.pro ((pres will.aux-s) you.pro (have.v *h))) ?)
+
+; sid: 1231961
+; sentence: Do you remember that thing he wrote ...? "
+(((pres do.aux-s) you.pro (remember.v (that.d (n+preds thing.n (sub tht.rel (he.pro ((past write.v) *h))))))) ?)
+
+; sid: 1234912
+; sentence: " Then I understand that on your arrival in London yesterday you went out at once and bought a pair of boots ? "
+((Then.adv-s   (I.pro ((pres understand.v)           (that (sub (adv-a (on.p (your.d ((n+preds arrival.n                                                     (in.p |London|))                                             yesterday.adv-e))))            (you.pro             (((((past go.v) out.adv-a)                at-once.adv-s)               and.cc               ((past buy.v)                (a.d (n+preds pair.n                              (of.p (k (plur boot.n))))))) *h))))))) ?)
+
+; sid: 1237619
+; sentence: Can you tell the position of the rooms ? What are those latticed windows at this end ? "
+(((pres can.aux-v) you.pro   (tell.v (the.d (n+preds position.n (of.p (the.d (plur room.n))))))) ?) ((what.pro   ((pres be.v) (= (those.d (n+preds (latticed.a (plur window.n)) (at.p (this.d end.n))))))) ?)
+
+; sid: 1238437
+; sentence: Will you like that ? "
+(((pres Will.aux-s) you.pro (like.v that.pro)) ?)
+
+; sid: 1242313
+; sentence: The doctor , taking hold of the youth 's now standing prick , asked if it had ever behaved so badly before the scene with his pretty young cousin .
+((np+preds (The.d doctor.n)      ((take.v (k hold.n))             (of.p-arg (((the.d youth.n) 's) ((now.adv-s standing.a) prick.n)))))((past ask.v)  (whether (it.pro (((past perf) ever.adv-s (behave.v (so.adv-a badly.a)))    (adv-e (before.p (the.d (n+preds scene.n                             (with.p (his.d (pretty.a (young.a (cousin-of.n *s))))))))))))))
+
+; sid: 1255177
+; sentence: " Well I might if I liked,"--but I did not .
+((\\" (Well.x ((I.pro ((pres might.aux-s) {do}.v)) (if.ps (I.pro (past like.v))))) \\") but.cc (I.pro ((past do.aux-s) (not {like}.v))))
+
+; sid: 1263273
+; sentence: To Thy grace I ascribe it , and to Thy mercy , that Thou hast melted away my sins as it were ice .
+(sub (to.p-arg (Thy.d grace.n)) (rep (i.pro ((pres ascribe.v) (np+preds it.pro (= *p)) (*h and.cc (to.p-arg (Thy.d mercy.n)))))                            (that (Thou.pro ((pres perf) (melt.v away.adv-a (my.d (plur sin.n))                                                                   (as.ps (it.pro ((past be.v) ice.n)))))))))
+
+; sid: 1264399
+; sentence: And who has any right to speak against it , if just punishment follow the sinner ?
+((and.adv-s ((who.pro (((pres have.v)                         (any.d right.n))                        (to (speak.v (adv-a (against.p it.pro))))))              (if.ps ((k (just.a punishment.n)) ((pres follow.v) (the.d sinner.n)))))) ?)
+
+; sid: 1326553
+; sentence: I saw all .
+(I.pro ((past see.v) all.pro))
+
+; sid: 1335475
+; sentence: Oh Europe !
+(oh.x (voc |Europe|))
+
+; sid: 1344210
+; sentence: " How could I tell you before I started ?
+((sub how.pq   ((past can.aux-s) i.pro    (tell.v you.pro *h (before.ps (i.pro ((past start.v) {ref1}.pro)))))) ?)
+
+; sid: 1350239
+; sentence: Will you do me that favour ? "
+(((pres Will.aux-s) you.pro (do.v (me.pro (that.d favour.n)))) ?)
+
+; sid: 1353452
+; sentence: She stood and stared at him for a minute , looking both surprised and displeased , then walked on , saying sharply , " How do you know ? "
+(She.pro ((past stand.v) and.cc (((past stare.v) (at.p-arg him.pro))(for.p-arg (a.a minute.n))) (adv-a ((pres look) (both.adv-s (surprised.a and.cc displeased.a))))) ((then.adv-s (past walk_on.v)) (adv-a (((pres say.v) sharply.adv-a) (\\" (sub How.adv-a ((prev do.aux-v) you.pro (know *h))) ?) \\")))))
+
+; sid: 1364606
+; sentence: " That is proof that he is sharp , " remarked the Lion .
+(sub (\\" (that.pro ((pres be.v) (n+preds proof.n                                   ({of}.p (that (he.pro ((pres be.v) sharp.a))))))) \\")      ((the.d |Lion|.n) ((past remark.v) *h)))
+
+; sid: 1366365
+; sentence: ' Well !
+(Well.x)
+
+; sid: 1382770
+; sentence: " Po ' little chap . "
+(pu (Poor.a (little.a chap.n)))
+
+; sid: 1387296
+; sentence: There is himself , Earnshaw , Zillah , Joseph and I.  Which would you have ? '
+(There.pro (pres be.v) (= (set-of himself.pro |Earnshaw| |Zillah| |Joseph| I.pro)))((sub (which.d {ref}.n) ((cf will.aux-s) you.pro (have.v *h))) ?)
+
+; sid: 1389829
+; sentence: But do you imagine that I shall leave Catherine to his _duty_ and _humanity_ ? and can you compare my feelings respecting Catherine to his ?
+(But.adv-s ((((pres do.aux-s) you.pro               (imagine.v               (that (I.pro ((pres shall.aux-s)                         ((leave.v |Catherine|)                          (adv-a (to.p (his.d (duty.n and.cc humanity.n)))))))))) ?) and.cc ((pres can.aux-v) you.pro           (compare.v (np+preds (my.d (plur feeling.n))                        (respect.v |Catherine|))            (to.p-arg (his.d {ref1}.n)))) ?))
+
+; sid: 1413661
+; sentence: Margaret , what comment can I make on the untimely extinction of this glorious spirit ?
+(((voc |Margaret|)   (sub (what.d comment.n)    ((pres can.aux-s) I.pro     (make.v     (np+preds *h      (on.p (the.d (n+preds (untimely.a extinction.n)                  (of.p (this.d (glorious.a spirit.n))))))))))) ?)
+
+; sid: 1414100
+; sentence: What on earth do you mean ?
+((sub (What.d (n+preds {ref}.n                   (on.p (k earth.n))))       ((pres do.aux-s) you.pro (mean.v *h))) ?)
+
+; sid: 1429962
+; sentence: " Where could you wait for me ? " asked Miss Pross .
+(sub (\\" ((sub where.adv-e  ((pres could.aux-v) you.pro (wait.v (adv-a (for.p me.pro))) *h)) ?) \\") (|Miss Pross| ((past ask.v) *h)))
+

@@ -1,0 +1,8 @@
+(load "load")
+(load "test/arcmap")
+(load "test/proper-arg-structure")
+(load "test/lexop-flat-arcmap")
+(load "test/amr2ulf")
+(load "test/ulf2amr2ulf")
+(in-package :ulf2amr)
+(run-tests)

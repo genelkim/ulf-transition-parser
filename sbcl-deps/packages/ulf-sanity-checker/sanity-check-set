@@ -1,0 +1,23 @@
+
+(One.d ((pres can.aux-v) (always.adv-e (find.v time.n))) \.)
+((One.d {ref1}.n) ((pres can.aux-v) (always.adv-a ((pres find.v) (k time.n)))))
+(One.pro ((pres can.aux-v) always.adv-f (find.v (k time.n))))
+(((I.pro ((pres would.aux-s) (be.v unhappy.a))) \, but.cc
+  (I.pro ((pres would.aux-s) not (kill.v myself.pro)))) \.)
+(I.pro ((pres would.aux-s) (be.v unhappy.a)) (but.cc (I.pro ((pres would.aux-s) (not (kill.v myself.pro))))))
+((I.pro ((pres would.aux-s) (be.v unhappy.a))) (but.cc (I.pro ((pres would.aux-s) (not (kill.v myself.pro))))))
+((Back.pr in.p high-school.n) (I.pro (past get-up.v) at.p ($ date-time 18 00) (every.a morning.n)))
+(((Back.adv-e (in.p (k (high.a school.n)))) \, 
+  (I.pro ((past get_up.v)
+          (adv-e (at.p ($ date-time - - - 6 0))) 
+          (adv-f (every.a morning.n))))) \.)
+((Back.adv-e (in.p (k (high.a school.n)))) 
+  (I.pro ((past get_up.v)
+          (adv-e (at.p (dm date-time "6 am"))) 
+          (adv-f (every.a morning.n)))))
+(((adv-e (When.ps (I.pro ((past wake_up.v))))) \,
+  (I.pro ((past be.v) sad.a))) \.)
+((That.pro (((pres be.v) (somewhat.adv-a explained.a))
+            (adv-e (at.p (the.d end.n))))) \.)
+(((When.adv-e (I.pro (past wake_up.v)) , (I.pro ((past be.v) (sad.a))))) \.)
+(((That.rel ((pres be.v) (somewhat.adv-a ((past explain.v) (adv-a (at.p (the.d end.n)))))))) \.)

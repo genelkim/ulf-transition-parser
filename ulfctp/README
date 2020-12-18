@@ -1,0 +1,14 @@
+The PyTorch-specific code is based on the STOG codebase (https://github.com/sheng-z/stog), which is in turn based on the AllenNLP code.
+
+The model is based on the Tensorflow code written by Xiaochang Peng for parsing AMRs with cache transition parsers.
+
+
+Ordering of data processing
+===========================
+First, make sure that the raw ULF-AMR formatted datasets are under ulfdata/{VER}
+
+Then run (this requires stanford corenlp to be running)
+./ulf_ctp/scripts/annotate_fesatures.sh ulfdata/{VER} 
+
+Then we can run training. Note that we don't need to run scripts/prepare_data.sh or scripts/preprocess_1.0.sh. These are AMR-specific processing. ULF versions of these may be added in the future.
+

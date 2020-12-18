@@ -1,0 +1,16 @@
+torch==1.2.*
+fairseq==0.9.*
+numpy==1.17.*
+bitarray==0.9.*
+cl4py==1.7.*
+pyyaml==5.1.*
+overrides
+pytorch-pretrained-bert==0.6.2
+spacy
+ftfy
+nltk
+penman==0.6.2
+networkx
+h5py
+tensorboardX==1.2
+ipython
