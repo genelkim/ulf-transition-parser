@@ -1,16 +1,17 @@
 # File for development of the arcmap data.
 
 # Device-sensitive parameters
-ulf_data_dir: &ulf_data_dir ulfdata/5-27-2020-arcmap
-oracle_dir: &ulf_oracle_dir ulfdata/oracle/5-27-2020-arcmap-train_cache2
-serialization_dir: &serialization_dir ckpt-emnlp-no-charcnn
+ulf_data_dir: &ulf_data_dir ulfdata/ulf-1.0
+oracle_dir: &ulf_oracle_dir ulfdata/oracle/ulf-1.0-train_cache2
+serialization_dir: &serialization_dir ckpt-iwcs-full
 glove: &glove data/glove/glove.840B.300d.zip
 
 # Model parameters
 model:
   model_type: ULFCTP
-  use_char_cnn: False
+  use_char_cnn: True
   use_pos: True
+  # Whether to use the transition system features.
   use_ts_feats: True
   # Coverage loss (reduce repetition in nodes)
   use_coverage: True
@@ -179,7 +180,7 @@ model:
     ts_feature_input_size: *feat_embedding_dim
 
   mimick_test:
-    data: ulfdata/5-27-2020-arcmap/dev/oracle_examples.json
+    data: ulfdata/ulf-1.0/dev/oracle_examples.json
     # ULF_SYMBOL_PRED uses predicted concepts for decoding
     # ULF uses the gold concept sequence for decoding
     data_type: ULF_SYMBOL_PRED
@@ -245,17 +246,17 @@ trainer:
   batch_size: *train_batch_size
   shuffle: True
   epochs: 25
-  mimick_epoch: 8
+  mimick_epoch: 12
   dev_metric: +SEMBLEU_PREC
   serialization_dir: *serialization_dir
   model_save_interval:
 
 test:
   evaluate_on_test: True
-  data: ulfdata/5-27-2020-arcmap/test/oracle_examples.json
+  data: ulfdata/ulf-1.0/test/oracle_examples.json
   prediction_basefile: test.pred.txt
 
 fine-tuning:
-  type_checking_method: none
+  type_checking_method: composition
   beam_size: 10
   best_n: 5

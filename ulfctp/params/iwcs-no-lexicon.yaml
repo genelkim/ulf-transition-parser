@@ -3,14 +3,15 @@
 # Device-sensitive parameters
 ulf_data_dir: &ulf_data_dir ulfdata/5-27-2020-arcmap
 oracle_dir: &ulf_oracle_dir ulfdata/oracle/5-27-2020-arcmap-train_cache2
-serialization_dir: &serialization_dir ckpt-emnlp-no-charcnn-lexicon
+serialization_dir: &serialization_dir ckpt-iwcs-no-lexicon
 glove: &glove data/glove/glove.840B.300d.zip
 
 # Model parameters
 model:
   model_type: ULFCTP
-  use_char_cnn: False
+  use_char_cnn: True
   use_pos: True
+  # Whether to use the transition system features.
   use_ts_feats: True
   # Coverage loss (reduce repetition in nodes)
   use_coverage: True
@@ -245,7 +246,7 @@ trainer:
   batch_size: *train_batch_size
   shuffle: True
   epochs: 25
-  mimick_epoch: 8
+  mimick_epoch: 12
   dev_metric: +SEMBLEU_PREC
   serialization_dir: *serialization_dir
   model_save_interval:
@@ -256,6 +257,6 @@ test:
   prediction_basefile: test.pred.txt
 
 fine-tuning:
-  type_checking_method: none
+  type_checking_method: composition
   beam_size: 10
   best_n: 5

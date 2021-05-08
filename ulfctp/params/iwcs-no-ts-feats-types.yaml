@@ -3,7 +3,7 @@
 # Device-sensitive parameters
 ulf_data_dir: &ulf_data_dir ulfdata/5-27-2020-arcmap
 oracle_dir: &ulf_oracle_dir ulfdata/oracle/5-27-2020-arcmap-train_cache2
-serialization_dir: &serialization_dir ckpt-emnlp-no-ts-feats
+serialization_dir: &serialization_dir ckpt-iwcs-no-ts-feats-types
 glove: &glove data/glove/glove.840B.300d.zip
 
 # Model parameters

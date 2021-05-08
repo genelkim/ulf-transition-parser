@@ -61,6 +61,6 @@ python3 -u -m ulfctp.commands.train ulfctp/params/[param file] --tuning_off
 ```
 
 Parameter files:
-- ulfctp/params/emnlp-full.yaml (full model)
-- ulfctp/params/emnlp-best.yaml (best model)
+- ulfctp/params/iwcs-full.yaml (full model)
+- ulfctp/params/iwcs-best.yaml (best model)
 

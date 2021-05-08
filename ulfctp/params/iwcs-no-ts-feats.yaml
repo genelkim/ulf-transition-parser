@@ -3,15 +3,16 @@
 # Device-sensitive parameters
 ulf_data_dir: &ulf_data_dir ulfdata/5-27-2020-arcmap
 oracle_dir: &ulf_oracle_dir ulfdata/oracle/5-27-2020-arcmap-train_cache2
-serialization_dir: &serialization_dir ckpt-emnlp-lax-no-pos
+serialization_dir: &serialization_dir ckpt-iwcs-no-ts-feats
 glove: &glove data/glove/glove.840B.300d.zip
 
 # Model parameters
 model:
   model_type: ULFCTP
   use_char_cnn: True
-  use_pos: False
-  use_ts_feats: True
+  use_pos: True
+  # Whether to use the transition system features.
+  use_ts_feats: False
   # Coverage loss (reduce repetition in nodes)
   use_coverage: True
   use_bert: False
@@ -41,7 +42,7 @@ model:
     action_counter_dir: *ulf_oracle_dir
     arc_choices_dir: *ulf_oracle_dir
     lexicon_file: lexicon/5-27-2020-full.json
-    strict_lexicon: False
+    strict_lexicon: True
     buffer_offset: 1
     action_repeat_limits:
       promote: 3
@@ -245,7 +246,7 @@ trainer:
   batch_size: *train_batch_size
   shuffle: True
   epochs: 25
-  mimick_epoch: 8
+  mimick_epoch: 12
   dev_metric: +SEMBLEU_PREC
   serialization_dir: *serialization_dir
   model_save_interval:
@@ -256,6 +257,6 @@ test:
   prediction_basefile: test.pred.txt
 
 fine-tuning:
-  type_checking_method: none
+  type_checking_method: composition
   beam_size: 10
   best_n: 5
